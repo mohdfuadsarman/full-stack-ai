@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About my cat">
+    <meta name="author" content="Mohd Fuad Sarman">
+    <meta name="keywords" content="cat, pet, animal">
+    <title>Missing Cat</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner {
+            background: linear-gradient(135deg, #ff6b6b, #ffd6d6);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        .banner p {
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+
+        .content-section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content-grid {
+            display: grid;
+            /* Create a number of columns based on screen size with column width 300px */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 60px;
+            align-items: center;
+        }
+
+        .content-image img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .content-text h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .content-text p,
+        ul {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <section class="banner">
+        <h1>Ismail is missing</h1>
+        <p>Help us to find our beloved cat</p>
+    </section>
+
+    <section class="content-section">
+        <div class="content-grid">
+            <div class="content-image">
+                <img src="assets/my-cat.jpeg" alt="My Cat">
+            </div>
+            <div class="content-text">
+                <h2>How to identify Ismail</h2>
+                <p>Our beloved cat, Ismail, has gone missing and we are heartbroken. He was last seen near Changi Avenue
+                    on 29-April-2025.
+                <p>Description:</p>
+                <ul>
+                    <li>Breed: Domestic Shorthair</li>
+                    <li>Color: Orange</li>
+                    <li>Age: 5 years old</li>
+                    <li>Size: Medium-sized</li>
+                    <li>Other details: Wears a red collar with a bell, very friendly but shy around strangers</li>
+                </ul>
+
+                <p>If you see him or have any information, please contact us immediately at +6512345678 or
+                    admin@example.com.</p>
+                <p>Reward offered for safe return — no questions asked.</p>
+                <p>Thank you so much for helping us bring Ismail home!</p>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function alertCatNotYetFound() {
+            alert("Ismail is still missing. Please help us find him!");
+            console.log("Ismail is still missing.");
+        }
+
+        window.onload = function () {
+            alertCatNotYetFound();
+        };
+    </script>
+</body>
+</html>
