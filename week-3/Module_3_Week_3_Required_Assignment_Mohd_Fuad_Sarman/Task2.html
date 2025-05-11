@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets</title>
+    <style>
+        /* reset default config */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8fafc;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .banner {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card img {
+            width: 100%;
+            aspect-ratio: 16/9;
+            object-fit: cover;
+        }
+
+        .card-content {
+            padding: 20px;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card-content p {
+            margin-bottom: 15px;
+        }
+
+        .card-content a {
+            margin-top: auto;
+            color: #1e3c72;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .card-content a:hover {
+            text-decoration: underline;
+        }
+
+        .list-section-frame {
+            background-color: #e6f0ff;
+        }
+
+        .list-section {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        .list-section h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #1e3c72;
+        }
+
+        .list-section ol,
+        .list-section ul {
+            padding-left: 20px;
+            font-size: 1.1rem;
+        }
+
+        .list-section li {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="banner">
+        <h1>Planets</h1>
+        <p>Explore the wonders of our solar system</p>
+    </section>
+
+    <section class="image-grid">
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/pia15162-mercury-basins-messenger-16x9-1.jpg?resize=900,506"
+                alt="Mercury">
+            <div class="card-content">
+                <p>Mercury is the planet nearest to the Sun, and the smallest planet in our solar system.</p>
+                <a href="https://science.nasa.gov/mercury/facts/" target="_blank">Learn more about Mercury</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/venus-mariner-10-pia23791-fig2-16x9-1.jpg?resize=900,506"
+                alt="Venus">
+            <div class="card-content">
+                <p>Venus is the second planet from the Sun, and the sixth largest planet.</p>
+                <a href="https://science.nasa.gov/venus/venus-facts/" target="_blank">Learn more about Venus</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/blue-marble-apollo-17-16x9-1.jpg?resize=900,506"
+                alt="Earth">
+            <div class="card-content">
+                <p>Earth – our home planet – is the third planet from the Sun, and the fifth largest planet.</p>
+                <a href="https://science.nasa.gov/earth/facts/" target="_blank">Learn more about Earth</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/mars-full-globe-16x9-1.jpg?resize=900,506"
+                alt="Mars">
+            <div class="card-content">
+                <p>Mars is the fourth planet from the Sun, and the seventh largest planet.</p>
+                <a href="https://science.nasa.gov/mars/facts/" target="_blank">Learn more about Mars</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/jupiter-marble-pia22946-16x9-1.jpg?resize=900,506"
+                alt="Jupiter">
+            <div class="card-content">
+                <p>Jupiter is the fifth planet from the Sun, and the largest planet in our solar system.</p>
+                <a href="https://science.nasa.gov/jupiter/jupiter-facts/" target="_blank">Learn more about Jupiter</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2023/05/saturn-farewell-pia21345-sse-banner-1920x640-1.jpg?resize=900,300"
+                alt="Saturn">
+            <div class="card-content">
+                <p>Saturn is the sixth planet from the Sun, the second largest planet in our solar system.</p>
+                <a href="https://science.nasa.gov/saturn/facts/" target="_blank">Learn more about Saturn</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/uranus-pia18182-16x9-1.jpg?resize=900,506"
+                alt="Uranus">
+            <div class="card-content">
+                <p>Uranus is the seventh planet from the Sun, and the third largest planet in our solar system.</p>
+                <a href="https://science.nasa.gov/uranus/facts/" target="_blank">Learn more about Uranus</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/03/pia01492-neptune-full-disk-16x9-1.jpg?resize=900,506"
+                alt="Neptune">
+            <div class="card-content">
+                <p>Neptune is the eighth and most distant planet in our solar system. It's the fourth largest planet.
+                </p>
+                <a href="https://science.nasa.gov/neptune/neptune-facts/" target="_blank">Learn more about Neptune</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="list-section-frame">
+        <div class="list-section">
+            <h2>List of Planets by Size</h2>
+            <ol>
+                <li>Jupiter - 142,984 kilometers in equatorial diameter</li>
+                <li>Saturn - 120,536 kilometers in equatorial diameter</li>
+                <li>Uranus - 51,118 kilometers in equatorial diameter</li>
+                <li>Neptune - 49,528 kilometers in equatorial diameter</li>
+                <li>Earth - 12,756 kilometers in equatorial diameter</li>
+                <li>Venus - 12,104 kilometers in equatorial diameter</li>
+                <li>Mars - 6,792 kilometers in equatorial diameter</li>
+                <li>Mercury - 4,880 kilometers in equatorial diameter</li>
+            </ol>
+        </div>
+    </section>
+
+    <section>
+        <div class="list-section">
+            <h2>List of Dwarfs</h2>
+            <ul>
+                <li>Pluto</li>
+                <li>Eris</li>
+                <li>Haumea</li>
+                <li>Makemake</li>
+                <li>Ceres</li>
+            </ul>
+    </section>
+</body>
+</html>

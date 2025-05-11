@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About my cat">
+    <meta name="author" content="Mohd Fuad Sarman">
+    <meta name="keywords" content="cat, pet, animal">
+    <title>My Cat</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9fafb;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        a {
+            color: #3498db;
+            /* clear all decorations */
+            text-decoration: none;
+        }
+
+        a:hover {
+            /* only set up decoration upon hover */
+            text-decoration: underline;
+        }
+
+        .banner {
+            background: linear-gradient(135deg, #4a90e2, #6fcf97);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+        }
+
+        .banner h1 {
+            margin: 0;
+            font-size: 4rem;
+            font-weight: 700;
+        }
+
+        .banner p {
+            margin-top: 15px;
+            font-size: 1.5rem;
+        }
+
+        .content-section {
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        .content-grid {
+            display: grid;
+            /* Create a number of columns based on screen size with column width 300px */
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 60px;
+            align-items: center;
+        }
+
+        .content-image img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+        }
+
+        .content-text h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        .content-text p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .cards-grid {
+            display: grid;
+            /* Create a number of columns based on screen size with column width 250px */
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #34495e;
+        }
+
+        .card ul,
+        .card ol {
+            padding-left: 20px;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+
+    <section class="banner">
+        <h1>Meet Ismail</h1>
+        <p>The most extraordinary feline companion</p>
+    </section>
+
+    <section class="content-section">
+        <div class="content-grid">
+            <div class="content-image">
+                <img src="assets/my-cat.jpeg" alt="My Cat">
+            </div>
+            <div class="content-text">
+                <h2>About Ismail</h2>
+                <p>Meet Ismail, a 5-year-old <a href="https://en.wikipedia.org/wiki/Moggy" target="_blank">Domestic
+                        Shorthair</a> with a heart as big as his playful spirit. Ever since joining the family, Ismail
+                    has brought endless warmth, laughter, and a little bit of delightful mischief into everyday life.
+                </p>
+                <p>Ismail has a special love for stuffed mice, often spending hours pouncing, chasing, and showing off
+                    impressive acrobatic skills. When it's time to relax, you can almost always find him in his favorite
+                    spot — a cardboard box, watching the world go by or taking a well-deserved nap.</p>
+                <p>Beyond his playful side, Ismail is a true companion: affectionate, intuitive, and always ready with a
+                    comforting purr. Whether it’s an energetic play session or a quiet moment curled up together, life
+                    is simply better with Ismail around.</p>
+                <p>Get Ismail's favorite toy here: <a
+                        href="https://www.amazon.sg/s?k=mouse+stuffed+animal&ref=mr_referred_us_sg_sg"
+                        target="_blank">Stuffed Mouse on Amazon</a></p>
+            </div>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <h2>Favourite Activities</h2>
+                <ul>
+                    <li>Chasing laser pointers</li>
+                    <li>Taking long naps under the sun</li>
+                    <li>Playing with stuffed mice</li>
+                    <li>Exploring the backyard</li>
+                    <li>Getting belly rubs</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h2>Favourite Foods</h2>
+                <ol>
+                    <li>Fish</li>
+                    <li>Chicken</li>
+                    <li>Wet food</li>
+                    <li>Dry food</li>
+                    <li>Cat treats</li>
+                    <li>Grass</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
