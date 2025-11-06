@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI LMS | Module 3-4</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        /* Example Flexbox Layout */
+        .feature-box {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+
+        .card-flex {
+            flex: 1;
+            padding: 1rem;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- DONE: Navigation Bar (Bootstrap component) -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">AI-LMS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- START: Main Content (Student Practice Begins) -->
+    <main class="container mt-4">
+
+
+        <section>
+            <h2 class="mb-3">Welcome to Your Learning Dashboard</h2>
+            <p>This section will show learning recommendations and progress tracking features.</p>
+        </section>
+
+
+        <!-- Example Flexbox Section (One Done for Them) -->
+        <section class="feature-box">
+            <div class="card-flex">
+                <h4>Adaptive Courses</h4>
+                <p>Get course suggestions powered by AI based on your performance.</p>
+            </div>
+
+
+            <!--  TODO: Add 2 more feature boxes -->
+            <!--  Hints:
+        - Use the same <div class="card-flex">...</div>
+        - Place them inside the <section class="feature-box">
+        - Change the headings to "Progress Tracking" and "Real-time Assessments"
+      -->
+            <div class="card-flex">
+                <h4>Progress Tracking</h4>
+                <p>Monitor your learning progress with detailed analytics.</p>
+            </div>
+            <div class="card-flex">
+                <h4>Real-time Assessments</h4>
+                <p>Take quizzes and tests to evaluate your understanding instantly.</p>
+            </div>
+        </section>
+
+
+        <!--  TODO: Add another section using Bootstrap cards (2 cards side by side) -->
+        <!--  Hints:
+      - Use <div class="row"> and <div class="col-md-6">
+      - Inside each column, add a Bootstrap card
+      - Use class="card", class="card-body", and class="card-title"
+      - Add a title like "HTML Module" and "CSS Module"
+    -->
+        <section class="mt-4">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML Module</h5>
+                            <p class="card-text">Learn the basics of HTML and build your first web page.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">CSS Module</h5>
+                            <p class="card-text">Discover how to style your web pages with CSS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- Bootstrap JS Bundle (Optional if you use nav toggle) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

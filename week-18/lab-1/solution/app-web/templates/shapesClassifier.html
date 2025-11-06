@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Shapes Classifier</title>
+    </head>
+
+    <body>
+        <h1>Welcome to the Shapes Classifier</h1>
+        <p>This web page allows you to interact with the Shapes Classifier model trained with Keras.</p>
+        <form action="/shapesClassifier" method="post" enctype="multipart/form-data">
+            <table width="50%" border="1" cellpadding="10" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td><label for="image"><strong>Upload Image:</strong></label></td>
+                        <td><input type="file" id="image" name="image" accept="image/*" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input type="reset" value="Clear">
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </body>
+</html>

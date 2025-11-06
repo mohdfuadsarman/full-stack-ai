@@ -1,0 +1,532 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "john.doe@email.com",
+            "password": "hashedPassword123",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2024-01-15",
+            "lastLogin": "2025-09-24T13:11:58.612Z",
+            "isActive": true,
+            "profile": {
+                "bio": "Software engineer passionate about learning new technologies and building innovative solutions.",
+                "location": "San Francisco, CA",
+                "phone": "+1-555-0101",
+                "dateOfBirth": "1990-05-15",
+                "linkedin": "https://linkedin.com/in/johndoe",
+                "github": "https://github.com/johndoe"
+            },
+            "enrolledCourses": [
+                2,
+                5,
+                8,
+                6,
+                9,
+                1
+            ],
+            "completedCourses": [
+                2
+            ],
+            "courseProgress": {
+                "1": 0,
+                "2": 100,
+                "5": 40,
+                "6": 0,
+                "8": 20,
+                "9": 0
+            },
+            "certifications": [
+                {
+                    "courseId": 2,
+                    "certificateId": "CERT-002-2025",
+                    "issuedDate": "2025-09-24",
+                    "verificationUrl": "https://verify.lms.com/CERT-002-2025"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": false,
+                "language": "en",
+                "timezone": "America/Los_Angeles",
+                "theme": "light"
+            },
+            "stats": {
+                "totalHoursLearned": 257,
+                "coursesCompleted": 2,
+                "coursesInProgress": 2,
+                "averageRating": 4.8,
+                "streakDays": 15,
+                "badgesEarned": 5
+            }
+        },
+        {
+            "id": 2,
+            "name": "Sarah Wilson",
+            "email": "sarah.wilson@email.com",
+            "password": "newpassword123",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2024-02-08",
+            "lastLogin": "2025-09-24T14:11:45.113Z",
+            "isActive": true,
+            "profile": {
+                "bio": "UX Designer transitioning to full-stack development. Love creating beautiful and functional user experiences.",
+                "location": "New York, NY",
+                "phone": "+1-555-0202",
+                "dateOfBirth": "1992-08-22",
+                "linkedin": "https://linkedin.com/in/sarahwilson",
+                "github": "https://github.com/sarahwilson"
+            },
+            "enrolledCourses": [
+                3,
+                4,
+                6,
+                9
+            ],
+            "completedCourses": [
+                3
+            ],
+            "courseProgress": {
+                "3": 100,
+                "4": 65,
+                "6": 30,
+                "9": 10
+            },
+            "certifications": [
+                {
+                    "courseId": 3,
+                    "certificateId": "CERT-003-2024",
+                    "issuedDate": "2024-07-15",
+                    "verificationUrl": "https://verify.lms.com/CERT-003-2024"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": false,
+                "pushNotifications": true,
+                "language": "en",
+                "timezone": "America/New_York",
+                "theme": "dark"
+            },
+            "stats": {
+                "totalHoursLearned": 189,
+                "coursesCompleted": 1,
+                "coursesInProgress": 3,
+                "averageRating": 4.6,
+                "streakDays": 8,
+                "badgesEarned": 3
+            }
+        },
+        {
+            "id": 3,
+            "name": "Michael Chen",
+            "email": "michael.chen@email.com",
+            "password": "hashedPassword789",
+            "role": "instructor",
+            "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2023-09-12",
+            "lastLogin": "2025-09-24T09:15:30.123Z",
+            "isActive": true,
+            "profile": {
+                "bio": "Senior Data Scientist with 8+ years of experience in AI/ML. Passionate about teaching and mentoring aspiring data scientists.",
+                "location": "Austin, TX",
+                "phone": "+1-555-0303",
+                "dateOfBirth": "1987-03-10",
+                "linkedin": "https://linkedin.com/in/michaelchen",
+                "github": "https://github.com/michaelchen"
+            },
+            "enrolledCourses": [
+                7,
+                11,
+                12
+            ],
+            "completedCourses": [
+                7,
+                11
+            ],
+            "courseProgress": {
+                "7": 100,
+                "11": 100,
+                "12": 75
+            },
+            "certifications": [
+                {
+                    "courseId": 7,
+                    "certificateId": "CERT-007-2024",
+                    "issuedDate": "2024-05-20",
+                    "verificationUrl": "https://verify.lms.com/CERT-007-2024"
+                },
+                {
+                    "courseId": 11,
+                    "certificateId": "CERT-011-2024",
+                    "issuedDate": "2024-11-08",
+                    "verificationUrl": "https://verify.lms.com/CERT-011-2024"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": true,
+                "language": "en",
+                "timezone": "America/Chicago",
+                "theme": "light"
+            },
+            "stats": {
+                "totalHoursLearned": 412,
+                "coursesCompleted": 2,
+                "coursesInProgress": 1,
+                "averageRating": 4.9,
+                "streakDays": 22,
+                "badgesEarned": 8
+            }
+        },
+        {
+            "id": 4,
+            "name": "Emily Rodriguez",
+            "email": "emily.rodriguez@email.com",
+            "password": "hashedPassword101",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2024-03-25",
+            "lastLogin": "2025-09-22T14:45:22.567Z",
+            "isActive": true,
+            "profile": {
+                "bio": "Marketing professional learning web development to better collaborate with technical teams and build my own projects.",
+                "location": "Los Angeles, CA",
+                "phone": "+1-555-0404",
+                "dateOfBirth": "1994-11-03",
+                "linkedin": "https://linkedin.com/in/emilyrodriguez",
+                "github": "https://github.com/emilyrodriguez"
+            },
+            "enrolledCourses": [
+                1,
+                3,
+                10
+            ],
+            "completedCourses": [
+                1
+            ],
+            "courseProgress": {
+                "1": 100,
+                "3": 45,
+                "10": 15
+            },
+            "certifications": [
+                {
+                    "courseId": 1,
+                    "certificateId": "CERT-001-2024-ER",
+                    "issuedDate": "2024-08-12",
+                    "verificationUrl": "https://verify.lms.com/CERT-001-2024-ER"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": false,
+                "language": "en",
+                "timezone": "America/Los_Angeles",
+                "theme": "light"
+            },
+            "stats": {
+                "totalHoursLearned": 127,
+                "coursesCompleted": 1,
+                "coursesInProgress": 2,
+                "averageRating": 4.4,
+                "streakDays": 5,
+                "badgesEarned": 2
+            }
+        },
+        {
+            "id": 5,
+            "name": "David Thompson",
+            "email": "david.thompson@email.com",
+            "password": "hashedPassword202",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2024-01-30",
+            "lastLogin": "2025-09-20T11:20:45.891Z",
+            "isActive": false,
+            "profile": {
+                "bio": "Computer Science student interested in cybersecurity and ethical hacking. Currently pursuing a degree in Information Security.",
+                "location": "Chicago, IL",
+                "phone": "+1-555-0505",
+                "dateOfBirth": "1999-07-18",
+                "linkedin": "https://linkedin.com/in/davidthompson",
+                "github": "https://github.com/davidthompson"
+            },
+            "enrolledCourses": [
+                9,
+                13,
+                14
+            ],
+            "completedCourses": [],
+            "courseProgress": {
+                "9": 25,
+                "13": 0,
+                "14": 5
+            },
+            "certifications": [],
+            "preferences": {
+                "emailNotifications": false,
+                "pushNotifications": false,
+                "language": "en",
+                "timezone": "America/Chicago",
+                "theme": "dark"
+            },
+            "stats": {
+                "totalHoursLearned": 42,
+                "coursesCompleted": 0,
+                "coursesInProgress": 2,
+                "averageRating": 4.2,
+                "streakDays": 0,
+                "badgesEarned": 1
+            }
+        },
+        {
+            "id": 6,
+            "name": "Lisa Park",
+            "email": "lisa.park@email.com",
+            "password": "hashedPassword303",
+            "role": "admin",
+            "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2023-06-15",
+            "lastLogin": "2025-09-24T16:30:10.234Z",
+            "isActive": true,
+            "profile": {
+                "bio": "LMS Platform Administrator with expertise in educational technology and user experience optimization.",
+                "location": "Seattle, WA",
+                "phone": "+1-555-0606",
+                "dateOfBirth": "1988-12-05",
+                "linkedin": "https://linkedin.com/in/lisapark",
+                "github": "https://github.com/lisapark"
+            },
+            "enrolledCourses": [
+                15,
+                16
+            ],
+            "completedCourses": [
+                15
+            ],
+            "courseProgress": {
+                "15": 100,
+                "16": 90
+            },
+            "certifications": [
+                {
+                    "courseId": 15,
+                    "certificateId": "CERT-015-2024",
+                    "issuedDate": "2024-09-10",
+                    "verificationUrl": "https://verify.lms.com/CERT-015-2024"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": true,
+                "language": "en",
+                "timezone": "America/Los_Angeles",
+                "theme": "light"
+            },
+            "stats": {
+                "totalHoursLearned": 298,
+                "coursesCompleted": 1,
+                "coursesInProgress": 1,
+                "averageRating": 4.7,
+                "streakDays": 12,
+                "badgesEarned": 6
+            }
+        },
+        {
+            "id": 7,
+            "name": "Ahmed Hassan",
+            "email": "ahmed.hassan@email.com",
+            "password": "hashedPassword404",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2024-04-10",
+            "lastLogin": "2025-09-24T08:15:33.678Z",
+            "isActive": true,
+            "profile": {
+                "bio": "Mobile app developer specializing in React Native and Flutter. Building the next generation of mobile experiences.",
+                "location": "Dubai, UAE",
+                "phone": "+971-555-0707",
+                "dateOfBirth": "1991-01-28",
+                "linkedin": "https://linkedin.com/in/ahmedhassan",
+                "github": "https://github.com/ahmedhassan"
+            },
+            "enrolledCourses": [
+                4,
+                8,
+                17,
+                18
+            ],
+            "completedCourses": [
+                4,
+                8
+            ],
+            "courseProgress": {
+                "4": 100,
+                "8": 100,
+                "17": 60,
+                "18": 35
+            },
+            "certifications": [
+                {
+                    "courseId": 4,
+                    "certificateId": "CERT-004-2024",
+                    "issuedDate": "2024-06-22",
+                    "verificationUrl": "https://verify.lms.com/CERT-004-2024"
+                },
+                {
+                    "courseId": 8,
+                    "certificateId": "CERT-008-2024",
+                    "issuedDate": "2024-08-30",
+                    "verificationUrl": "https://verify.lms.com/CERT-008-2024"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": true,
+                "language": "en",
+                "timezone": "Asia/Dubai",
+                "theme": "dark"
+            },
+            "stats": {
+                "totalHoursLearned": 334,
+                "coursesCompleted": 2,
+                "coursesInProgress": 2,
+                "averageRating": 4.8,
+                "streakDays": 18,
+                "badgesEarned": 7
+            }
+        },
+        {
+            "id": 8,
+            "name": "Maria Garcia",
+            "email": "maria.garcia@email.com",
+            "password": "hashedPassword505",
+            "role": "instructor",
+            "avatar": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2023-11-20",
+            "lastLogin": "2025-09-24T13:03:16.948Z",
+            "isActive": true,
+            "profile": {
+                "bio": "Full-stack developer and coding bootcamp instructor. Specialized in JavaScript, Python, and modern web frameworks.",
+                "location": "Barcelona, Spain",
+                "phone": "+34-555-0808",
+                "dateOfBirth": "1986-09-14",
+                "linkedin": "https://linkedin.com/in/mariagarcia",
+                "github": "https://github.com/mariagarcia"
+            },
+            "enrolledCourses": [
+                1,
+                2,
+                19,
+                20
+            ],
+            "completedCourses": [
+                1,
+                19,
+                2
+            ],
+            "courseProgress": {
+                "1": 100,
+                "2": 50,
+                "19": 100,
+                "20": 80
+            },
+            "certifications": [
+                {
+                    "courseId": 1,
+                    "certificateId": "CERT-001-2024-MG",
+                    "issuedDate": "2024-02-14",
+                    "verificationUrl": "https://verify.lms.com/CERT-001-2024-MG"
+                },
+                {
+                    "courseId": 19,
+                    "certificateId": "CERT-019-2024",
+                    "issuedDate": "2024-07-25",
+                    "verificationUrl": "https://verify.lms.com/CERT-019-2024"
+                },
+                {
+                    "courseId": 2,
+                    "certificateId": "CERT-002-2025-8",
+                    "issuedDate": "2025-09-24",
+                    "verificationUrl": "https://verify.lms.com/CERT-002-2025-8"
+                }
+            ],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": false,
+                "language": "es",
+                "timezone": "Europe/Madrid",
+                "theme": "light"
+            },
+            "stats": {
+                "totalHoursLearned": 512,
+                "coursesCompleted": 3,
+                "coursesInProgress": 2,
+                "averageRating": 4.9,
+                "streakDays": 28,
+                "badgesEarned": 12
+            }
+        },
+        {
+            "id": 9,
+            "name": "Mr Roger",
+            "email": "uncleroger@email.com",
+            "password": "password123",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1758720203531?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2025-09-24",
+            "lastLogin": "2025-09-24T13:27:30.014Z",
+            "isActive": true,
+            "profile": {
+                "bio": "Know how to cook fried rice",
+                "location": "Malaysia"
+            },
+            "enrolledCourses": [],
+            "completedCourses": [],
+            "courseProgress": {},
+            "certifications": [],
+            "preferences": {},
+            "stats": {}
+        },
+        {
+            "id": 10,
+            "name": "Test User",
+            "email": "test@example.com",
+            "password": "plaintext123",
+            "role": "student",
+            "avatar": "https://images.unsplash.com/photo-1758722574860?w=150&h=150&fit=crop&crop=face",
+            "dateJoined": "2025-09-24",
+            "lastLogin": "2025-09-24T14:02:54.860Z",
+            "isActive": true,
+            "profile": {
+                "bio": "",
+                "location": "",
+                "phone": "",
+                "dateOfBirth": "",
+                "linkedin": "",
+                "github": ""
+            },
+            "enrolledCourses": [],
+            "completedCourses": [],
+            "courseProgress": {},
+            "certifications": [],
+            "preferences": {
+                "emailNotifications": true,
+                "pushNotifications": false,
+                "language": "en",
+                "timezone": "UTC",
+                "theme": "light"
+            },
+            "stats": {
+                "totalHoursLearned": 0,
+                "coursesCompleted": 0,
+                "coursesInProgress": 0,
+                "averageRating": 0,
+                "streakDays": 0,
+                "badgesEarned": 0
+            }
+        }
+    ]
+}

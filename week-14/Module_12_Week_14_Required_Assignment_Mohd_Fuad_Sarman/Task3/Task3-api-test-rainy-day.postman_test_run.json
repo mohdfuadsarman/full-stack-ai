@@ -1,0 +1,429 @@
+{
+	"id": "716364e5-6f75-46e6-984e-af46b378c892",
+	"name": "week-14-api-test-rainy-day",
+	"timestamp": "2025-07-13T01:22:48.240Z",
+	"collection_id": "16304654-5182acac-9bd9-40fc-9581-235dfd18f659",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 22,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-13T01:22:47.518Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8c21d390-da33-4e2f-8486-42be78161b6f",
+			"name": "TestGetAllStudents_404",
+			"url": "http://localhost:3000/students1",
+			"time": 2,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404": true,
+				"Response is html": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is html": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 404": true,
+					"Response is html": true
+				}
+			]
+		},
+		{
+			"id": "d094f53b-5d1b-488c-bdb9-4396f50e6b83",
+			"name": "TestGetStudentById_404",
+			"url": "http://localhost:3000/students/29",
+			"time": 1,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 404": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "bcd32337-ecce-44ce-aff2-7e6edf568289",
+			"name": "TestGetStudentById_400",
+			"url": "http://localhost:3000/students/chicken",
+			"time": 1,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 400": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "f17701a2-519c-4371-a6e6-7a1bb0327449",
+			"name": "TestSearchStudent_404",
+			"url": "http://localhost:3000/students/search?program=CS",
+			"time": 1,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 404": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "664b1c68-2855-454a-be53-ce3f0a223fd2",
+			"name": "TestSearchStudent_400",
+			"url": "http://localhost:3000/students/search",
+			"time": 1,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 400": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "4f8f65ac-819b-4af6-82f1-67a69518b1b2",
+			"name": "TestAddNewStudent_500",
+			"url": "http://localhost:3000/students",
+			"time": 1,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Response status code is 500": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 500": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 500": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "cda50bb0-85bc-4d2a-afb8-9158cd0135e9",
+			"name": "TestAddNewStudent_400",
+			"url": "http://localhost:3000/students",
+			"time": 1,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 400": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "55ecb146-16e8-49eb-accd-e1d1d66d06d8",
+			"name": "TestUpdateStudent_404",
+			"url": "http://localhost:3000/students/30",
+			"time": 2,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 404": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "508d24fd-526a-411d-bad2-6046ac5729b4",
+			"name": "TestUpdateStudent_400",
+			"url": "http://localhost:3000/students/3",
+			"time": 1,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 400": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "64cc2bf5-d41e-4f5c-b708-50c180459d04",
+			"name": "TestDeleteStudent_404",
+			"url": "http://localhost:3000/students/28",
+			"time": 1,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 404": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "7ffad15b-8813-4a64-b02a-d6a186555194",
+			"name": "TestDeleteStudent_400",
+			"url": "http://localhost:3000/students/:id",
+			"time": 1,
+			"responseCode": {
+				"code": 400,
+				"name": "Bad Request"
+			},
+			"tests": {
+				"Response status code is 400": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 400": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1
+			],
+			"allTests": [
+				{
+					"Response status code is 400": true,
+					"Response is a text": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 13,
+	"collection": {
+		"requests": [
+			{
+				"id": "8c21d390-da33-4e2f-8486-42be78161b6f",
+				"method": "GET"
+			},
+			{
+				"id": "d094f53b-5d1b-488c-bdb9-4396f50e6b83",
+				"method": "GET"
+			},
+			{
+				"id": "bcd32337-ecce-44ce-aff2-7e6edf568289",
+				"method": "GET"
+			},
+			{
+				"id": "f17701a2-519c-4371-a6e6-7a1bb0327449",
+				"method": "GET"
+			},
+			{
+				"id": "664b1c68-2855-454a-be53-ce3f0a223fd2",
+				"method": "GET"
+			},
+			{
+				"id": "4f8f65ac-819b-4af6-82f1-67a69518b1b2",
+				"method": "POST"
+			},
+			{
+				"id": "cda50bb0-85bc-4d2a-afb8-9158cd0135e9",
+				"method": "POST"
+			},
+			{
+				"id": "55ecb146-16e8-49eb-accd-e1d1d66d06d8",
+				"method": "PUT"
+			},
+			{
+				"id": "508d24fd-526a-411d-bad2-6046ac5729b4",
+				"method": "PUT"
+			},
+			{
+				"id": "64cc2bf5-d41e-4f5c-b708-50c180459d04",
+				"method": "DELETE"
+			},
+			{
+				"id": "7ffad15b-8813-4a64-b02a-d6a186555194",
+				"method": "DELETE"
+			}
+		]
+	}
+}

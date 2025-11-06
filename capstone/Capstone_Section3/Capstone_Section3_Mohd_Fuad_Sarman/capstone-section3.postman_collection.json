@@ -1,0 +1,391 @@
+{
+	"info": {
+		"_postman_id": "834acd3d-e299-48fa-b8b8-6259f5cfd761",
+		"name": "capstone-section3",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16304654"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3001/api/schools",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/schools",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"schools"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/schools/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/schools/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"schools",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68cebe449208d442467ecbff"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/schools/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/schools/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"schools",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d40552cea992233499295e"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/schools",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Emeritus Business School\",\n    \"address\": \"Auckland\",\n    \"principal\": \"Ms. Nida\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/schools",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"schools"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/schools/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"principal\": \"Mr. Ryan\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/schools/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"schools",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d40f5c6a27e163bf75fecc"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/enrollments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/enrollments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"enrollments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/enrollments/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/enrollments/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"enrollments",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d407c501e7088ad2554715"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/enrollments/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/enrollments/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"enrollments",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d407c501e7088ad2554715"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/enrollments",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"studentName\": \"Melati\",\n    \"courseId\": \"68cec2919208d442467ecc09\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/enrollments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"enrollments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/courses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/courses/:id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/courses/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68cec2c49208d442467ecc0a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/courses/:id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3001/api/courses/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d40aa7a8b05fe552ecefde"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/courses",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"React\",\n    \"description\": \"Web development\",\n    \"schoolId\": \"68cebe449208d442467ecbff\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/courses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:3001/api/courses/:id",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"React 1\",\n    \"description\": \"Web development\",\n    \"schoolId\": \"68d4040ba51adabe71280ce6\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3001/api/courses/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"api",
+						"courses",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "68d40a74e4ca0fdd636a3eaa"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+
+{% set petList = pets if pets is iterable and pets is not string else [pets] if pets else [] %}
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Pet ID</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Age</th>
+            <th>Owner</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% if petList %}
+        {% for pet in petList %}
+        <tr>
+            <td>{{ pet.id }}</td>
+            <td>{{ pet.name }}</td>
+            <td>{{ pet.type }}</td>
+            <td>{{ pet.age }}</td>
+            <td>{{ pet.owner }}</td>
+        </tr>
+        {% endfor %}
+        {% else %}
+        <tr>
+            <td colspan="5">No pets found in the database.</td>
+        </tr>
+        {% endif %}
+    </tbody>
+</table>
+{% endblock %}

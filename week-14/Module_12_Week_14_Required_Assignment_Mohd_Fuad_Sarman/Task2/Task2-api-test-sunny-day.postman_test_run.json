@@ -1,0 +1,335 @@
+{
+	"id": "d1a75434-fb20-4696-b080-ad5ec4ff8e22",
+	"name": "week-14-api-test-sunny-day",
+	"timestamp": "2025-07-13T01:22:01.158Z",
+	"collection_id": "16304654-0287c31d-56d3-493d-8b82-0bfc9a4be3f8",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 23,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-07-13T01:22:00.446Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ccc7d883-8706-482e-b6af-a9bf19afae0e",
+			"name": "TestGetAllStudents_200",
+			"url": "http://localhost:3000/students",
+			"time": 3,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response is an array of student objects": true,
+				"Each student object has the required fields": true,
+				"Each student object has valid data types for each field": true,
+				"All expected students are returned with correct values": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is an array of student objects": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each student object has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each student object has valid data types for each field": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All expected students are returned with correct values": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				3
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response is an array of student objects": true,
+					"Each student object has the required fields": true,
+					"Each student object has valid data types for each field": true,
+					"All expected students are returned with correct values": true
+				}
+			]
+		},
+		{
+			"id": "e6bd0d08-8919-47fd-8625-6997bc0ae14f",
+			"name": "TestGetStudentById_200",
+			"url": "http://localhost:3000/students/2",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response is a student object": true,
+				"Student object has the required fields": true,
+				"Student object has valid data types for each field": true,
+				"Student object has the right value": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a student object": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Student object has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Student object has valid data types for each field": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Student object has the right value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response is a student object": true,
+					"Student object has the required fields": true,
+					"Student object has valid data types for each field": true,
+					"Student object has the right value": true
+				}
+			]
+		},
+		{
+			"id": "04348e7e-e937-4acf-b914-6a5479485ab3",
+			"name": "TestSearchStudent_200",
+			"url": "http://localhost:3000/students/search?program=CS",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response is an array of student objects": true,
+				"Each student object has the required fields": true,
+				"Each student object has valid data types for each field": true,
+				"All expected students are returned with correct values": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is an array of student objects": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each student object has the required fields": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Each student object has valid data types for each field": {
+					"pass": 1,
+					"fail": 0
+				},
+				"All expected students are returned with correct values": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response is an array of student objects": true,
+					"Each student object has the required fields": true,
+					"Each student object has valid data types for each field": true,
+					"All expected students are returned with correct values": true
+				}
+			]
+		},
+		{
+			"id": "feda0130-4936-40ff-b49c-9265d301bed7",
+			"name": "TestAddNewStudent_201",
+			"url": "http://localhost:3000/students",
+			"time": 2,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 201": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 201": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 201": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "a049f14f-6f3e-4b8b-a56b-7320498dea01",
+			"name": "TestUpdateStudent_200",
+			"url": "http://localhost:3000/students/3",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response is a student object": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a student object": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response is a student object": true
+				}
+			]
+		},
+		{
+			"id": "f8b6ce2f-b8c7-4920-8ff2-139ef63f1f9e",
+			"name": "TestDeleteStudent_200",
+			"url": "http://localhost:3000/students/2",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response is a text": true
+				}
+			]
+		},
+		{
+			"id": "08d0ecb0-8cf9-4772-8a05-d69b7b4afb3b",
+			"name": "TestDeleteAllStudents_200",
+			"url": "http://localhost:3000/students/clear",
+			"time": 2,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 200": true,
+				"Response is a text": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Response is a text": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2
+			],
+			"allTests": [
+				{
+					"Response status code is 200": true,
+					"Response is a text": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 15,
+	"collection": {
+		"requests": [
+			{
+				"id": "ccc7d883-8706-482e-b6af-a9bf19afae0e",
+				"method": "GET"
+			},
+			{
+				"id": "e6bd0d08-8919-47fd-8625-6997bc0ae14f",
+				"method": "GET"
+			},
+			{
+				"id": "04348e7e-e937-4acf-b914-6a5479485ab3",
+				"method": "GET"
+			},
+			{
+				"id": "feda0130-4936-40ff-b49c-9265d301bed7",
+				"method": "POST"
+			},
+			{
+				"id": "a049f14f-6f3e-4b8b-a56b-7320498dea01",
+				"method": "PUT"
+			},
+			{
+				"id": "f8b6ce2f-b8c7-4920-8ff2-139ef63f1f9e",
+				"method": "DELETE"
+			},
+			{
+				"id": "08d0ecb0-8cf9-4772-8a05-d69b7b4afb3b",
+				"method": "DELETE"
+			}
+		]
+	}
+}
