@@ -1,0 +1,1999 @@
+Rank_nr,Company,Industry,Country,Sales,Profits,Assets,Market_Value
+1,ICBC,Banking,China,148656,42723.3,3124887,215625
+2,China Construction Bank,Banking,China,121284,34217.2,2449488,174365
+3,Agricultural Bank of China,Banking,China,136446,27022.7,2405408,141105
+4,JPMorgan Chase,Banking,United States,105661,17324,2435283,229747
+5,Berkshire Hathaway,Diversified Financials,United States,178785,19476,493362,309102
+6,Exxon Mobil,Oil & Gas Operations,United States,393969,32580,346808,422315
+7,General Electric,Conglomerates,United States,143262,14838,656560,259557
+8,Wells Fargo,Banking,United States,88662,21878,1543042,261375
+9,Bank of China,Banking,China,105111,25516.4,2291829,124249
+10,PetroChina,Oil & Gas Operations,China,328538,21069.6,386859,201966
+11,Royal Dutch Shell,Oil & Gas Operations,Netherlands,451354,16413.6,357512,234059
+12,Toyota Motor,Consumer Durables,Japan,255641,18848.5,385502,193542
+13,Bank of America,Banking,United States,101497,11429,2113758,183251
+14,HSBC Holdings,Banking,United Kingdom,79597,16259.4,2671318,192566
+15,Apple,Technology Hardware & Equipment,United States,173755,37031,225184,483146
+16,Citigroup,Banking,United States,94062,13411,1883364,145143
+17,BP,Oil & Gas Operations,United Kingdom,379204,23615.5,305690,148814
+18,Chevron,Oil & Gas Operations,United States,211772,21423,253753,227187
+19,Volkswagen Group,Consumer Durables,Germany,261549,12036.2,446915,119049
+20,Wal-Mart Stores,Retailing,United States,476526,16022,204751,247904
+21,Gazprom,Oil & Gas Operations,Russia,164623,38972.7,397237,88824
+22,Samsung Electronics,Semiconductors,South Korea,208897,27239.8,202847,186472
+23,AT&T,Telecommunications services,United States,128752,18249,277787,182708
+24,BNP Paribas,Banking,France,123203,6415,2480502,98614
+25,Total,Oil & Gas Operations,France,227944,11205.1,239062,149843
+26,Verizon Communications,Telecommunications services,United States,120550,11497,274098,197739
+27,Allianz,Insurance,Germany,131370,7960.4,963078,77206
+28,China Mobile,Telecommunications services,Hong Kong,102525,19789.1,192833,184573
+29,Sinopec-China Petroleum,Oil & Gas Operations,China,445304,10927.5,228434,94651
+30,Petrobras,Oil & Gas Operations,Brazil,141191,10915,319155,86794
+31,Daimler,Consumer Durables,Germany,156635,9083.6,232209,102930
+32,Microsoft,IT Software & Services,United States,83263,22822,153543,343816
+33,AXA Group,Insurance,France,138934,5976.9,1018878,63369
+34,Rosneft,Oil & Gas Operations,Russia,142615,12833.8,229397,69986
+35,IBM,IT Software & Services,United States,99751,16483,126223,202541
+36,Nestle,"Food, Drink & Tobacco",Switzerland,99408,10802.9,135427,239577
+37,Mitsubishi UFJ Financial,Banking,Japan,48616,11325,2458891,77659
+38,Vodafone,Telecommunications services,United Kingdom,65095,31763,235628,96897
+39,Eni,Oil & Gas Operations,Italy,152705,6898.3,186553,90854
+40,Procter & Gamble,Consumer Durables,United States,84738,10896,142927,217835
+41,Johnson & Johnson,Health Care Equipment & Services,United States,71263,13831,132683,277006
+42,American International Group,Insurance,United States,68149,9085,540744,73159
+43,Banco Santander,Banking,Spain,52499,5801.7,1537292,112273
+44,BHP Billiton,Diversified Metals & Mining,Australia,67671,14803.9,151015,182321
+45,Pfizer,Drugs & Biotechnology,United States,52674,22003,172101,203934
+46,Itaú Unibanco Holding,Banking,Brazil,67157,7605.8,435434,74873
+47,Ford Motor,Consumer Durables,United States,146917,7155,202026,64505
+48,BMW Group,Consumer Durables,Germany,100976,7055,190664,83366
+49,Commonwealth Bank,Banking,Australia,41482,7930.5,699886,114546
+50,EDF,Utilities,France,100360,4532.5,353859,75812
+51,Statoil,Oil & Gas Operations,Norway,105227,6768,145974,89225
+52,Google,IT Software & Services,United States,59730,12163,110920,382472
+53,Siemens,Conglomerates,Germany,99654,5999.5,140099,114247
+54,Novartis,Drugs & Biotechnology,Switzerland,57903,9185.8,126254,227436
+55,Royal Bank of Canada,Banking,Canada,37815,8038.7,811439,95702
+56,Sumitomo Mitsui Financial,Banking,Japan,46249,9714.4,1494726,58625
+57,Comcast,Media,United States,64657,6816,158813,130005
+58,Sberbank,Banking,Russia,56475,11415.5,554178,51484
+59,Goldman Sachs Group,Diversified Financials,United States,39489,8040,911507,75121
+60,Westpac Banking Group,Banking,Australia,38385,6751.4,651359,99003
+61,Nippon Telegraph & Tel,Telecommunications services,Japan,110672,5747,189264,60960
+62,Ping An Insurance Group,Insurance,China,58969,4574.1,552780,66129
+63,Banco Bradesco,Banking,Brazil,74136,5562.2,384927,58498
+64,Anheuser-Busch InBev,"Food, Drink & Tobacco",Belgium,43166,14474.5,141666,171208
+65,Bank of Communications,Banking,China,46645,10112.6,942182,48730
+66,China Life Insurance,Insurance,China,68399,4020.4,327191,79798
+67,General Motors,Consumer Durables,United States,155427,5346,166344,54593
+68,Telefónica,Telecommunications services,Spain,75755,6097.8,163786,71823
+69,MetLife,Insurance,United States,71042,3368,885296,60042
+70,Honda Motor,Consumer Durables,Japan,117698,4910.2,147918,62974
+71,Enel,Utilities,Italy,106269,4294.8,226188,53183
+72,BASF,Chemicals,Germany,98208,6428.3,88715,102272
+73,Softbank,Telecommunications services,Japan,55624,5810,156645,91219
+74,National Australia Bank,Banking,Australia,36880,5409.9,755920,75314
+75,ANZ,Banking,Australia,33969,6223.5,659725,83900
+76,ConocoPhillips,Oil & Gas Operations,United States,55597,9156,118057,86309
+76,TD Bank Group,Banking,Canada,31267,6551.9,815190,86193
+78,Intel,Semiconductors,United States,52708,9620,92358,129222
+79,UBS,Diversified Financials,Switzerland,39726,3421.5,1135504,81002
+80,Hewlett-Packard,Technology Hardware & Equipment,United States,112051,5306,105025,62975
+81,Coca-Cola,"Food, Drink & Tobacco",United States,46253,8452,91289,168697
+82,Cisco Systems,Technology Hardware & Equipment,United States,47873,8173,98427,118995
+83,LukOil,Oil & Gas Operations,Russia,119167,7790.2,109439,47654
+84,Boeing,Aerospace & Defense,United States,86623,4579,92663,95312
+84,UnitedHealth Group,Health Care Equipment & Services,United States,122497,5625,81882,80955
+84,Zurich Insurance Group,Insurance,Switzerland,71914,4023.4,397075,45778
+87,Hyundai Motor,Consumer Durables,South Korea,79750,7802.5,126424,49716
+87,Sanofi,Drugs & Biotechnology,France,43746,4934.8,132373,137140
+89,Credit Agricole,Banking,France,65267,3325.7,2117734,41018
+90,Roche Holding,Drugs & Biotechnology,Switzerland,50460,12042.3,69902,253742
+90,United Technologies,Conglomerates,United States,62651,5718,90594,108067
+92,Munich Re,Insurance,Germany,88026,4398.4,343086,38890
+93,PepsiCo,"Food, Drink & Tobacco",United States,66415,6735,77478,126182
+94,Oracle,IT Software & Services,United States,37901,11115,86562,184999
+95,Bank of Nova Scotia,Banking,Canada,27729,6272.8,702126,71239
+96,CVS Caremark,Retailing,United States,126761,4593,71526,87843
+97,ING Group,Insurance,Netherlands,34502,4355.9,1488698,56061
+98,Saudi Basic Industries,Chemicals,Saudi Arabia,50404,6740.3,90408,94403
+99,Merck & Co,Drugs & Biotechnology,United States,44085,4404,105645,165763
+100,Walt Disney,Media,United States,45968,6594,83166,142915
+101,Mizuho Financial,Banking,Japan,28515,7497,1791617,48663
+102,China Merchants Bank,Banking,China,32239,8083,634657,45192
+103,Société Générale,Banking,France,45592,2887.6,1702129,49971
+104,American Express,Diversified Financials,United States,34931,5312,155891,96874
+104,Banco do Brasil,Banking,Brazil,68642,7297.4,552682,28287
+106,Morgan Stanley,Diversified Financials,United States,40837,2775,832702,61661
+107,Prudential,Insurance,United Kingdom,81867,2103.9,528499,56098
+108,CNOOC,Oil & Gas Operations,Hong Kong,43007,10609.1,102657,67227
+109,Rio Tinto,Diversified Metals & Mining,United Kingdom,51153,3662.8,111025,103820
+110,Unilever,"Food, Drink & Tobacco",Netherlands,66111,6428.3,62715,124521
+111,Nissan Motor,Consumer Durables,Japan,104001,3935.1,137241,40205
+112,Credit Suisse Group,Diversified Financials,Switzerland,39482,2827.2,981168,52264
+113,E.ON,Utilities,Germany,162567,2843.8,180133,37634
+114,Generali Group,Insurance,Italy,100499,2543.7,602840,34533
+115,América Móvil,Telecommunications services,Mexico,61578,5845.6,79037,70942
+116,GlaxoSmithKline,Drugs & Biotechnology,United Kingdom,41430,8497,69705,128797
+117,Schlumberger,Oil & Gas Operations,United States,45364,6733,67100,127979
+118,BBVA-Banco Bilbao Vizcaya,Banking,Spain,28195,2957.9,802759,71030
+119,Nordea Bank,Banking,Sweden,25551,4136.4,868706,58001
+120,Bayer,Chemicals,Germany,53313,4233.8,70712,111336
+121,China Minsheng Banking,Banking,China,34132,6803,541199,33573
+122,Caterpillar,Capital Goods,United States,55656,3789,84896,63661
+123,Standard Chartered,Banking,United Kingdom,25582,4094.3,674380,51074
+124,China Shenhua Energy,Diversified Metals & Mining,China,42778,7237.2,80377,57563
+125,US Bancorp,Banking,United States,20150,5802,364021,78244
+126,Mitsubishi Corp,Trading Companies,Japan,74822,4429,146466,30535
+127,Dow Chemical,Chemicals,United States,57080,4757,69501,60124
+128,Ecopetrol,Oil & Gas Operations,Colombia,37669,7010,68545,83574
+129,Industrial Bank,Banking,China,32729,6705,593540,28792
+130,Shanghai Pudong Development,Banking,China,31682,6656.5,607893,29241
+131,EADS,Aerospace & Defense,France,78669,1945,128578,56938
+132,Swiss Re,Insurance,Switzerland,36841,4436.8,205193,34699
+133,Iberdrola,Utilities,Spain,43556,3414.3,127338,44062
+134,China Citic Bank,Banking,China,27826,5683,555604,32495
+135,Reliance Industries,Oil & Gas Operations,India,72752,3826.3,67240,50931
+136,Hutchison Whampoa,Conglomerates,Hong Kong,33034,4011,105178,57764
+137,Home Depot,Retailing,United States,78812,5385,40518,109652
+138,Hitachi,Consumer Durables,Japan,95743,2583.8,104720,36235
+139,Hon Hai Precision,Consumer Durables,Taiwan,127156,3416,68199,37252
+140,Phillips 66,Oil & Gas Operations,United States,157858,3722,50983,46763
+141,Capital One Financial,Diversified Financials,United States,24171,4142,298493,43981
+142,Møller-Maersk,Transportation,Denmark,47394,3555.5,74490,51670
+143,Aviva,Insurance,United Kingdom,53788,3139,449930,24125
+144,France Telecom,Telecommunications services,France,54407,2486.6,118274,39020
+145,Deutsche Telekom,Telecommunications services,Germany,79832,1234.7,162802,71196
+146,Bank of Montreal,Banking,Canada,20085,4042.9,531559,43314
+147,VINCI,Construction,France,54087,2604.8,86916,44241
+148,Mondel?z International,"Food, Drink & Tobacco",United States,35299,3915,72557,59228
+149,Suncor Energy,Oil & Gas Operations,Canada,38425,3795.6,73708,51500
+150,China Telecom,Telecommunications services,China,52315,2850.8,89734,37352
+151,Occidental Petroleum,Oil & Gas Operations,United States,24392,5888,70916,74981
+152,"Twenty-First Century Fox, Inc.",Media,United States,31974,4945,53286,74563
+153,Mitsui & Co,Trading Companies,Japan,58103,3646.2,106718,25622
+154,Qualcomm,Semiconductors,United States,25470,6822,46282,135456
+155,State Bank of India,Banking,India,37057,3291.9,376823,23605
+156,Time Warner,Media,United States,29795,3641,69923,58942
+157,Philip Morris International,"Food, Drink & Tobacco",United States,30898,8554,38168,130319
+158,Express Scripts,Health Care Equipment & Services,United States,104185,1792.3,53548,59041
+158,Honeywell International,Conglomerates,United States,39062,3924,45435,72929
+160,Barclays,Banking,United Kingdom,54957,844.1,2173442,64624
+160,United Parcel Service,Air Courier,United States,55491,4372,36212,89649
+162,PNC Financial Services,Banking,United States,16514,4207,324067,46603
+163,Deutsche Post,Air Courier,Germany,73132,2776.1,48887,45355
+164,AIA Group,Insurance,Hong Kong,20723,2822.1,145206,57992
+165,Duke Energy,Utilities,United States,24603,2665,114779,49893
+166,Delta Air Lines,Airline,United States,37659,10540,59394,30365
+167,Deutsche Bank,Banking,Germany,61093,884.2,2220428,46465
+168,National Grid,Oil & Gas Operations,United Kingdom,23402,3881.4,83935,49630
+169,ABB,Conglomerates,Switzerland,41814,2793.3,48436,59955
+170,Amgen,Drugs & Biotechnology,United States,18672,5081,66125,95184
+171,EI du Pont de Nemours,Chemicals,United States,35873,2886,51499,62087
+172,L'Oréal Group,Consumer Durables,France,30504,3927.4,43127,98666
+173,British American Tobacco,"Food, Drink & Tobacco",United Kingdom,23853,6102.3,44522,104252
+173,Manulife Financial,Insurance,Canada,17617,3037.7,466998,36031
+175,SAIC Motor,Consumer Durables,China,88290,4034.6,56427,24673
+176,Oil & Natural Gas,Oil & Gas Operations,India,29617,4450.1,53810,46357
+177,Walgreen,Retailing,United States,74188,2730,37081,62824
+178,KDDI,Telecommunications services,Japan,42322,3379,46079,46878
+179,Valero Energy,Oil & Gas Operations,United States,138074,2718,47260,29560
+180,PTT PCL,Oil & Gas Operations,Thailand,92508,3074,54830,26656
+181,Travelers Cos,Insurance,United States,26206,3647,105648,29733
+182,Canadian Imperial Bank,Banking,Canada,16700,3638.7,359617,34422
+183,AstraZeneca,Drugs & Biotechnology,United Kingdom,25693,2607.6,55899,82324
+184,Deere & Co,Capital Goods,United States,38028,3567.8,57659,33787
+185,Union Pacific,Transportation,United States,21963,4388,49731,85751
+186,McDonald's,"Hotels, Restaurants & Leisure",United States,28106,5585.9,36626,96909
+187,WellPoint,Health Care Equipment & Services,United States,71453,2489.7,59574,27989
+188,Aflac,Insurance,United States,24139,3158,124276,28797
+189,Tokio Marine Holdings,Insurance,Japan,42709,1971.5,181211,23015
+190,Taiwan Semiconductor,Semiconductors,Taiwan,20114,6338.9,42379,102002
+191,Legal & General Group,Insurance,United Kingdom,61178,1395.8,596692,20838
+192,Christian Dior,Consumer Durables,France,38413,1839.6,82864,34420
+193,China Unicom,Telecommunications services,Hong Kong,47996,1693.6,87467,31578
+194,3M,Conglomerates,United States,30871,4659,33550,89811
+195,Allstate,Insurance,United States,34187,2280,123520,25257
+196,Schneider Electric,Capital Goods,France,31267,2506.5,50968,50736
+197,DNB,Banking,Norway,16790,2980.1,393852,28624
+198,Lockheed Martin,Aerospace & Defense,United States,45358,2981,36188,52268
+198,Surgutneftegas,Oil & Gas Operations,Russia,26884,5797,68775,26453
+200,Target,Retailing,United States,72596,1970,44553,38351
+201,ACE,Insurance,Switzerland,18879,3758,96349,33356
+202,Denso,Consumer Durables,Japan,41261,2831.9,41349,42377
+203,Nomura Holdings,Diversified Financials,Japan,21508,2404.7,415150,23674
+204,Nippon Steel & Sumitomo Metal,Diversified Metals & Mining,Japan,54850,2255.2,67494,25284
+205,Wesfarmers,Food Markets,Australia,58500,2319.4,39254,43464
+206,China Everbright Bank,Banking,China,21237,4238.6,404172,18601
+207,SAP,IT Software & Services,Germany,22324,4417,37334,97120
+208,Jardine Matheson,Conglomerates,Hong Kong,39465,1566,63835,43364
+209,Japan Tobacco,"Food, Drink & Tobacco",Japan,23474,4498.9,41823,56891
+210,BG Group,Oil & Gas Operations,United Kingdom,19161,2518.9,65974,64033
+211,Itochu,Trading Companies,Japan,54979,3200.9,76849,18417
+212,Carrefour,Food Markets,France,99423,1676.8,60029,27431
+213,SABMiller,"Food, Drink & Tobacco",United Kingdom,17458,3397.7,53651,80123
+214,Bank of New York Mellon,Banking,United States,15097,2065,374310,40254
+215,Continental,Consumer Durables,Germany,44251,2553.1,36958,48724
+216,EMC,Technology Hardware & Equipment,United States,23210,2889.1,45849,56341
+217,Costco Wholesale,Retailing,United States,107893,1964,31566,49205
+218,BT Group,Telecommunications services,United Kingdom,28642,3195,39907,50045
+219,Eli Lilly & Co,Drugs & Biotechnology,United States,23113,4684.8,35249,65862
+220,Seven & I Holdings,Food Markets,Japan,57258,1760.4,46444,33398
+221,Canon,Business Services & Supplies,Japan,38222,2360.9,40366,40827
+221,Lowe's Cos,Retailing,United States,53416,2271,32732,50913
+223,China State Construction,Construction,China,88105,2493.8,123373,14017
+224,Freeport-McMoRan Copper,Diversified Metals & Mining,United States,21612,2668,63473,34185
+225,Telstra,Telecommunications services,Australia,24684,3780.6,35572,58096
+226,LyondellBasell Industries,Chemicals,Netherlands,44062,3846,27298,48200
+227,China Pacific Insurance,Insurance,China,33197,1620.2,118648,23170
+228,Diageo,"Food, Drink & Tobacco",United Kingdom,17704,3979.6,40156,77339
+229,Abbott Laboratories,Health Care Equipment & Services,United States,21848,2576,42953,59362
+230,Gas Natural Fenosa,Oil & Gas Operations,Spain,33149,1918.4,61932,28353
+231,Danske Bank,Banking,Denmark,20845,1266.6,596047,28321
+232,Aetna,Health Care Equipment & Services,United States,47331,1913.6,49872,27221
+233,Sony,Consumer Durables,Japan,78198,1076.4,148931,20147
+234,Aegon,Insurance,Netherlands,40167,1123.2,473017,19850
+235,Ericsson,Technology Hardware & Equipment,Sweden,34900,1842.7,41913,43485
+236,Posco,Diversified Metals & Mining,South Korea,56510,1247.7,80026,24770
+237,East Japan Railway,Transportation,Japan,27679,1941.7,68790,28702
+238,Brookfield Asset Management,Real Estate,Canada,20836,2130.8,112745,25191
+239,Altria Group,"Food, Drink & Tobacco",United States,17663,4527,34859,74513
+240,BlackRock,Diversified Financials,United States,10442,2932,220625,53082
+241,Exelon,Utilities,United States,24568,1719,79924,28715
+242,Danone,"Food, Drink & Tobacco",France,28276,1887.9,42617,41791
+243,Archer Daniels Midland,"Food, Drink & Tobacco",United States,89692,1342,43752,28480
+243,McKesson,Drugs & Biotechnology,United States,130088,1151,36479,40512
+245,Heineken Holding,"Food, Drink & Tobacco",Netherlands,25494,1811,45937,40293
+246,Hess,Oil & Gas Operations,United States,22248,5052,42754,27313
+246,Panasonic,Consumer Durables,Japan,77268,1153.3,52106,28448
+248,People's Insurance Company,Insurance,China,42268,1522.2,114915,17666
+249,Shinhan Financial Group,Diversified Financials,South Korea,19563,1724.8,294970,21053
+250,eBay,Retailing,United States,16048,2856,41488,71005
+251,Natixis,Banking,France,21574,1174.9,702935,23606
+252,Time Warner Cable,Media,United States,22120,1944,48273,38163
+253,General Dynamics,Aerospace & Defense,United States,31218,2357,35448,37739
+254,AbbVie,Drugs & Biotechnology,United States,18790,4128,29198,82762
+255,Medtronic,Health Care Equipment & Services,United States,16900,3586,37231,61660
+256,EXOR,Diversified Financials,Italy,143738,2397.4,170699,10082
+257,Bristol-Myers Squibb,Drugs & Biotechnology,United States,16385,2563,38592,85947
+258,KIA Motors,Consumer Durables,South Korea,43478,3486.6,34284,22838
+259,SEB,Banking,Sweden,11860,2267.2,386889,30400
+260,KBC Group,Banking,Belgium,17194,1347.5,338764,26308
+261,FedEx,Air Courier,United States,45163,1670,32729,39632
+262,Renault,Consumer Durables,France,54342,778,103335,28727
+263,Sumitomo Corp,Trading Companies,Japan,33221,2298,81113,15971
+263,VTB Bank,Banking,Russia,22792,2396.6,262022,14555
+265,CNP Assurances,Insurance,France,36223,1335.4,455115,14634
+266,MS&AD Insurance,Insurance,Japan,45810,1524.7,160752,14305
+267,Hyundai Mobis,Consumer Durables,South Korea,31238,3124.9,32625,28743
+268,Halliburton,Oil & Gas Operations,United States,29402,2125,29223,50737
+269,Danaher,Conglomerates,United States,19118,2695,34672,52568
+270,Apache,Oil & Gas Operations,United States,16497,2232,61637,33062
+271,Marathon Petroleum,Oil & Gas Operations,United States,93885,2108,28385,26222
+271,Sun Life Financial,Insurance,Canada,17916,1703.2,184360,21133
+273,Southern Co,Utilities,United States,17087,1710,64546,38625
+274,Ping An Bank,Banking,China,17121,2477.5,312483,16566
+275,Linde,Chemicals,Germany,22111,1748.5,45126,37006
+276,NextEra Energy,Utilities,United States,14561,1908,69306,40854
+277,Saint-Gobain,Construction,France,55487,789.9,63008,34503
+278,Canadian Natural Resources,Oil & Gas Operations,Canada,15669,2203.1,50377,42003
+279,Transneft,Oil & Gas Operations,Russia,23671,5343.9,65880,15592
+280,Visa,Diversified Financials,United States,12087,5094,36248,135971
+281,Rolls-Royce Holdings,Aerospace & Defense,United Kingdom,24248,2136.8,38198,34345
+282,JX Holdings,Oil & Gas Operations,Japan,124647,2043,76316,11835
+283,Imperial Tobacco Group,"Food, Drink & Tobacco",United Kingdom,22758,1461.8,46020,38756
+284,Woolworths,Food Markets,Australia,58337,2269,21681,41329
+285,Bridgestone,Consumer Durables,Japan,36549,2069.7,34033,27729
+286,Cigna,Health Care Equipment & Services,United States,32391,1476,55451,22543
+287,Standard Bank Group,Banking,South Africa,16438,1715.3,161444,21392
+288,DBS Group,Banking,Singapore,9367,2934.5,318397,31762
+289,Svenska Handelsbanken,Banking,Sweden,10080,2194.2,387663,32141
+290,BCE,Telecommunications services,Canada,19798,2043.9,42714,33737
+291,Centrica,Oil & Gas Operations,United Kingdom,41533,1484.9,38832,27665
+292,National Oilwell Varco,Oil & Gas Operations,United States,22853,2327,34812,33451
+293,Air Liquide,Chemicals,France,20213,2177.7,34579,42128
+294,Teva Pharmaceutical Inds,Drugs & Biotechnology,Israel,20307,1269.3,47508,44646
+295,Old Mutual,Diversified Financials,United Kingdom,30965,1102,229318,16562
+296,Philips,Conglomerates,Netherlands,30972,1552,36597,32216
+296,Swedbank,Banking,Sweden,10738,1980.2,283500,29777
+298,Oversea-Chinese Banking,Banking,Singapore,11069,2210.9,268057,26064
+299,Eaton,Capital Goods,Ireland,22046,1861,35491,36064
+300,Directv,Media,United States,31754,2859,21905,39596
+301,Dai-ichi Life Insurance,Insurance,Japan,58103,836.3,356259,14481
+302,Marubeni,Trading Companies,Japan,66016,2186.4,68440,11531
+303,Fresenius,Health Care Equipment & Services,Germany,26992,1342.2,45139,27787
+304,ICICI Bank,Banking,India,13335,1844.4,124162,23662
+305,China Vanke,Real Estate,China,22029,2469.6,79156,14856
+306,China Communications Construction,Construction,China,52759,1978.1,85563,11176
+307,State Street,Diversified Financials,United States,9739,2128,243291,30029
+308,Central Japan Railway,Transportation,Japan,16717,2645.6,50554,22801
+309,Kroger,Food Markets,United States,98492,1511,29314,22159
+310,Johnson Controls,Consumer Durables,United States,43216,1293,30832,32013
+311,China Railway Construction,Construction,China,89881,1679,87522,10497
+312,Henkel,Consumer Durables,Germany,21713,2109.6,26655,46362
+313,Inditex,Consumer Durables,Spain,22248,3162,18551,94326
+314,Emerson Electric,Capital Goods,United States,24715,2012,24124,47325
+315,Husky Energy,Oil & Gas Operations,Canada,22327,1775.1,35594,30017
+316,Teliasonera,Telecommunications services,Sweden,15610,2297.8,39365,32918
+316,Wilmar International,"Food, Drink & Tobacco",Singapore,44098,1320.2,46632,17686
+318,Dominion Resources,Utilities,United States,13165,1697,50096,40945
+319,BB&T,Banking,United States,10643,1679,184539,28762
+320,China Railway Group,Construction,Hong Kong,85873,1509.5,102345,10050
+321,Sasol,Chemicals,South Africa,20111,2780,24526,37040
+322,NIKE,Consumer Durables,United States,27041,2670,17803,65871
+323,Kinder Morgan,Oil & Gas Operations,United States,14091,1192,75185,33889
+324,SingTel,Telecommunications services,Singapore,13746,2894.4,30865,46219
+325,CaixaBank,Banking,Spain,15949,667.8,468765,33254
+326,Maybank,Banking,Malaysia,9745,2079.8,171102,26292
+326,OMV Group,Oil & Gas Operations,Austria,56311,1543.2,43800,14840
+328,Holcim,Construction,Switzerland,21270,1371,42665,27347
+329,Reckitt Benckiser Group,Consumer Durables,United Kingdom,15160,2718.2,25091,58740
+330,Telenor,Telecommunications services,Norway,17690,2244.3,30589,33075
+331,EOG Resources,Oil & Gas Operations,United States,14456,2197.1,30574,54067
+332,Tata Motors,Consumer Durables,India,34479,1817.6,32376,19860
+333,Power Corp of Canada,Insurance,Canada,31654,998.7,319939,12661
+334,Monsanto,Chemicals,United States,15425,2698,23457,59831
+335,Raytheon,Aerospace & Defense,United States,23706,1996,25967,31177
+336,SSE,Utilities,United Kingdom,47542,1202.5,31140,24148
+337,Mitsubishi Heavy Industries,Capital Goods,Japan,31829,1286.9,41866,19437
+338,Chubb,Insurance,United States,13909,2345,52655,21753
+339,Accenture,IT Software & Services,Ireland,30600,2904.4,16357,52667
+339,Mitsubishi Electric,Capital Goods,Japan,38798,1180.7,32483,24728
+341,American Electric,Utilities,United States,15266,1480,56414,24584
+342,HCA Holdings,Health Care Equipment & Services,United States,34182,1556,28831,22863
+343,Standard Life,Insurance,United Kingdom,32176,728.4,295528,15159
+344,Enbridge,Oil & Gas Operations,Canada,32177,610.5,54182,38512
+345,Northrop Grumman,Aerospace & Defense,United States,24661,1952,26381,26865
+346,WPP,Media,United Kingdom,17224,1463.8,41415,27726
+347,Kraft Foods Group,"Food, Drink & Tobacco",United States,18270,2703,23148,33459
+348,Takeda Pharmaceutical,Drugs & Biotechnology,Japan,16953,1058.4,42108,36998
+349,Discover Financial Services,Diversified Financials,United States,9237,2451,79612,27821
+349,EDP-Energias de Portugal,Utilities,Portugal,21379,1334.7,58770,16920
+351,Safran,Aerospace & Defense,France,19509,1409.9,33034,29024
+352,Volvo Group,Capital Goods,Sweden,41845,550,53690,34667
+353,Investor,Diversified Financials,Sweden,9519,6932.5,41595,28251
+353,Sumitomo Mitsui Trust,Banking,Japan,11214,1410.1,400556,17707
+355,Fannie Mae,Diversified Financials,United States,122930,83963,3270108,4609
+356,Samsung Life Insurance,Insurance,South Korea,21831,714.2,182792,17995
+357,Las Vegas Sands,Casinos & Gaming,United States,13770,2306,22724,67240
+358,Baxter International,Health Care Equipment & Services,United States,15260,2012,25869,39851
+359,Anadarko Petroleum,Oil & Gas Operations,United States,14857,795,55781,44325
+359,Michelin Group,Consumer Durables,France,26880,1486.9,28499,23649
+361,Sun Hung Kai Properties,Real Estate,Hong Kong,7092,4749.6,69463,33424
+362,Ameriprise Financial,Diversified Financials,United States,11203,1334,144576,21320
+363,International Paper,Materials,United States,29080,1395,31528,20123
+364,Gilead Sciences,Drugs & Biotechnology,United States,11221,3074.8,22497,113247
+365,Huaxia Bank,Banking,China,12920,2383.6,253481,12037
+366,Kimberly-Clark,Consumer Durables,United States,21152,2142,18919,41504
+367,United Overseas Bank,Banking,Singapore,7033,2403.9,225114,27219
+368,CBS,Media,United States,15284,1873,26387,37496
+369,Toshiba,Consumer Durables,Japan,65006,631.9,61602,17907
+370,KB Financial Group,Diversified Financials,South Korea,15764,1151.4,276532,13704
+371,Richemont,Retailing,Switzerland,13600,2776,21129,54275
+372,Merck KGaA,Drugs & Biotechnology,Germany,14730,1596.1,28687,36300
+373,Femsa,"Food, Drink & Tobacco",Mexico,20030,1239.9,27425,33256
+373,Marathon Oil,Oil & Gas Operations,United States,14787,1753,35776,24504
+375,Carnival,"Hotels, Restaurants & Leisure",United States,15456,1078,40104,31025
+376,Mapfre,Insurance,Spain,27332,1049.4,74105,13186
+377,Freddie Mac,Diversified Financials,United States,62218,48655,1981785,2581
+378,MTN Group,Telecommunications services,South Africa,14143,2723.9,21656,38146
+379,General Mills,"Food, Drink & Tobacco",United States,18036,1786.1,22925,31818
+380,Viacom,Media,United States,13677,2472,22778,37994
+381,Lafarge,Construction,France,20177,797.9,51087,23061
+382,Grupo ACS,Construction,Spain,50945,932,54802,12421
+383,Thermo Fisher Scientific,Health Care Equipment & Services,United States,13090,1282,31863,47752
+384,Sistema,Telecommunications services,Russia,35498,2333.9,44424,9820
+385,Baker Hughes,Oil & Gas Operations,United States,22364,1096,27934,28671
+386,Automatic Data,Business Services & Supplies,United States,11747,1415.3,38322,37342
+387,Canadian National Railway,Transportation,Canada,10263,2535,28714,46687
+388,Orix,Diversified Financials,Japan,12003,1381,82523,18447
+389,Talanx,Insurance,Germany,36735,1011.7,173990,9164
+390,TransCanada,Oil & Gas Operations,Canada,8540,1736.2,53295,35430
+391,Lloyds Banking Group,Banking,United Kingdom,58638,-1309.9,1402893,89943
+392,Isbank,Banking,Turkey,14577,2318.3,114274,9919
+393,Saudi Telecom,Telecommunications services,Saudi Arabia,12160,2639,23293,35597
+394,CSX,Transportation,United States,12026,1865,31782,29341
+395,Norfolk Southern,Transportation,United States,11245,1903,32901,30377
+396,Lincoln National,Insurance,United States,12217,1244,239008,13422
+397,Macy's,Retailing,United States,27931,1486,21623,21715
+398,Pernod Ricard,"Food, Drink & Tobacco",France,10937,1553.3,38330,30640
+399,Novo Nordisk,Drugs & Biotechnology,Denmark,14877,4483.1,12991,119599
+400,Cathay Financial,Insurance,Taiwan,11048,1043.5,199253,17078
+401,Huaneng Power International,Utilities,China,21773,1709.7,43079,12143
+402,Royal Ahold,Food Markets,Netherlands,43440,1249.3,20865,19567
+403,SunTrust Banks,Banking,United States,8253,1333,175335,21531
+404,NKSJ Holdings,Insurance,Japan,30060,879,90412,10563
+405,GDF SUEZ,Utilities,France,118556,-12332,219936,64564
+406,Glencore International,Diversified Metals & Mining,Switzerland,232629,-7538.6,154932,67537
+407,Qatar National Bank,Banking,Qatar,5445,2603.3,121787,37088
+408,Sampo,Insurance,Finland,8730,1927.7,44307,29741
+409,Magna International,Consumer Durables,Canada,34836,1561.5,17990,21931
+410,Komatsu,Capital Goods,Japan,19708,1542.3,25892,19667
+411,Fubon Financial,Diversified Financials,Taiwan,12498,1117.3,149078,13947
+411,Inpex,Oil & Gas Operations,Japan,13574,1564.5,37697,19105
+413,PG&E,Utilities,United States,15598,828,57308,19391
+414,Garanti Bank,Banking,Turkey,9528,1873.8,101343,14926
+415,Illinois Tool Works,Capital Goods,United States,15350,1679,19966,34924
+416,Indian Oil,Oil & Gas Operations,India,74596,817.5,43735,11133
+417,Mitsui Fudosan,Real Estate,Japan,15319,762,42973,26774
+418,Humana,Health Care Equipment & Services,United States,41313,1231,21349,17525
+419,Fuji Heavy Industries,Consumer Durables,Japan,23055,2540.3,16992,21315
+419,Syngenta,Chemicals,Switzerland,14712,1656.3,20216,34650
+421,HDFC Bank,Banking,India,7893,1262.2,75029,29649
+421,Texas Instruments,Semiconductors,United States,12204,2125,18938,51415
+423,Colgate-Palmolive,Consumer Durables,United States,17420,2241,13876,59015
+424,NTPC,Utilities,India,12341,2313.4,35520,16823
+424,Royal Bank of Scotland,Banking,United Kingdom,38313,-13437.9,1702423,59814
+426,Tencent Holdings,IT Software & Services,China,9836,2521.1,17713,135408
+427,Swisscom,Telecommunications services,Switzerland,12334,1817.6,23046,31344
+428,Coal India,Diversified Metals & Mining,India,12550,3206.1,18373,30634
+429,Bank of Beijing,Banking,China,9787,2055.8,197245,10775
+430,PPL,Utilities,United States,11860,1124,46259,20656
+431,AMP,Diversified Financials,Australia,19384,648.1,119189,13538
+432,Macquarie Group,Diversified Financials,Australia,10332,911.9,144559,17203
+433,Prudential Financial,Insurance,United States,48739,-667,731781,39735
+434,HeidelbergCement,Construction,Germany,18502,989.6,37020,16466
+435,UniCredit Group,Banking,Italy,32775,-7931.2,1165522,53847
+436,Suzuki Motor,Consumer Durables,Japan,29002,1172.3,26397,14634
+437,Praxair,Chemicals,United States,11925,1755,20255,38459
+438,Edison International,Utilities,United States,12581,1015,46646,18447
+439,SK Hynix,Semiconductors,South Korea,12939,2623.8,19787,24945
+440,PPG Industries,Chemicals,United States,15107,3231,15863,27269
+441,JFE Holdings,Diversified Metals & Mining,Japan,36111,960.6,40097,10873
+442,Vale,Diversified Metals & Mining,Brazil,47618,53.3,123718,71449
+443,Tenaga Nasional,Utilities,Malaysia,11989,1573.8,31308,20695
+444,Resona Holdings,Banking,Japan,7925,2249.5,420295,10943
+445,Toyota Industries,Consumer Durables,Japan,20029,911.3,38056,14825
+446,Daiwa Securities,Diversified Financials,Japan,6845,1895.2,199299,14904
+447,Fifth Third Bancorp,Banking,United States,6177,1823,131466,19652
+448,United Continental Holdings,Airline,United States,38279,568,36812,17426
+449,H&M,Consumer Durables,Sweden,20280,2658.2,10299,70864
+450,Koç Holding,Conglomerates,Turkey,34723,1405.9,27363,10646
+451,Chesapeake Energy,Oil & Gas Operations,United States,17768,724,41782,17350
+452,Amazon.com,Retailing,United States,74453,274,41397,157523
+453,Intesa Sanpaolo,Banking,Italy,24458,-6044,862987,57424
+454,Paccar,Capital Goods,United States,17124,1171.3,20726,24048
+455,Aon,Insurance,United Kingdom,11843,1113,30251,25533
+456,Xerox,Business Services & Supplies,United States,21589,1159,29036,13556
+457,Hana Financial Group,Banking,South Korea,12966,848.2,279707,10574
+458,Etisalat,Telecommunications services,United Arab Emirates,10578,1927.1,23337,25830
+459,Loews,Insurance,United States,14672,595,79939,17181
+460,CIMB Group Holdings,Banking,Malaysia,6756,1441.2,113239,18066
+460,SK Telecom,Telecommunications services,South Korea,15251,1496.5,25183,16566
+460,Tokyo Electric Power,Utilities,Japan,65990,920.1,145579,6266
+463,TJX Cos,Retailing,United States,27423,2137.4,10201,43518
+464,Charles Schwab,Diversified Financials,United States,5549,1071,143881,35646
+465,Associated British Foods,"Food, Drink & Tobacco",United Kingdom,20772,922,16753,36665
+465,Principal Financial Group,Insurance,United States,9482,912.7,208191,13851
+465,Tesco,Food Markets,United Kingdom,100627,-529.5,78035,39518
+468,Mitsubishi Estate,Real Estate,Japan,10166,718.4,45085,32837
+469,GFNorte,Banking,Mexico,8442,1058.1,76871,18228
+470,Ageas,Insurance,Netherlands,15837,756.1,129044,10233
+471,Repsol YPF,Oil & Gas Operations,Spain,74742,258.9,89685,33652
+472,Sempra Energy,Oil & Gas Operations,United States,10558,1009,37244,23641
+473,T&D Holdings,Insurance,Japan,21603,873.2,134273,8016
+474,New China Life Insurance,Insurance,China,18657,736.9,88626,10208
+475,FirstRand,Banking,South Africa,6276,1725,85397,18756
+476,Aeon,Retailing,Japan,64391,593.7,67324,9274
+477,Akzo Nobel,Chemicals,Netherlands,19370,961.2,22134,19817
+478,Bank Mandiri,Banking,Indonesia,6577,1742.3,60238,20523
+479,Rogers Communications,Telecommunications services,Canada,12331,1619.8,22213,21587
+480,Swiss Life Holding,Insurance,Switzerland,20222,842,191303,7892
+481,Novatek,Oil & Gas Operations,Russia,9356,3448.2,18198,30465
+482,Corning,Technology Hardware & Equipment,United States,7819,1961,28478,29166
+483,Fujifilm Holdings,Consumer Durables,Japan,24358,900.5,30838,13043
+484,Bank Rakyat Indonesia,Banking,Indonesia,6304,2042.9,51453,21807
+485,CEZ Group,Utilities,Czech Republic,11105,1834.2,32275,15264
+486,Consolidated Edison,Utilities,United States,12346,1062,40647,15556
+487,Akbank,Banking,Turkey,7930,1693.9,90379,13244
+488,Micron Technology,Semiconductors,United States,11281,1823,19794,25928
+489,Covidien,Health Care Equipment & Services,Ireland,10880,1605,19619,32707
+490,Progressive,Insurance,United States,18160,1165.4,25171,14317
+491,ArcelorMittal,Diversified Metals & Mining,Luxembourg,79449,-2530.2,112308,26814
+491,Saudi Electricity,Utilities,Saudi Arabia,9512,809.5,73801,17498
+493,Alstom,Conglomerates,France,26562,1015.2,41185,9128
+493,National Bank of Canada,Banking,Canada,7006,1466.7,175165,13318
+495,Formosa Petrochemical,Oil & Gas Operations,Taiwan,31390,745.6,17323,24304
+496,Cummins,Capital Goods,United States,17303,1483,14728,27389
+497,SK Innovation,Oil & Gas Operations,South Korea,60899,667.6,33438,10639
+498,TE Connectivity,Consumer Durables,Switzerland,13472,1352,18443,24708
+499,Ecolab,Chemicals,United States,13253,967.8,19636,32694
+500,Larsen & Toubro,Construction,India,13455,956.5,26748,19809
+501,Gree Electric Appliances,Consumer Durables,China,17934,1556,21151,13724
+502,Piraeus Bank,Banking,Greece,5455,3401.5,126785,13855
+502,Public Service Enterprise,Utilities,United States,9989,1243,32610,19032
+504,Precision Castparts,Aerospace & Defense,United States,9524,1697.7,18332,37694
+505,RWE Group,Utilities,Germany,68230,-3595.2,111778,25059
+506,MasterCard,Diversified Financials,United States,8342,3116,14242,88765
+507,Fortescue Metals Group,Diversified Metals & Mining,Australia,10624,3001,22905,15287
+508,Kellogg,"Food, Drink & Tobacco",United States,14797,1807,15474,22493
+509,Kirin Holdings,"Food, Drink & Tobacco",Japan,23095,877.4,27558,12642
+510,Facebook,IT Software & Services,United States,7872,1490,17895,159665
+511,Poly Real Estate,Real Estate,China,13106,1693.8,51493,8855
+512,Baoshan Iron & Steel,Diversified Metals & Mining,China,30802,718.2,37442,10403
+513,Fortum,Utilities,Finland,8040,1598.4,33650,20343
+514,Atlas Copco,Capital Goods,Sweden,12876,1853,13685,35411
+515,Norilsk Nickel,Diversified Metals & Mining,Russia,11704,1220.7,20226,26894
+516,Cheung Kong Holdings,Real Estate,Hong Kong,2566,4545.8,55307,38996
+516,Toyota Tsusho,Trading Companies,Japan,74794,681.4,37701,8851
+518,Sysco,Food Markets,United States,45480,980.9,13013,21123
+519,Tatneft,Oil & Gas Operations,Russia,14293,2364.6,20366,13017
+520,DISH Network,Media,United States,13905,807.5,20376,29288
+521,Safeway,Food Markets,United States,37626,3473,17220,8703
+522,Adidas,Consumer Durables,Germany,19240,1044.8,15983,22759
+523,Cenovus Energy,Oil & Gas Operations,Canada,18107,642.5,24098,21807
+524,Korea Electric Power,Utilities,South Korea,49360,54.8,147370,21863
+525,Omnicom Group,Media,United States,14584,966,22099,18684
+526,Cardinal Health,Drugs & Biotechnology,United States,96735,376,25009,23910
+527,Otsuka Holding,Drugs & Biotechnology,Japan,14373,1783,17926,16138
+527,Thales,Aerospace & Defense,France,18185,761.3,29619,13797
+529,Grupo Mexico,Diversified Metals & Mining,Mexico,9352,1779.8,20208,24365
+530,CLP Holdings,Utilities,Hong Kong,13476,781.3,27301,19249
+531,Kyocera,Consumer Durables,Japan,14596,930.8,25721,16159
+531,Marsh & McLennan,Insurance,United States,12308,1351,16980,27194
+531,Swire Pacific,Conglomerates,Hong Kong,6631,1713.5,45014,17719
+534,China Resources Land,Real Estate,Hong Kong,9254,1894.6,36338,12880
+535,HDFC,Diversified Financials,India,6612,1218.2,43468,23191
+536,Raiffeisen Bank International,Banking,Austria,11143,739,177374,10110
+537,Shin-Etsu Chemical,Chemicals,Japan,11422,1176.1,19920,24154
+538,CIC Group,Banking,France,9705,1122,320951,8504
+539,Kubota,Capital Goods,Japan,14618,1229.6,19912,16566
+539,Suncorp Group,Insurance,Australia,15640,448.5,84167,15178
+541,SCA,Consumer Durables,Sweden,13664,851.4,22152,20766
+542,Siam Commercial Bank,Banking,Thailand,5745,1634.7,77121,16649
+542,Tata Consultancy Services,IT Software & Services,India,13085,2971.2,9229,71250
+542,TELUS,Telecommunications services,Canada,11002,1255.8,20297,22314
+545,Aisin Seiki,Consumer Durables,Japan,28085,978.8,24039,10214
+545,Daikin Industries,Construction,Japan,17286,1004.7,19281,16687
+547,LG Chem,Chemicals,South Korea,21140,1125.6,16531,16405
+548,Vivendi,Telecommunications services,France,31559,-1258.6,67768,37254
+549,Transocean,Oil & Gas Operations,Switzerland,9484,1395,32546,14878
+550,Mazda Motor,Consumer Durables,Japan,26739,882.5,19665,13449
+551,Anglo American,Diversified Metals & Mining,United Kingdom,29341,-938.3,71165,35290
+552,Evonik,Chemicals,Germany,17126,715.6,21907,18295
+553,Compass Group,"Hotels, Restaurants & Leisure",United Kingdom,27390,667.7,14782,27272
+553,Grupo Aval,Diversified Financials,Colombia,8957,832.7,72037,13278
+555,Kasikornbank,Banking,Thailand,6856,1344.8,69691,13312
+556,Commerzbank,Banking,Germany,21582,119,803029,21712
+556,Ferrovial,Transportation,Spain,10841,965.2,31445,16073
+558,Xcel Energy,Utilities,United States,10910,948.2,33907,15083
+559,J Sainsbury,Food Markets,United Kingdom,37171,989.1,20903,9816
+560,Lotte Shopping,Retailing,South Korea,25770,720,36929,9282
+561,Franklin Resources,Diversified Financials,United States,8235,2223.7,15909,34331
+562,Daiwa House Industry,Construction,Japan,25384,782.3,24698,11124
+563,Sabanci Holding,Conglomerates,Turkey,12963,908.4,96147,8099
+564,Grupo Modelo,"Food, Drink & Tobacco",Mexico,6941,3796.9,14979,41125
+565,Carlsberg,"Food, Drink & Tobacco",Denmark,11847,973.9,27916,15178
+566,Lenovo Group,Technology Hardware & Equipment,Hong Kong,37181,785.8,19523,11854
+567,Al Rajhi Bank,Banking,Saudi Arabia,4042,1983.3,74623,30097
+568,Hartford Financial Services,Insurance,United States,26363,278,279632,15930
+569,Kingfisher,Retailing,United Kingdom,17435,1111.1,16139,17002
+570,Keppel Corp,Conglomerates,Singapore,9894,1475.1,23892,15607
+571,Simon Property Group,Real Estate,United States,5157,1301,33325,51828
+572,Tenaris,Oil & Gas Operations,Luxembourg,10599,1551.4,15931,26186
+573,Regions Financial,Banking,United States,5562,1122,118129,15970
+574,Telecom Italia,Telecommunications services,Italy,31076,-894.8,96760,22807
+575,Southwest Airlines,Airline,United States,17700,757,19345,16806
+576,Western Digital,Technology Hardware & Equipment,United States,15268,980,15282,22100
+577,Porsche Automobil Holding,Consumer Durables,Germany,10,3197,43109,32331
+577,Tokyo Gas,Oil & Gas Operations,Japan,20646,950.7,19607,12535
+579,Woodside Petroleum,Oil & Gas Operations,Australia,6158,1747.8,23770,29403
+580,Deutsche Lufthansa,Airline,Germany,39866,415.5,40076,12336
+581,Falabella,Retailing,Chile,13155,868.9,18189,21571
+582,Bankia,Banking,Spain,5103,679.3,346516,24266
+582,Potash of Saskatchewan,Chemicals,Canada,7287,1776.1,17958,30109
+584,Sumitomo Electric,Consumer Durables,Japan,25242,646.8,24240,11954
+585,Public Bank,Banking,Malaysia,4627,1290.2,93337,20595
+586,Alpha Bank,Banking,Greece,5168,3004,99336,10547
+587,Air Products & Chemicals,Chemicals,United States,10164,1019.7,17915,25401
+588,Sumitomo Realty,Real Estate,Japan,8272,740.8,39186,18559
+589,Publicis Groupe,Media,France,9231,1051.5,23578,18401
+590,Entergy,Utilities,United States,11395,730.6,43406,12042
+591,ASML Holding,Semiconductors,Netherlands,6964,1585,16816,41171
+592,SLM,Diversified Financials,United States,5822,1419,159543,10567
+593,ConAgra Foods,"Food, Drink & Tobacco",United States,17903,798.5,20433,12980
+594,Reynolds American,"Food, Drink & Tobacco",United States,8236,1718,15402,28829
+595,China Resources Power,Utilities,Hong Kong,8971,1474.5,27582,12631
+596,Samsung Fire & Marine,Insurance,South Korea,16681,623.5,45670,9371
+597,Unum Group,Insurance,United States,10354,858.1,60738,9192
+598,Sime Darby,Conglomerates,Malaysia,14427,1090.2,15217,17062
+599,George Weston,Food Markets,Canada,32592,654.1,23174,9515
+600,Evergrande Real Estate,Real Estate,China,11364,1565.1,44738,7190
+601,Agrium,Chemicals,Canada,15938,1056.4,15977,14042
+601,Mosaic,Chemicals,United States,8170,1311.5,19554,19863
+603,Anhui Conch Cement,Construction,China,8954,1530.8,15378,22818
+604,Teck Resources,Diversified Metals & Mining,Canada,9105,932.7,34055,12582
+605,Banco Popular Espanol,Banking,Spain,8218,431.9,203732,16263
+606,Swatch Group,Consumer Durables,Switzerland,9121,2072.1,11290,33574
+607,National Bank of Greece,Banking,Greece,4985,1074,152856,13421
+608,Stryker,Health Care Equipment & Services,United States,9021,1006,15743,30967
+609,Delphi Automotive,Consumer Durables,United Kingdom,16463,1212,11047,21294
+610,Spectra Energy,Oil & Gas Operations,United States,5518,1038,33533,25259
+611,Tyson Foods,"Food, Drink & Tobacco",United States,34824,859,11844,14785
+612,FirstEnergy,Utilities,United States,14883,392,50424,14036
+613,Sodexo,Business Services & Supplies,France,24059,574.1,16625,16532
+614,Biogen Idec,Drugs & Biotechnology,United States,6945,1862.3,11863,73232
+615,Abertis,Transportation,Spain,6179,818.9,38767,19746
+615,Astellas Pharma,Drugs & Biotechnology,Japan,11655,816.2,14892,26085
+615,M&T Bank,Banking,United States,4783,1107.6,85580,15971
+618,Murphy Oil,Oil & Gas Operations,United States,16756,995.4,17509,11301
+619,Formosa Chemicals,Chemicals,Taiwan,14481,855.7,17368,14118
+620,Hyundai Heavy Industries,Capital Goods,South Korea,49498,254.6,50415,15269
+621,Liberty Global,Media,United Kingdom,14474,-963.9,67714,32079
+622,Unibail-Rodamco,Real Estate,France,2345,1713.4,44569,25178
+623,PKO Bank Polski,Banking,Poland,4873,1021.9,66026,17394
+624,ThyssenKrupp Group,Conglomerates,Germany,51553,-1984.8,48859,15543
+625,Bharti Airtel,Telecommunications services,India,14329,395.8,29196,21121
+626,Siam Cement,Chemicals,Thailand,14132,1188.5,13403,15501
+627,Adecco,Business Services & Supplies,Switzerland,25893,739.8,12670,15962
+628,Seadrill,Oil & Gas Operations,Bermuda,5282,2653,26300,16377
+629,Celgene,Drugs & Biotechnology,United States,6483,1449.9,13378,59523
+630,Axis Bank,Banking,India,6254,961.8,62665,11541
+631,Nokia,Technology Hardware & Equipment,Finland,27463,-816.5,34712,28064
+632,MTR,Transportation,Hong Kong,4990,1679.2,27835,21675
+633,Country Garden Holdings,Real Estate,Hong Kong,10204,1384.7,34067,8043
+634,Quanta Computer,Technology Hardware & Equipment,Taiwan,29739,629,18560,10259
+635,British Sky Broadcasting,Media,United Kingdom,11659,1411.5,10994,24216
+636,Mitsubishi Motors,Consumer Durables,Japan,21011,1117,14319,10283
+637,JBS,"Food, Drink & Tobacco",Brazil,43022,429.2,29107,9575
+638,Couche Tard,Retailing,Canada,37709,812.3,10367,15303
+639,National Bank of Abu Dhabi,Banking,United Arab Emirates,3208,1223.3,88500,17947
+640,Dollar General,Retailing,United States,17504,1025.1,10868,18069
+641,Daqin Railway,Transportation,China,7871,2000.8,16395,16048
+642,Metro Group,Food Markets,Germany,81007,-124.2,45180,13368
+642,Parker-Hannifin,Capital Goods,United States,13067,1025.3,12864,18192
+644,Bancolombia,Banking,Colombia,5879,810.4,67710,13314
+645,PGE,Utilities,Poland,9537,1303,20133,11963
+646,Asahi Kasei,Chemicals,Japan,18988,862.3,18642,9390
+647,Fast Retailing,Consumer Durables,Japan,12636,975.9,9996,36392
+648,Whirlpool,Consumer Durables,United States,18769,827,15544,11875
+649,Sandvik,Capital Goods,Sweden,13404,769.5,14617,17951
+650,China National Building,Construction,China,19159,940.3,48172,5443
+651,Liberty Media,Media,United States,4002,8786,34542,15059
+652,Kohl's,Retailing,United States,19031,889,14378,11857
+653,Genworth Financial,Insurance,United States,9553,560,110958,8862
+654,BAE Systems,Aerospace & Defense,United Kingdom,26360,262.6,32970,21822
+654,Priceline.com,Business Services & Supplies,United States,6793,1892.7,10444,65249
+656,Annaly Capital Management,Real Estate,United States,3630,3729.7,81922,10422
+657,Chunghwa Telecom,Telecommunications services,Taiwan,7682,1342.4,14305,23929
+658,VF,Consumer Durables,United States,11407,1210.1,10315,27384
+659,Halkbank,Banking,Turkey,6421,1565.6,61098,7939
+660,Bouygues,Construction,France,44269,-1005,47269,13410
+661,Bank Central Asia,Banking,Indonesia,3995,1364.3,40781,23865
+662,CME Group,Diversified Financials,United States,2936,976.8,54462,24392
+663,Asahi Group Holdings,"Food, Drink & Tobacco",Japan,17560,632.5,17045,12795
+664,MegaFon,Telecommunications services,Russia,9327,1619.4,13103,17107
+665,CenturyLink,Telecommunications services,United States,18095,-239,51787,19119
+666,SK Holdings,Oil & Gas Operations,South Korea,102198,257.8,87704,8591
+667,Insurance Australia Group,Insurance,Australia,8954,933.6,23724,11911
+668,Yara International,Chemicals,Norway,14398,977.5,14667,12195
+669,XL Group,Insurance,Ireland,7481,1059.9,45653,8573
+670,Isuzu Motors,Consumer Durables,Japan,18049,1242.4,13533,9732
+670,Magnit,Food Markets,Russia,18210,1122.1,7029,22352
+672,Steinhoff International,Consumer Durables,South Africa,13015,898.3,18491,10532
+673,Yum Brands,"Hotels, Restaurants & Leisure",United States,13084,1091,8695,33689
+674,AmerisourceBergen,Drugs & Biotechnology,United States,96076,306.5,19796,15107
+674,Ricoh,Business Services & Supplies,Japan,22012,601.6,24361,8378
+676,Atlantia,Transportation,Italy,4811,846.6,40714,21564
+677,Industrial Bank of Korea,Banking,South Korea,8880,775,201433,6435
+678,DTE Energy,Utilities,United States,9628,661,25935,13200
+679,First Gulf Bank,Banking,United Arab Emirates,2745,1279.5,53099,17520
+679,Northeast Utilities,Utilities,United States,7301,786,27796,14229
+679,Toray Industries,Chemicals,Japan,18128,620.9,18375,10789
+682,Seagate Technology,Technology Hardware & Equipment,Ireland,13967,1619,8890,18739
+682,VimpelCom,Telecommunications services,Netherlands,21897,-1370.9,50416,15898
+684,Ooredoo Telecom,Telecommunications services,Qatar,9297,708.5,26752,12377
+685,China Cinda Asset Management,Diversified Financials,China,3970,1158,46199,20092
+686,Ingersoll-Rand,Conglomerates,Ireland,12351,615.9,17658,15893
+687,PTT Global Chemical,Chemicals,Thailand,17992,1082.9,13158,10067
+688,Banco de Sabadell,Banking,Spain,9464,329,225214,12977
+688,Sanlam,Insurance,South Africa,5665,842.5,53292,12055
+690,Li & Fung,Trading Companies,Hong Kong,20745,785.2,12488,12545
+691,Liberty Interactive,Retailing,United States,11252,501,24370,14855
+692,Henderson Land,Real Estate,Hong Kong,3019,2056,39222,15741
+693,CSR,Capital Goods,China,14108,635.5,19010,11584
+694,Erste Group Bank,Banking,Austria,12573,81,275419,14417
+695,Scor,Insurance,France,12805,728.9,45501,6546
+696,China Steel,Diversified Metals & Mining,Taiwan,11720,572.8,22883,12858
+697,Technip,Oil & Gas Operations,France,12395,747.6,18259,11361
+698,GD Power Development,Utilities,China,10786,1021.4,40411,6551
+698,Nucor,Diversified Metals & Mining,United States,19052,486.1,15203,16119
+700,Hilton Worldwide Holdings,"Hotels, Restaurants & Leisure",United States,9735,415,26729,22203
+701,China Coal Energy,Diversified Metals & Mining,China,13181,695.6,35505,7333
+702,Nan Ya Plastics,Chemicals,Taiwan,10234,663.2,17427,16735
+703,Midea Group Co. Ltd.,Consumer Durables,China,19626,551,16014,12775
+704,New World Development,Real Estate,Hong Kong,6382,1120.6,45748,8794
+705,Gap,Consumer Durables,United States,16148,1280,7849,18318
+706,Sekisui House,Construction,Japan,18256,807,17346,8554
+707,Daiichi Sankyo,Drugs & Biotechnology,Japan,10851,922.1,17300,11643
+708,CRH,Construction,Ireland,23938,-393,28150,20959
+708,Idemitsu Kosan,Oil & Gas Operations,Japan,49948,783.6,29127,3214
+710,Grupo Pão de Açúcar,Food Markets,Brazil,26734,487.4,16110,11696
+711,Bangkok Bank,Banking,Thailand,4576,1168.5,79017,10677
+712,Westfield Group,Real Estate,Australia,2326,1545.7,31230,19732
+713,KeyCorp,Banking,United States,4347,910,92934,12781
+714,DaVita,Health Care Equipment & Services,United States,11764,620.1,17099,14781
+715,Yahoo,IT Software & Services,United States,4680,1366.2,16805,36833
+716,Kansai Electric Power,Utilities,Japan,32529,-1291.7,72022,9300
+717,National Bank of Kuwait,Banking,Kuwait,2542,838.9,65865,16722
+718,Deutsche Boerse,Diversified Financials,Germany,2958,635.1,260860,15459
+719,Veolia Environnement,Utilities,France,29626,-220.6,49940,10764
+720,Mobily,Telecommunications services,Saudi Arabia,6717,1780.3,12403,19043
+721,Marks & Spencer,Retailing,United Kingdom,15929,763,12458,12480
+721,Samba Financial Group,Banking,Saudi Arabia,1992,1202.7,54670,13695
+723,Baidu,IT Software & Services,China,5208,1714.4,11725,55761
+724,Resolution,Insurance,United Kingdom,17222,318.9,210764,7162
+725,Northern Trust,Banking,United States,4002,719.3,102947,15603
+726,American Airlines Group,Airline,United States,25811,-1876,26780,17889
+726,Infosys,IT Software & Services,India,8141,1714.8,8727,31675
+728,Fujitsu,Technology Hardware & Equipment,Japan,47263,200.9,30451,12566
+729,Wheelock & Co,Real Estate,Hong Kong,4270,3121,62784,8120
+730,Dentsu,Media,Japan,22448,379.9,22156,10775
+731,Wolseley,Construction,Switzerland,20999,617.5,10904,15172
+732,Citic Securities,Diversified Financials,China,2654,853,44823,19010
+733,Williams Cos,Oil & Gas Operations,United States,6861,430,27142,28082
+734,QBE Insurance Group,Insurance,Australia,16127,-254,47271,14708
+735,Riyad Bank,Banking,Saudi Arabia,2219,1052.5,54726,13919
+736,Mitsubishi Chemical,Chemicals,Japan,33438,479.6,33417,6040
+737,Solvay,Chemicals,Belgium,15103,359.8,25400,13378
+738,Japan Airlines,Airline,Japan,13180,1583,12418,9033
+739,Dongfeng Motor Group,Consumer Durables,China,6061,1549.8,19161,12440
+740,Bombardier,Aerospace & Defense,Canada,18161,562.7,29363,6703
+741,Devon Energy,Oil & Gas Operations,United States,10779,-22,42877,27573
+742,Galaxy Entertainment,Casinos & Gaming,Hong Kong,8513,1295.9,5966,39703
+742,Luxottica Group,Retailing,Italy,9708,723.2,11138,27509
+744,"Becton, Dickinson",Health Care Equipment & Services,United States,8169,938.6,12035,22634
+744,Grupo Inbursa,Banking,Mexico,4444,1276.2,27502,16872
+746,Alcoa,Diversified Metals & Mining,United States,23050,-2285,35742,14057
+747,Thomson Reuters,Media,United States,12700,131.9,32439,28308
+748,Best Buy,Retailing,United States,42410,532,14013,9155
+749,West Japan Railway,Transportation,Japan,13458,641.6,24836,7764
+750,Canadian Pacific Railway,Transportation,Canada,5952,849.2,16056,26469
+751,BRF-Brasil Foods,"Food, Drink & Tobacco",Brazil,14134,492,13722,17495
+751,Fosun International,Diversified Metals & Mining,China,8301,900,30249,8154
+753,Allergan,Drugs & Biotechnology,United States,6300,1272.5,10574,36932
+754,Citic Pacific,Diversified Metals & Mining,Hong Kong,11350,792,34536,6483
+755,Chinatrust Financial,Diversified Financials,Taiwan,5313,724.5,81357,9456
+755,Itaúsa,Conglomerates,Brazil,2625,2638.7,17772,22754
+757,Allied Irish Banks,Banking,Ireland,5154,-2120.2,162453,104982
+758,TRW Automotive Holdings,Consumer Durables,United States,17435,970,12252,9251
+759,Bunge,"Food, Drink & Tobacco",United States,61352,171,26781,11736
+759,Metallurgical Corp of China,Construction,China,32068,484.4,53335,4978
+761,Kao Corp,Consumer Durables,Japan,13472,663.4,10782,18187
+762,IDGC Holding,Utilities,Russia,21345,558.5,61111,2401
+763,Kering,Consumer Durables,France,12942,73.2,31432,25767
+764,Hyundai Steel,Diversified Metals & Mining,South Korea,12361,632,27972,7542
+765,Emirates NBD,Banking,United Arab Emirates,4005,781.6,93129,12831
+766,LG Electronics,Consumer Durables,South Korea,53108,167.8,33665,10032
+767,Motorola Solutions,Technology Hardware & Equipment,United States,8696,1099,11851,16478
+768,Telekom Indonesia,Telecommunications services,Indonesia,7941,1359.6,10514,19356
+769,Noble Energy,Oil & Gas Operations,United States,4808,914,19642,25451
+770,EnBW-Energie Baden,Utilities,Germany,27270,67.7,49800,9653
+771,Barrick Gold,Diversified Metals & Mining,Canada,12563,-10377.9,37448,20846
+773,International Airlines,Airline,United Kingdom,24657,164.2,28630,14322
+773,Mercantil Servicios,Banking,Venezuela,4057,1196.4,38034,14426
+775,Peugeot,Consumer Durables,France,71811,-3076.1,82214,6646
+776,Murata Manufacturing,Consumer Durables,Japan,8431,877.2,11592,21280
+777,Cencosud,Food Markets,Chile,20736,464.1,19155,9026
+778,Tyco International,Business Services & Supplies,Switzerland,10694,643,12013,19766
+779,Chubu Electric Power,Utilities,Japan,28094,-629.5,54904,8807
+779,Estée Lauder Cos,Consumer Durables,United States,10394,1006,7841,26434
+781,Skanska,Construction,Sweden,20950,577.9,13629,9732
+782,L-3 Communications,Aerospace & Defense,United States,12629,778,14009,10198
+783,Leucadia National,Conglomerates,United States,10618,355.5,47867,10141
+784,VMware,IT Software & Services,United States,5207,1013.7,12327,48161
+785,Kuehne + Nagel,Transportation,Switzerland,22576,647.2,6943,16874
+786,Eastman Chemical,Chemicals,United States,9358,1165,11845,13133
+787,LG Display,Consumer Durables,South Korea,24693,389.2,20576,9024
+788,Cemex,Construction,Mexico,15327,-848.7,37881,14511
+788,Saudi British Bank,Banking,Saudi Arabia,1728,1006.3,47275,12559
+788,Shimao Property Holdings,Real Estate,Hong Kong,6759,1202.4,29034,7646
+791,Cameron International,Oil & Gas Operations,United States,9835,699.1,14248,13590
+792,Mediolanum,Insurance,Italy,11155,450.9,53832,7122
+793,Discovery Communications,Media,United States,5535,1071,14979,19621
+794,China Yangtze Power,Utilities,China,3783,1499.5,25392,15339
+795,Punjab National Bank,Banking,India,8705,910.3,91372,4454
+796,China CNR,Capital Goods,China,14638,582.4,19848,7898
+797,Grupa PZU,Insurance,Poland,5974,1042.1,19597,12344
+798,Capgemini,IT Software & Services,France,13398,586.8,14022,11849
+799,Krung Thai Bank,Banking,Thailand,4545,1103.8,76530,8123
+800,Republic Services,Business Services & Supplies,United States,8417,588.9,19949,12347
+801,Bank of Baroda,Banking,India,7525,882.7,102948,5180
+802,Sinohydro Group,Construction,China,19733,648.9,35449,4269
+803,Mahindra & Mahindra,Consumer Durables,India,12366,725.2,14123,9865
+804,San Miguel,Conglomerates,Philippines,17613,914.7,25278,4033
+805,RTL Group,Media,Luxembourg,7818,1155,10427,17656
+805,Valeo,Consumer Durables,France,16077,582.8,12459,11235
+807,Bâloise Group,Insurance,Switzerland,10429,488,84669,5966
+808,Longfor Properties,Real Estate,China,6773,1307.6,23815,7618
+809,Vienna Insurance Group,Insurance,Austria,13268,422.8,55006,6355
+810,Goodyear,Consumer Durables,United States,19540,629,17527,6727
+811,KPN,Telecommunications services,Netherlands,13218,-294.7,35650,15213
+812,AES,Utilities,United States,16123,266,40411,10359
+813,Abu Dhabi Commercial Bank,Banking,United Arab Emirates,2521,920.1,49862,11198
+813,Fluor,Construction,United States,27352,667.7,8324,12428
+815,Weyerhaeuser,Materials,United States,8558,563,14498,17392
+816,Mylan,Drugs & Biotechnology,United States,6970,623.7,15236,18339
+817,Bank of East Asia,Banking,Hong Kong,4094,852.6,97237,9065
+818,Ensco,Oil & Gas Operations,United Kingdom,4920,1419.3,19473,12296
+819,AntarChile,Diversified Financials,Chile,24449,510.2,22059,6051
+820,HollyFrontier,Oil & Gas Operations,United States,20181,735.2,10057,9606
+821,Woori Finance Holdings,Diversified Financials,South Korea,10792,-491.6,309678,9212
+822,Bank Hapoalim,Banking,Israel,4970,714.8,109549,7555
+822,China Shipbuilding Industry,Capital Goods,China,7877,417.3,28572,13215
+824,Stanley Black & Decker,Consumer Durables,United States,11022,485.5,16535,12725
+825,SJM Holdings,Casinos & Gaming,Hong Kong,11300,993.5,5464,16492
+826,ALFA,Conglomerates,Mexico,15937,464.2,12628,13210
+827,Bed Bath & Beyond,Retailing,United States,11702,1062.9,6544,14899
+827,Dover,Conglomerates,United States,8730,1003.1,10838,14069
+829,UPM-Kymmene,Materials,Finland,13348,444.8,20117,9289
+830,ITC,"Food, Drink & Tobacco",India,5755,1397.9,6598,46929
+831,Waste Management,Business Services & Supplies,United States,13987,98,22603,19490
+832,Mega Financial Holding,Diversified Financials,Taiwan,2373,742.6,95449,9590
+833,LG Corp,Consumer Durables,South Korea,8984,819.1,15682,9465
+834,Invesco,Diversified Financials,United States,4740,940.3,19270,16165
+835,American Capital Agency,Real Estate,United States,1974,1258,76255,7666
+836,Kone,Construction,Finland,9204,931.9,7363,21613
+837,Pearson,Media,United Kingdom,7923,514.3,18104,14224
+838,Alcatel-Lucent,Technology Hardware & Equipment,France,19166,-1706,30172,11190
+839,Great Wall Motor,Consumer Durables,China,8907,1337.9,8690,15355
+839,Lixil Group,Construction,Japan,15788,517.3,16198,8485
+841,Voestalpine,Diversified Metals & Mining,Austria,14944,569,16980,7723
+842,Hanwha Life Insurance,Insurance,South Korea,12542,432.6,78027,5483
+843,Hertz Global Holdings,Business Services & Supplies,United States,10777,353.5,24588,12320
+844,Formosa Plastics,Chemicals,Taiwan,7256,693.6,13431,15990
+844,Galp Energia,Oil & Gas Operations,Portugal,26048,250.9,18910,14299
+846,AutoZone,Retailing,United States,9385,1047.7,7263,17827
+847,Eiffage,Construction,France,18948,341.2,37723,6661
+848,Symantec,IT Software & Services,United States,6799,869,13258,13956
+849,Wipro,IT Software & Services,India,7061,1245.5,7797,23146
+850,Nielsen Holdings,Media,United States,5760,740,15530,17121
+851,L Brands,Consumer Durables,United States,10773,903,7198,16715
+852,Origin Energy,Utilities,Australia,13963,169.7,27199,14498
+853,UBI Banca,Banking,Italy,6777,333,171199,8914
+854,Rakuten,Retailing,Japan,5312,439.4,30539,17650
+855,Fanuc,Capital Goods,Japan,4512,1048.8,12333,34375
+856,Sherwin-Williams,Retailing,United States,10186,748,6383,19932
+857,Naspers,Media,South Africa,6076,539.6,12050,46968
+858,Actavis,Drugs & Biotechnology,Ireland,8678,-750.4,22726,36508
+859,Tokyu,Transportation,Japan,11212,603.8,19048,7670
+860,Royal Caribbean Cruises,"Hotels, Restaurants & Leisure",United States,7960,473.7,20073,12415
+861,Axiata Group,Technology Hardware & Equipment,Malaysia,5831,809.4,13280,17661
+862,Datang International Power,Utilities,China,12116,572.5,49229,4907
+863,Essilor International,Health Care Equipment & Services,France,6724,787.3,10441,21293
+864,Assa Abloy,Capital Goods,Sweden,7441,732.5,10239,19993
+865,Reed Elsevier,Media,United Kingdom,9443,894.1,2097,17708
+866,Constellation Brands,"Food, Drink & Tobacco",United States,4269,1867.6,14336,16222
+866,SanDisk,Technology Hardware & Equipment,United States,6170,1042.7,10489,18744
+868,Applied Materials,Semiconductors,United States,8126,475,12199,24972
+869,Whole Foods Market,Food Markets,United States,13300,563,5720,19406
+870,HCP,Real Estate,United States,2113,919,20076,17747
+870,ICA Gruppen,Media,Sweden,11927,1559.3,10737,7363
+872,Oi,Telecommunications services,Brazil,13162,691.4,29711,2328
+873,Bharat Heavy Electricals,Capital Goods,India,8891,1229.8,13223,7959
+874,Unipol Gruppo,Insurance,Italy,26299,-104,111192,5626
+875,Kweichow Moutai,"Food, Drink & Tobacco",China,4600,2462.2,9160,27178
+876,TD Ameritrade Holding,Diversified Financials,United States,2927,721,22236,18770
+877,Grupo Televisa,Media,Mexico,5780,607,15023,19375
+878,Marriott International,"Hotels, Restaurants & Leisure",United States,12784,626,6794,16784
+879,Genuine Parts,Retailing,United States,14078,685,7680,13344
+879,Secom,Business Services & Supplies,Japan,8327,696.6,12135,13158
+881,Ross Stores,Consumer Durables,United States,10230,837.3,4094,15525
+882,RusHydro,Utilities,Russia,9815,620.3,27913,6133
+883,Agilent Technologies,Consumer Durables,United States,6781,740,10638,18792
+884,Textron,Conglomerates,United States,12104,498,12944,11108
+885,Staples,Retailing,United States,23114,620.1,11175,7438
+886,Everest Re Group,Insurance,Bermuda,5323,1248.2,19808,8624
+887,Land Securities Group,Real Estate,United Kingdom,1218,1247.7,19479,13407
+887,Weatherford International,Oil & Gas Operations,Switzerland,15263,-345,21977,13473
+889,WW Grainger,Capital Goods,United States,9438,785.4,5266,17375
+890,American Tower,Real Estate,United States,3361,551.3,20273,32237
+891,Bank of Ireland,Banking,Ireland,5813,-646.5,182078,14447
+891,Jiangxi Copper,Diversified Metals & Mining,China,28507,580.2,14663,5812
+893,Chow Tai Fook Jewellery,Consumer Durables,Hong Kong,8995,927,6876,15779
+894,Samsung C&T,Trading Companies,South Korea,25972,221.5,24130,9054
+895,Beiersdorf,Consumer Durables,Germany,8153,709,7989,24701
+896,Computer Sciences,IT Software & Services,United States,13234,665,11226,8960
+897,Pgnig Group,Oil & Gas Operations,Poland,10162,606.8,15624,8648
+898,Samsung Heavy Industries,Capital Goods,South Korea,13550,577.3,16513,6898
+899,CF Industries Holdings,Chemicals,United States,5475,1464.6,10906,14775
+900,Credicorp,Banking,Peru,4536,567,40982,11020
+901,Industries Qatar,Chemicals,Qatar,1599,2231.2,9612,31320
+902,Hershey,"Food, Drink & Tobacco",United States,7146,820.5,5357,23258
+903,Sinopharm Group,Drugs & Biotechnology,China,27148,366,17419,7118
+904,Power Assets Holdings,Utilities,Hong Kong,1318,1439,13572,18668
+905,Belgacom,Telecommunications services,Belgium,8327,836.4,11598,10678
+906,Areva,Utilities,France,12000,-655.8,41298,9918
+907,Rostelecom,Telecommunications services,Russia,9996,749.1,16759,6826
+908,DSM,Chemicals,Netherlands,12016,359.8,16559,12059
+909,CIT Group,Diversified Financials,United States,3518,675.7,47139,9748
+909,Nordstrom,Retailing,United States,12540,734,8574,11930
+911,VakifBank,Banking,Turkey,6265,884.4,62941,4845
+912,Hanwha Corp,Trading Companies,South Korea,35373,119,107379,2286
+913,Kobe Steel,Diversified Metals & Mining,Japan,18060,609.8,21230,4785
+914,Cemig,Utilities,Brazil,6774,1437.4,12637,8734
+915,Genting,Casinos & Gaming,Malaysia,5621,574.5,21827,11361
+916,Financiere de l'Odet,Conglomerates,France,13081,577.6,19608,6002
+917,Boston Properties,Real Estate,United States,2141,710.2,20162,17704
+917,Zhejiang Zheneng Electric Power,Utilities,China,7453,732.9,15200,9169
+919,Starbucks,"Hotels, Restaurants & Leisure",United States,15332,8.3,10255,55944
+920,NEC,Consumer Durables,Japan,30579,39.8,24185,7952
+921,Valeant Pharmaceuticals,Drugs & Biotechnology,Canada,5790,-871.6,27971,44623
+922,News Corp,Media,United States,8808,506,15983,10098
+923,Finatis,Food Markets,France,65466,105,56571,624
+924,Phoenix Group Holdings,Insurance,United Kingdom,6915,569,124048,2560
+925,Tesoro,Oil & Gas Operations,United States,38420,412,13389,6781
+926,GKN,Consumer Durables,United Kingdom,11154,617.4,10333,10907
+926,Nippon Yusen,Transportation,Japan,21972,451.8,25145,4913
+928,CSL,Drugs & Biotechnology,Australia,5044,1236.9,6237,31062
+928,Shanghai International Port,Transportation,China,4557,854.9,14637,17377
+930,NRG Energy,Utilities,United States,11850,-386,33902,10303
+931,Banque Saudi Fransi,Banking,Saudi Arabia,1589,641.4,45343,9738
+932,Dexia,Banking,Belgium,20167,-1438,307811,134
+933,KT Corp,Telecommunications services,South Korea,21750,-148.4,33019,7270
+934,Banque nationale de Belgique,Banking,Belgium,2919,1718,144699,1884
+935,Huadian Power International,Utilities,China,10838,674,28547,3649
+936,CarMax,Retailing,United States,12326,500.6,11304,10603
+936,Ryanair Holdings,Airline,Ireland,6676,693.4,11428,14683
+938,Shanghai Electric Group,Capital Goods,China,12844,400.1,21357,7296
+939,Investec,Diversified Financials,United Kingdom,5369,488.8,76970,6825
+940,Aluminum Corp of China,Diversified Metals & Mining,China,28114,159.5,32955,6570
+941,Hermès International,Consumer Durables,France,4985,1049,4630,34838
+941,Huntington Bancshares,Banking,United States,2841,638.7,59476,8544
+941,NiSource,Oil & Gas Operations,United States,5657,497.2,22654,11216
+944,RSA Insurance Group,Insurance,United Kingdom,14471,-542.4,32966,8658
+945,Haitong Securities,Diversified Financials,China,2069,690.3,22213,14423
+946,Pentair,Capital Goods,Switzerland,7479,537.1,11743,15836
+947,Onex,Diversified Financials,Canada,29014,-581,36867,6198
+948,Dassault Aviation,Aerospace & Defense,France,6098,609.9,13873,14201
+949,Sumitomo Metal Mining,Diversified Metals & Mining,Japan,8542,943.4,14367,6845
+950,Comerica,Banking,United States,2557,533,65471,9404
+951,Hong Kong & China Gas,Oil & Gas Operations,Hong Kong,3642,883.6,13722,21197
+951,Oneok,Oil & Gas Operations,United States,14583,266.5,17708,12290
+953,Emaar Properties,Real Estate,United Arab Emirates,2901,699.2,17678,17898
+954,Link REIT,Real Estate,Hong Kong,881,2542.7,13448,11365
+955,GAIL India,Oil & Gas Operations,India,9329,803.6,12171,7961
+956,Uni-President,"Food, Drink & Tobacco",Taiwan,14489,457,12370,8789
+957,Hindalco Industries,Diversified Metals & Mining,India,14645,556.2,22660,4775
+958,Turkcell,Telecommunications services,Turkey,5963,1225,9973,12483
+959,Reinsurance Group of America,Insurance,United States,10297,418.8,39674,5641
+960,Johnson Matthey,Chemicals,United Kingdom,19106,475,6043,11198
+961,Korea Gas,Oil & Gas Operations,South Korea,34768,-183.3,41376,5429
+962,MGM Resorts,Casinos & Gaming,United States,9810,-156.6,26110,13011
+963,SM Investments,Retailing,Philippines,5777,646.2,14262,12756
+964,Broadcom,Semiconductors,United States,8219,424,11495,18313
+965,Bank Negara Indonesia,Banking,Indonesia,3378,866.6,31771,8490
+966,Canara Bank,Banking,India,6870,545.7,77217,2019
+966,Kuwait Finance House,Banking,Kuwait,2812,408.3,54816,12571
+968,Asustek Computer,Technology Hardware & Equipment,Taiwan,15471,731.7,9084,7482
+968,Singapore Airlines,Airline,Singapore,12213,320.3,17943,9769
+970,Antofagasta,Diversified Metals & Mining,United Kingdom,5967,661.4,12390,13768
+971,Fidelity National Information,Business Services & Supplies,United States,6071,493.1,13960,15673
+972,Cathay Pacific Airways,Airline,Hong Kong,12955,337.8,22128,7445
+973,St Jude Medical,Health Care Equipment & Services,United States,5501,723,10248,18910
+974,CGI Group,IT Software & Services,Canada,9896,604.8,11107,9591
+975,Noble Group,Conglomerates,Hong Kong,97895,228.1,19712,6290
+976,Bank of India,Banking,India,6593,518.1,83976,2412
+977,Public Storage,Real Estate,United States,1982,1049,9876,29204
+978,Jeronimo Martins,Food Markets,Portugal,15705,507.5,7026,10593
+979,Bank of Greece,Banking,Greece,2762,1103,150878,432
+980,CapitaLand,Real Estate,Singapore,3331,679.1,28635,9827
+981,Schroders,Diversified Financials,United Kingdom,2846,551,27529,12497
+982,Coca-Cola Enterprises,"Food, Drink & Tobacco",United States,8212,667,9525,12164
+983,Tata Steel,Diversified Metals & Mining,India,23804,-1296.8,27242,6526
+984,Rockwell Automation,Capital Goods,United States,6453,791.8,5941,17325
+985,Avnet,Consumer Durables,United States,26657,457.8,11485,6511
+985,Finmeccanica,Aerospace & Defense,Italy,20748,38.5,40842,5782
+987,Wm Morrison Supermarkets,Food Markets,United Kingdom,27708,-373,17633,8188
+988,Canadian Tire,Retailing,Canada,11438,544.7,12828,7627
+989,China Oilfield Services,Oil & Gas Operations,China,4454,1093.1,13093,12773
+990,Ralph Lauren,Consumer Durables,United States,7226,750.2,6060,14667
+990,Showa Shell Sekiyu,Oil & Gas Operations,Japan,30257,617.6,12329,3276
+992,Schindler Holding,Capital Goods,Switzerland,9506,466,8767,17148
+993,Bank of Yokohama,Banking,Japan,2905,602.7,128389,6317
+994,Lorillard,"Food, Drink & Tobacco",United States,4972,1177,3536,19545
+995,Grupo Carso,Conglomerates,Mexico,6727,1091.2,6561,12071
+996,Banco Popolare,Banking,Italy,7168,-805,173680,7342
+997,Continental Resources,Oil & Gas Operations,United States,3545,764.2,12045,22804
+998,CA,IT Software & Services,United States,4582,1038,11777,14145
+999,NHN,IT Software & Services,South Korea,2262,1733.2,2556,24308
+1000,Wynn Resorts,Casinos & Gaming,United States,5621,728.7,8377,22993
+1001,Arab National Bank,Banking,Saudi Arabia,1604,672.6,36778,8026
+1002,Next,Consumer Durables,United Kingdom,5861,867,3525,17228
+1003,Weichai Power,Capital Goods,China,9442,580.7,12970,7719
+1004,Amcor,Materials,Australia,11182,503,8999,11513
+1005,Wendel,Diversified Financials,France,8539,443,18740,7682
+1006,Bidvest Group,Conglomerates,South Africa,17373,539.2,7345,8769
+1007,Brambles,Business Services & Supplies,Australia,5650,1325.6,7464,13395
+1008,Hankyu Hanshin Holdings,Transportation,Japan,7119,523.9,21621,6792
+1009,Qingdao Haier,Consumer Durables,China,13789,641,9853,7123
+1010,Sun Art Retail Group,Retailing,Hong Kong,14017,451,8244,11929
+1011,IntercontinentalExchange,Diversified Financials,United States,1795,254,64818,22223
+1011,Power Grid of India,Utilities,India,2395,792.4,22019,9456
+1013,Rock-Tenn,Materials,United States,9621,750.8,10591,7504
+1013,Mattel,Consumer Durables,United States,6485,895.7,6440,13686
+1015,Pohjola Bank,Banking,Finland,2561,562.9,60244,7331
+1016,Shaanxi Coal Industry,Diversified Metals & Mining,China,7015,1017,13129,6686
+1017,CenterPoint Energy,Oil & Gas Operations,United States,8117,311,21870,10215
+1018,Advanced Info Service,Telecommunications services,Thailand,4647,1180.5,3415,21039
+1019,Harley-Davidson,Consumer Durables,United States,5900,734,9405,15014
+1020,DP World,Transportation,United Arab Emirates,3073,639.6,16761,15098
+1021,Chongqing Rural Bank,Banking,China,4265,961.8,81110,4148
+1022,Legrand,Capital Goods,France,5922,704.3,9058,16545
+1022,Uralkali,Chemicals,Russia,3330,1159.9,12864,13106
+1024,Kyushu Electric Power,Utilities,Japan,17557,-1605.6,42370,5530
+1025,SGS,Business Services & Supplies,Switzerland,6289,647,5666,18925
+1025,Terna,Utilities,Italy,2533,682,20215,10863
+1027,Grupo Bimbo,"Food, Drink & Tobacco",Mexico,13846,334.5,10286,12761
+1028,Guangzhou R&F,Real Estate,China,5916,1246.4,23183,4570
+1029,Mediatek,Semiconductors,Taiwan,4584,927,8675,24023
+1030,KGHM Polska Miedz,Diversified Metals & Mining,Poland,7628,944.4,11423,7187
+1031,Ventas,Real Estate,United States,2812,449.9,19731,18066
+1032,O'Reilly Automotive,Retailing,United States,6649,670.3,6067,15886
+1033,Newmont Mining,Diversified Metals & Mining,United States,8322,-2462,24764,11794
+1034,Neste Oil,Oil & Gas Operations,Finland,23183,694.3,9701,5304
+1035,Sumitomo Chemical,Chemicals,Japan,21884,145.1,26867,6028
+1036,Air France-KLM,Airline,France,34035,-2424.2,35032,4686
+1037,Shin Kong Financial,Insurance,Taiwan,8451,353.6,83185,2951
+1038,Lagardère,Media,France,9467,1735.2,11149,5150
+1039,Tingyi Holding,"Food, Drink & Tobacco",China,10941,408.6,8424,16233
+1040,McGraw-Hill Cos,Media,United States,4875,903,6061,21087
+1041,Shire,Drugs & Biotechnology,Ireland,4996,670.5,8323,28981
+1042,Assurant,Insurance,United States,9025,488.9,30757,4714
+1043,BorgWarner,Consumer Durables,United States,7435,624.3,6917,14400
+1044,Cielo,Business Services & Supplies,Brazil,3119,1238.1,5642,25279
+1045,Bharat Petroleum,Oil & Gas Operations,India,40332,345.6,14858,5408
+1046,Dangote Cement,Construction,Nigeria,2425,1267.9,5272,24321
+1047,IHI,Capital Goods,Japan,12901,478.5,14180,6211
+1048,Helvetia Holding,Insurance,Switzerland,9072,379.8,49590,4454
+1049,Ashland,Chemicals,United States,7812,681,11983,7812
+1050,Latam Airlines,Airline,Chile,12921,-276.7,22631,8241
+1051,Ambac Financial Group,Insurance,United States,1024,3854.3,26961,1395
+1052,All Nippon Airways,Airline,Japan,16015,248.1,20503,7612
+1052,RHB Capital,Banking,Malaysia,3031,581.2,58339,6560
+1054,Henan Shuanghui Investment,"Food, Drink & Tobacco",China,7281,627.6,3263,13990
+1055,United Utilities,Utilities,United Kingdom,2600,1053.3,16783,9086
+1056,Storebrand,Insurance,Norway,8983,335.3,74211,2646
+1057,Hormel Foods,"Food, Drink & Tobacco",United States,8878,549.8,5067,12909
+1058,Intact Financial,Insurance,Canada,7223,418.3,18136,8267
+1059,Delhaize Group,Food Markets,Belgium,28538,239,15979,7297
+1060,Eletrobrás,Utilities,Brazil,15303,-2924.4,58657,4520
+1061,Norsk Hydro,Diversified Metals & Mining,Norway,11033,-175,18994,10169
+1062,Petronas Chemicals,Chemicals,Malaysia,4826,999.2,8466,16679
+1063,Prologis,Real Estate,United States,1777,335.1,24572,20424
+1064,Randstad Holding,Business Services & Supplies,Netherlands,21996,306.3,9105,10556
+1065,Attijariwafa Bank,Banking,Morocco,2793,487.6,44948,7878
+1065,Sembcorp Industries,Construction,Singapore,8629,655.7,10893,7669
+1067,Melco Crown Entertainment,Casinos & Gaming,Hong Kong,5087,637.5,8814,22108
+1068,China Resources Enterprise,Retailing,Hong Kong,18876,246,20028,6832
+1069,China Eastern Airlines,Airline,China,14268,386.5,22758,4759
+1070,Mitsubishi Materials,Diversified Metals & Mining,Japan,14143,481.4,17220,3720
+1071,Celanese,Chemicals,United States,6510,1101,9018,8737
+1072,Shaw Communications,Media,Canada,5061,739.9,11918,10945
+1073,Prada,Consumer Durables,Italy,4654,865.6,5110,20782
+1074,SES,Media,Luxembourg,2473,752.1,12524,14994
+1075,Tohoku Electric Power,Utilities,Japan,19913,-352.4,39522,4940
+1076,Lend Lease Group,Real Estate,Australia,12133,476,13785,6048
+1077,Alleghany,Insurance,United States,4947,628.4,23728,6795
+1078,Arrow Electronics,Consumer Durables,United States,21357,399.4,12061,5977
+1079,Boston Scientific,Health Care Equipment & Services,United States,7143,-121,16571,18026
+1080,Shizuoka Bank,Banking,Japan,2153,486.5,103261,6105
+1081,Stora Enso,Materials,Finland,13998,-70.4,17574,8523
+1082,Hyundai Engineering,Construction,South Korea,12732,460,13960,5933
+1083,Suntory Beverage & Food,"Food, Drink & Tobacco",Japan,11487,319.5,11957,10501
+1084,Chicago Bridge & Iron,Construction,Netherlands,11095,454.1,9390,9414
+1085,Daito Trust Construction,Construction,Japan,12792,653.2,5491,7234
+1086,PulteGroup,Construction,United States,5600,2602.1,8734,7485
+1086,T Rowe Price,Diversified Financials,United States,3499,1038.4,5223,21845
+1088,Huishang Bank Corporation Limited,Banking,China,3174,801,63118,4986
+1089,Quest Diagnostics,Health Care Equipment & Services,United States,7146,846,8948,8656
+1090,CMS Energy,Utilities,United States,6566,452,17416,7786
+1091,PKN Orlen,Oil & Gas Operations,Poland,36021,55.3,17115,6043
+1092,Arab Bank,Banking,Jordan,2236,497.1,46400,7013
+1093,China Southern Airlines,Airline,China,15931,308.5,27279,3749
+1093,Yamato Holdings,Transportation,Japan,13776,344,10082,9813
+1095,Brenntag,Chemicals,Germany,12970,450.3,7754,9591
+1095,Kawasaki Heavy Industries,Capital Goods,Japan,13561,356.6,15921,6263
+1097,Zimmer Holdings,Health Care Equipment & Services,United States,4623,761,9581,16065
+1098,Bank of Ningbo,Banking,China,3935,756.1,73906,4140
+1099,General Growth Properties,Real Estate,United States,2544,307.2,25762,19459
+1100,Rexel,Consumer Durables,France,17275,279.6,14526,7448
+1101,Charter Communications,Media,United States,8155,-169,17295,13575
+1102,NetApp,Technology Hardware & Equipment,United States,6396,614.3,9001,12295
+1103,Starwood Hotels,"Hotels, Restaurants & Leisure",United States,6087,565,8762,15421
+1104,Gjensidige Forsikring,Insurance,Norway,3779,624.2,17838,10250
+1105,MOL Hungarian Oil,Oil & Gas Operations,Hungary,24157,109.2,21526,5637
+1106,Coach,Consumer Durables,United States,4981,975.6,3544,13782
+1107,London Stock Exchange,Diversified Financials,United Kingdom,1374,262.2,913551,9020
+1108,Uniqa,Insurance,Austria,8521,376,40006,4121
+1109,New York Community,Banking,United States,1941,472.1,46855,7110
+1110,Campbell Soup,"Food, Drink & Tobacco",United States,8263,458,8119,13981
+1111,Keyence,Consumer Durables,Japan,2571,815.1,7838,25472
+1111,Santos,Oil & Gas Operations,Australia,3521,497.6,18438,12097
+1113,Dollar Tree,Retailing,United States,7840,596.7,2772,10821
+1114,Taishin Financial Holdings,Diversified Financials,Taiwan,2464,650,95877,3578
+1115,Sharp,Consumer Durables,Japan,29229,-1057.9,22895,5126
+1116,Bank of Nanjing,Banking,China,3311,721.9,69601,3721
+1117,Delta Lloyd,Insurance,Netherlands,8203,223.4,104670,5490
+1118,Industrivarden,Diversified Financials,Sweden,1789,1863.4,12387,7955
+1119,SMC Corp,Capital Goods,Japan,3858,864.2,9023,18174
+1120,Südzucker,"Food, Drink & Tobacco",Germany,10400,587.3,12512,5710
+1121,AmBank Group,Banking,Malaysia,2557,548.7,40000,6626
+1122,Western Union,Business Services & Supplies,United States,5532,798.4,10236,9189
+1123,Suning Appliance,Retailing,China,17087,153.5,13587,8564
+1124,Turk Telekom,Telecommunications services,Turkey,6920,683.7,8492,9905
+1125,First Republic Bank,Banking,United States,1605,462.1,42184,7277
+1126,Fiserv,IT Software & Services,United States,4814,654,9740,14580
+1127,Doosan,Construction,South Korea,20038,112.9,29531,2715
+1127,Mediobanca,Banking,Italy,4418,1.5,103738,9806
+1129,Osaka Gas,Oil & Gas Operations,Japan,14862,215.4,16005,7819
+1129,Vedanta Resources,Diversified Metals & Mining,United Kingdom,13684,-233.1,43836,4043
+1131,Asahi Glass,Construction,Japan,13521,165.3,20822,6718
+1131,EasyJet,Airline,United Kingdom,6643,620.9,7158,11702
+1133,BYD,Consumer Durables,China,8404,89.9,12882,17158
+1134,PartnerRe,Insurance,Bermuda,5838,654.9,23038,5187
+1134,Wisconsin Energy,Utilities,United States,4519,577.4,14769,10527
+1136,Fairfax Financial,Insurance,Canada,5848,-580.7,35959,9776
+1137,Kinnevik,Diversified Financials,Sweden,237,1299.8,10494,10228
+1138,Dongbu Insurance,Insurance,South Korea,11117,340.2,28325,3715
+1139,Colruyt,Food Markets,Belgium,11145,484.4,4934,8888
+1140,Noble,Oil & Gas Operations,Switzerland,4234,773.4,16218,8135
+1141,BCI-Banco Credito,Banking,Chile,3184,606.1,38532,6074
+1142,Molson Coors Brewing,"Food, Drink & Tobacco",United States,4206,567.3,15580,10840
+1143,Bank Leumi,Banking,Israel,4609,374.2,103636,5829
+1144,Eurazeo,Diversified Financials,France,5747,745,16914,5760
+1144,Hong Kong Exchanges,Diversified Financials,Hong Kong,1048,586.8,11084,17872
+1146,Sears Holdings,Retailing,United States,36188,-1365,18261,5175
+1147,Alliance Data Systems,Business Services & Supplies,United States,4319,496.2,13244,14493
+1147,El Puerto de Liverpool,Retailing,Mexico,5805,603.3,7359,14260
+1149,Arch Capital Group,Insurance,Bermuda,3458,709.7,19566,7669
+1150,FMC Technologies,Oil & Gas Operations,United States,7137,501.4,6606,12480
+1151,Kintetsu,Transportation,Japan,11867,281.9,18742,6661
+1151,Verbund,Utilities,Austria,4341,769.9,17650,7215
+1153,HCL Technologies,IT Software & Services,India,4664,736.5,4234,16603
+1154,Experian,Business Services & Supplies,Ireland,4782,652.1,8215,17991
+1155,E-mart,Retailing,South Korea,11907,426.8,12367,6317
+1156,W&W-Wüstenrot,Diversified Financials,Germany,8991,191.5,100090,2274
+1157,Sabesp,Utilities,Brazil,5318,997.2,12815,6500
+1158,Intuit,IT Software & Services,United States,4171,712,4718,22351
+1158,Red Eléctrica,Utilities,Spain,2334,702.5,12980,10996
+1160,Dai Nippon Printing,Media,Japan,14682,320.9,14731,6111
+1160,Goldcorp,Diversified Metals & Mining,Canada,3801,-2722.7,29564,19938
+1162,Quinenco,Conglomerates,Chile,8572,287.1,56736,3530
+1163,Mitsubishi UFJ Lease,Business Services & Supplies,Japan,7241,362.8,41329,4299
+1164,Saputo,"Food, Drink & Tobacco",Canada,8541,499.5,5160,9849
+1165,Delta Electronics,Consumer Durables,Taiwan,5806,544.6,6323,14925
+1166,CPFL Energia,Utilities,Brazil,7210,434.1,13158,7845
+1167,Chiba Bank,Banking,Japan,2226,467.1,112280,5228
+1168,Global Logistic Properties,Real Estate,Singapore,581,715.2,13530,9904
+1169,Advanced Semiconductor,Semiconductors,Taiwan,7407,549,9624,8639
+1170,Enka,Construction,Turkey,6541,655,8471,9639
+1171,Henry Schein,Health Care Equipment & Services,United States,9561,431.5,5625,10246
+1172,Lear,Consumer Durables,United States,16230,431.4,8331,7055
+1173,Amadeus IT Holdings,IT Software & Services,Spain,4121,747.6,7478,18854
+1173,Hyundai Glovis,Transportation,South Korea,11748,439.6,4803,8625
+1175,Hang Lung Group,Real Estate,Hong Kong,1255,587.5,25661,6804
+1176,Autoliv,Consumer Durables,Sweden,8803,485.8,6983,9547
+1176,Inner Mongolia Yili,"Food, Drink & Tobacco",China,7342,463.4,5183,12119
+1176,Zoomlion Heavy Industry,Capital Goods,China,6235,624.5,14790,6059
+1179,Braskem,Chemicals,Brazil,18973,236,20492,5334
+1180,Doosan Heavy Industries,Capital Goods,South Korea,17546,63.2,26271,3523
+1181,Metalurgica Gerdau,Diversified Metals & Mining,Brazil,18460,233.9,24798,2931
+1182,Alrosa,Diversified Metals & Mining,Russia,5009,989.3,10431,7809
+1182,Ameren,Utilities,United States,5838,289,21042,9890
+1182,Sojitz,Trading Companies,Japan,24260,246.6,21235,2126
+1185,Caltex Australia,Oil & Gas Operations,Australia,23486,511.2,5387,5360
+1186,Fidelity National Financial,Insurance,United States,8584,403,10524,8892
+1187,Hebei Iron & Steel,Diversified Metals & Mining,China,17387,-22.8,26105,3319
+1187,Nidec,Capital Goods,Japan,8531,234,10762,18046
+1189,American Financial Group,Insurance,United States,5040,471,40947,5151
+1189,Encana,Oil & Gas Operations,Canada,5663,237.3,17648,15794
+1191,Top Frontier Investment Holdings,Oil & Gas Operations,Philippines,16724,40,26859,681
+1192,WR Berkley,Insurance,United States,6415,499.9,20552,5323
+1193,Moody's,Business Services & Supplies,United States,2972,804.5,4395,17290
+1194,Espirito Santo Financial,Banking,Luxembourg,7841,-63.3,113636,1323
+1195,Jacobs Engineering,Construction,United States,12128,417.8,8441,8414
+1196,Beijing Enterprises,Oil & Gas Operations,Hong Kong,4895,468.4,12531,11389
+1197,China Taiping Insurance,Insurance,Hong Kong,11888,197.3,40265,4436
+1198,ATOS,IT Software & Services,France,11360,348,9721,8906
+1199,Flextronics International,Consumer Durables,Singapore,24680,295.6,12817,5596
+1200,Want Want China,"Food, Drink & Tobacco",China,3818,687.3,4348,20269
+1201,Yamaha Motor,Consumer Durables,Japan,14448,451.3,10909,5441
+1202,Julius Baer Group,Diversified Financials,Switzerland,2672,202.3,81545,9608
+1203,S-Oil,Oil & Gas Operations,South Korea,28461,265.4,11408,6551
+1204,Direct Line Insurance,Insurance,United Kingdom,6135,489,17849,5996
+1205,Dr Pepper Snapple Group,"Food, Drink & Tobacco",United States,5997,624,8201,10673
+1205,Pegatron,Consumer Durables,Taiwan,32165,298.4,13919,3487
+1207,Banca MPS,Banking,Italy,6690,-1910.5,274358,4525
+1207,Nintendo,Consumer Durables,Japan,6059,28.2,15100,16621
+1209,BPI,Banking,Philippines,1483,442.9,26953,7913
+1210,Cincinnati Financial,Insurance,United States,4530,517,18070,7820
+1211,Hindustan Petroleum,Oil & Gas Operations,India,34970,92.1,17113,1719
+1211,Mondi,Materials,United Kingdom,8598,512.4,8598,8409
+1213,Anadolu Efes,"Food, Drink & Tobacco",Turkey,4825,1368.8,10411,6747
+1214,HAL Trust,Diversified Financials,Netherlands,5463,589,9816,9846
+1215,Crown Castle International,Telecommunications services,United States,3022,90.1,20595,24975
+1216,Lennar,Construction,United States,6308,494.2,11273,8258
+1217,Equity Residential,Real Estate,United States,2440,-218.9,22835,21145
+1218,Cosmo Oil,Oil & Gas Operations,Japan,35442,1.6,16887,1529
+1219,Zain,Telecommunications services,Kuwait,4368,762.5,10966,9685
+1220,Industrial Alliance Insurance,Insurance,Canada,6282,373.6,39943,4123
+1220,ZTE,Technology Hardware & Equipment,Hong Kong,12126,221.7,16738,7184
+1222,Wuliangye Yibin,"Food, Drink & Tobacco",China,3788,1493.1,7168,10537
+1223,Intuitive Surgical,Health Care Equipment & Services,United States,2265,671,3950,18922
+1224,Oriental Land,"Hotels, Restaurants & Leisure",Japan,4677,692.8,6375,13723
+1225,PLDT,Telecommunications services,Philippines,3966,834,9004,13169
+1226,Power Finance,Business Services & Supplies,India,3181,815.4,31179,4229
+1227,CH Robinson Worldwide,Transportation,United States,12752,415.9,2803,7685
+1228,Sino-Ocean Land Holdings,Real Estate,China,5099,674.9,22774,3886
+1229,Union Bank of India,Banking,India,5152,391.6,57574,1423
+1230,CP All,Retailing,Thailand,8861,342.9,8791,12145
+1231,Ajinomoto,"Food, Drink & Tobacco",Japan,10490,317.3,10612,8898
+1232,Oji Holdings,Materials,Japan,13289,320.7,18341,4605
+1233,Adani Enterprises,Trading Companies,India,8564,296.4,19466,6502
+1234,Ingram Micro,Consumer Durables,United States,42554,310.6,11791,4583
+1235,Avalonbay Communities,Real Estate,United States,1418,353.1,15328,16989
+1236,Host Hotels & Resorts,Real Estate,United States,5263,317,12814,15559
+1237,Brown-Forman,"Food, Drink & Tobacco",United States,2953,639.2,3993,19127
+1238,JM Smucker,"Food, Drink & Tobacco",United States,5716,572.4,8989,10072
+1239,Saudi Arabian Fertilizers,Chemicals,Saudi Arabia,1131,842.7,2522,14265
+1240,Wärtsilä,Capital Goods,Finland,6179,519.1,7178,11019
+1241,Mead Johnson Nutrition,Consumer Durables,United States,4201,648.3,3474,17269
+1242,Analog Devices,Semiconductors,United States,2640,694.8,6399,16902
+1243,Xiamen C&D,Trading Companies,China,16218,423.7,11584,2354
+1244,Century Tokyo Leasing,Business Services & Supplies,Japan,8026,353.7,26632,2997
+1244,Clorox,Consumer Durables,United States,5654,567,4388,11421
+1246,Amphenol,Consumer Durables,United States,4615,635.7,6168,14589
+1246,Hong Leong Financial,Diversified Financials,Malaysia,2469,492.5,56040,5081
+1248,Novolipetsk Steel,Diversified Metals & Mining,Russia,10891,190.3,16284,7476
+1249,Harbin Bank,Banking,China,2582,545,53218,1138
+1250,Banco Comercial Portugues,Banking,Portugal,4978,-983.5,113002,6342
+1251,Mitsui OSK Lines,Transportation,Japan,17055,-928.2,21745,4734
+1252,TUI,Business Services & Supplies,Germany,24396,43.3,17540,4322
+1253,First Quantum Minerals,Diversified Metals & Mining,Canada,3552,459.4,15471,10655
+1254,Kotak Mahindra Bank,Banking,India,2880,421,18310,9876
+1254,Southwestern Energy,Oil & Gas Operations,United States,3062,703.5,8048,16161
+1256,Agile Property Holdings,Real Estate,Hong Kong,5353,835.8,16719,2862
+1257,Dubai Islamic Bank,Banking,United Arab Emirates,1273,438.6,30844,6758
+1258,CJ Corp,"Food, Drink & Tobacco",South Korea,17220,136.6,20963,3735
+1259,Bank of Ayudhya,Banking,Thailand,3062,386.2,35897,7039
+1260,Raymond James Financial,Diversified Financials,United States,4580,394.1,21924,7823
+1261,Thai Beverage,"Food, Drink & Tobacco",Thailand,5067,620.6,5579,12065
+1262,Michael Kors Holdings,Consumer Durables,Hong Kong,2991,601.5,2007,19424
+1263,Bankinter,Banking,Spain,2985,286,75974,7351
+1264,Health Care REIT,Real Estate,United States,2880,95.9,23084,17301
+1264,SKF Group,Capital Goods,Sweden,9762,140,11053,11713
+1266,Chugoku Electric Power,Utilities,Japan,12513,-220.9,27347,4937
+1267,AutoNation,Retailing,United States,17518,374.9,7914,6526
+1267,Gemdale,Real Estate,China,6274,514.2,19197,4971
+1267,Shinsei Bank,Banking,Japan,3474,419.6,87096,5125
+1270,OTP Bank,Banking,Hungary,6212,287.1,48151,5336
+1271,DSME,Capital Goods,South Korea,13980,245.8,17519,5857
+1271,Greentown China Holdings,Real Estate,China,4724,795.8,20208,2478
+1273,Delek Group,Diversified Financials,Israel,10654,207.8,35583,4672
+1274,Empire,Food Markets,Canada,18636,329.3,11140,5575
+1275,Eisai,Drugs & Biotechnology,Japan,6045,448.2,9312,10844
+1276,MISC,Transportation,Malaysia,2848,661.9,12283,9444
+1277,Belle International Holdings,Consumer Durables,Hong Kong,5897,730.8,5534,8372
+1278,Essar Energy,Oil & Gas Operations,Mauritius,27828,-330.3,16057,1458
+1279,CONSOL Energy,Diversified Metals & Mining,United States,4434,660.4,11394,9064
+1280,Oil & Gas Development,Oil & Gas Operations,Pakistan,2352,1071,4565,10802
+1280,Shoprite Holdings,Food Markets,South Africa,10062,385.8,3816,8905
+1282,China Cosco Holdings,Transportation,China,10074,38.3,26747,5511
+1283,Nikon,Consumer Durables,Japan,10035,487.9,9129,6372
+1284,Masraf Al Rayan,Banking,Qatar,604,467.5,18275,8455
+1285,Taisei,Construction,Japan,15104,307.4,14467,5191
+1286,GF Securities,Diversified Financials,China,1204,434.2,17475,9527
+1286,Westfield Retail Trust,Real Estate,Australia,517,749.5,12339,8318
+1288,Petrofac,Oil & Gas Operations,United Kingdom,6321,648,7257,8150
+1288,Zions Bancorp,Banking,United States,2301,386.1,56364,5772
+1290,IDBI Bank,Banking,India,5212,347.1,59378,1722
+1291,BBMG,Construction,China,7038,525.4,16327,4731
+1292,Savola Group,"Food, Drink & Tobacco",Saudi Arabia,7031,454.5,6603,9823
+1293,Sun Pharma Industries,Drugs & Biotechnology,India,2078,548.1,4072,19884
+1294,Vornado Realty,Real Estate,United States,2705,60.2,20097,18624
+1295,First Financial Holding,Diversified Financials,Taiwan,1581,366.5,76094,5491
+1296,Canadian Oil Sands,Oil & Gas Operations,Canada,3915,809.4,9591,10071
+1297,China Merchants Property,Real Estate,China,4558,683.2,22141,5023
+1298,Pirelli & C,Consumer Durables,Italy,8160,412,9960,7689
+1299,OMRON,Consumer Durables,Japan,7572,445.2,6140,9170
+1300,Popular,Banking,Puerto Rico,2525,599.3,35749,3243
+1300,Seiko Epson,Business Services & Supplies,Japan,10014,545.8,8513,6203
+1302,Hoya,Consumer Durables,Japan,4184,705.4,6515,13277
+1303,Juniper Networks,Technology Hardware & Equipment,United States,4669,439.8,10326,13245
+1303,Saudi Arabian Mining,Diversified Metals & Mining,Saudi Arabia,1507,448.6,17052,9002
+1305,Metro Inc,Food Markets,Canada,11063,670.1,4862,5210
+1306,Universal Health,Health Care Equipment & Services,United States,7284,510.4,8312,8117
+1307,Givaudan,Chemicals,Switzerland,4713,529,6974,14261
+1308,Petronas Gas,Oil & Gas Operations,Malaysia,1235,659.9,4037,14682
+1309,Severstal,Diversified Metals & Mining,Russia,13300,84,14534,6337
+1310,Regeneron Pharmaceuticals,Drugs & Biotechnology,United States,2105,424.4,2951,30666
+1311,PGN,Oil & Gas Operations,Indonesia,3003,857.5,4363,11249
+1312,Nitto Denko,Chemicals,Japan,7515,475,7563,8248
+1313,China National Chemical,Construction,China,9674,561.3,10973,4928
+1314,Hankook Tire,Consumer Durables,South Korea,6457,674,7369,7183
+1315,Keurig Green Mountain,"Food, Drink & Tobacco",United States,4406,514,3680,16344
+1316,Infineon Technologies,Semiconductors,Germany,5280,450.1,8073,13651
+1316,Torchmark,Insurance,United States,3775,528.5,18192,6996
+1318,Aeroports de Paris,Transportation,France,3657,404.6,13282,12586
+1319,Orica,Diversified Metals & Mining,Australia,6845,597,8045,7394
+1320,Paychex,Business Services & Supplies,United States,2440,605.1,7069,15459
+1321,KazMunaiGas Exploration,Oil & Gas Operations,Kazakhstan,5365,931.7,10337,5838
+1322,Ahli United Bank,Banking,Bahrain,1311,579.4,32652,4683
+1323,Catamaran,Health Care Equipment & Services,United States,14780,262.2,7996,9364
+1324,CNO Financial Group,Insurance,United States,4488,478,34781,4085
+1324,Inter Rao,Utilities,Russia,20783,-723.8,15598,2422
+1324,Severn Trent,Utilities,United Kingdom,2865,701.7,13005,7380
+1327,Obayashi,Construction,Japan,16019,123,17754,4174
+1328,JGC,Construction,Japan,6865,471.5,6901,8666
+1328,Steel Authority of India,Diversified Metals & Mining,India,8153,428,15919,4924
+1330,Abengoa,Construction,Spain,9766,134.1,29148,4003
+1330,Zoetis,Drugs & Biotechnology,United States,4561,504,6558,14696
+1332,Medipal Holdings,Drugs & Biotechnology,Japan,29538,237.2,13373,3624
+1333,Helmerich & Payne,Oil & Gas Operations,United States,3432,748.4,6411,11669
+1333,YTL,Utilities,Malaysia,6315,454.3,18518,4863
+1335,TCL Corp,Consumer Durables,China,13832,343.1,12898,3491
+1336,Avago Technologies,Semiconductors,Singapore,2653,561,3472,16241
+1337,Coca-Cola HBC,"Food, Drink & Tobacco",Switzerland,9126,293.7,10024,9145
+1338,Evraz Group,Diversified Metals & Mining,United Kingdom,14476,-378.5,18821,1982
+1338,Rural Electrification,Diversified Financials,India,2506,704.2,24023,3724
+1338,Xilinx,Semiconductors,United States,2297,605,5002,14672
+1341,Rockwell Collins,Aerospace & Defense,United States,4619,631,7093,10877
+1341,Deutsche Annington Immobilien,Construction,Germany,1876,637.5,15285,6762
+1343,LabCorp,Health Care Equipment & Services,United States,5808,573.7,6966,8724
+1344,Maxis,Telecommunications services,Malaysia,2883,560.2,5291,16012
+1345,AGL Energy,Utilities,Australia,9245,275,12466,7759
+1345,Ternium,Diversified Metals & Mining,Luxembourg,8530,455.4,10471,5946
+1347,Family Dollar Stores,Retailing,United States,10469,441.3,3908,6593
+1348,British Land,Real Estate,United Kingdom,543,448.6,12556,10995
+1349,Aozora Bank,Banking,Japan,1240,451.2,46221,4732
+1349,China International Marine,Capital Goods,China,9338,356.2,11993,6171
+1351,Electrolux Group,Consumer Durables,Sweden,16754,103,11833,6302
+1352,Vallourec,Capital Goods,France,7405,347.6,12816,6845
+1353,Check Point Software,IT Software & Services,Israel,1394,653,4886,13109
+1353,Coloplast,Health Care Equipment & Services,Denmark,2106,511.6,1552,17346
+1355,Protective Life,Insurance,United States,3981,393.5,69226,4211
+1356,Qantas Airways,Airline,Australia,14897,-328.9,17876,2244
+1357,PVH,Consumer Durables,United States,8186,123.2,11648,10278
+1358,Kajima,Construction,Japan,15323,209.8,17440,3800
+1359,Calpine,Utilities,United States,6498,14,16559,8907
+1360,Shanghai Construction,Construction,China,16224,263.2,15790,2763
+1360,Smith & Nephew,Health Care Equipment & Services,United Kingdom,4347,555,5819,13672
+1362,CSN,Diversified Metals & Mining,Brazil,8017,235.7,21364,6246
+1363,Banco Davivienda,Banking,Colombia,3069,456.2,28218,5756
+1364,Portugal Telecom,Telecommunications services,Portugal,7013,439.4,16564,3810
+1365,NMDC,Diversified Metals & Mining,India,1940,1011,5362,9125
+1366,CCR,Transportation,Brazil,2786,625.6,5948,13231
+1367,DR Horton,Construction,United States,6629,519.7,8927,7161
+1368,Unicharm,Consumer Durables,Japan,5841,436.5,5703,10685
+1369,AGCO,Capital Goods,United States,10787,597.2,8439,5142
+1370,Rite Aid,Retailing,United States,25384,291.5,7138,6176
+1371,Mohawk Industries,Consumer Durables,United States,7349,348.8,8494,9988
+1372,UC Rusal,Diversified Metals & Mining,Russia,9760,-3221.2,20580,5404
+1373,CR Bard,Health Care Equipment & Services,United States,3050,674.3,5041,11559
+1374,SCANA,Utilities,United States,4495,470,15164,7170
+1375,Cheng Shin Rubber Industry Co.,Consumer Durables,Taiwan,4452,627.4,5388,10676
+1375,Manpower,Business Services & Supplies,United States,20250,288,7288,6502
+1377,Bunzl,Business Services & Supplies,United Kingdom,9531,323.2,5253,8938
+1378,Toppan Printing,Media,Japan,15616,208.4,16086,4937
+1379,Ball,Materials,United States,8463,406.8,7820,7738
+1380,Sekisui Chemical,Construction,Japan,11067,450.8,9404,5321
+1381,Metropolitan Bank & Trust,Banking,Philippines,1877,518.3,31104,4884
+1382,Jiangsu Yanghe Brewery,"Food, Drink & Tobacco",China,2607,941.4,4366,9001
+1383,Petro Rabigh,Chemicals,Saudi Arabia,13492,95.8,12157,6377
+1383,UCB,Drugs & Biotechnology,Belgium,4529,275,13651,15280
+1385,Innolux,Technology Hardware & Equipment,Taiwan,14242,171.9,17052,3209
+1386,Stockland Australia,Real Estate,Australia,1762,530.2,13138,8003
+1387,Travis Perkins,Retailing,United Kingdom,8048,413.6,7360,7780
+1388,Korean Air,Airline,South Korea,10911,-221.3,21718,2123
+1389,Zijin Mining Group,Diversified Metals & Mining,China,8114,545,11116,4640
+1390,Flowserve,Capital Goods,United States,4955,485.5,5037,10847
+1391,Axis Capital Holdings,Insurance,Bermuda,4198,724.4,17782,5072
+1392,Mail.ru Group Ltd. Sponsored GDR RegS,IT Software & Services,Russia,674,1234,3245,7705
+1393,Yamaguchi Financial,Banking,Japan,1558,332.9,88199,2281
+1394,Markel,Insurance,United States,4309,283,24624,8333
+1395,GEA Group,Conglomerates,Germany,5735,446.1,8908,9002
+1396,Mashreq Bank,Banking,United Arab Emirates,1865,491.6,24409,5340
+1396,Sany Heavy Industry,Capital Goods,China,5790,450.8,11074,6933
+1398,Iliad,IT Software & Services,France,4976,357.5,6581,16463
+1399,Commercial Bank of Qatar,Banking,Qatar,1372,440.7,31062,5268
+1399,Foncière des Régions,Real Estate,France,1212,452,23674,5780
+1401,AU Optronics,Consumer Durables,Taiwan,14028,140.8,16516,3485
+1402,Wuhan Iron & Steel,Diversified Metals & Mining,China,14666,86.1,15933,3350
+1403,Nippon Express,Transportation,Japan,17289,266.9,12755,5032
+1404,Hyundai Marine & Fire,Insurance,South Korea,10003,254.1,21925,2548
+1405,Talisman Energy,Oil & Gas Operations,Canada,4654,-1190,19161,10313
+1406,Hellenic Telecom,Telecommunications services,Greece,5378,420.5,10831,8087
+1407,Garmin,Consumer Durables,Switzerland,2632,612.4,4880,11580
+1407,Perrigo,Drugs & Biotechnology,Ireland,3795,255.8,13713,20845
+1409,Roper Industries,Capital Goods,United States,3238,538.3,8185,13398
+1410,Wyndham Worldwide,"Hotels, Restaurants & Leisure",United States,5008,433,9741,9498
+1411,Community Health Sys,Health Care Equipment & Services,United States,12998,141.2,17117,4433
+1412,Advance Auto Parts,Retailing,United States,6494,390.9,5565,9280
+1413,Aldar Properties,Real Estate,United Arab Emirates,1465,611.6,11905,7535
+1414,Charoen Pokphand Foods,"Food, Drink & Tobacco",Thailand,12667,229.9,11108,6703
+1415,City Developments,Real Estate,Singapore,2527,545.8,13219,7359
+1416,Tele2,Telecommunications services,Sweden,4585,2239.4,6205,5485
+1417,Adobe Systems,IT Software & Services,United States,4019,271.9,10246,32815
+1418,Accor,"Hotels, Restaurants & Leisure",France,7350,167.3,9728,11988
+1419,Zodiac Aerospace,Aerospace & Defense,France,5089,485.1,5697,9836
+1420,Pioneer Natural Resources,Oil & Gas Operations,United States,3490,-838.9,12293,26541
+1421,Bta Bank,Banking,Kazakhstan,1215,2481.9,10630,810
+1422,Banco Occidental,Banking,Venezuela,1552,282.8,17483,11346
+1423,Starwood Property Trust,Real Estate,United States,600,308,104075,4616
+1424,Gecina,Real Estate,France,1002,416.9,15157,8162
+1425,Cerner,Health Care Equipment & Services,United States,2911,398.4,4098,19430
+1425,STRABAG,Construction,Austria,16506,167.1,13942,2717
+1427,United Rentals,Business Services & Supplies,United States,4956,387,11231,8943
+1428,Caesars Entertainment,Casinos & Gaming,United States,8560,-2948.1,24689,2781
+1428,ST Engineering,Aerospace & Defense,Singapore,5301,464.2,6896,9477
+1430,Lotte Chemical,Chemicals,South Korea,15016,263,10127,6158
+1431,Dassault Systemes,IT Software & Services,France,2743,467.7,5771,14807
+1432,TAQA,Utilities,United Arab Emirates,7013,-685.8,33195,2147
+1433,EQT,Oil & Gas Operations,United States,2073,390.6,9682,14988
+1434,Alfresa Holdings,Drugs & Biotechnology,Japan,25239,223.1,11574,3773
+1434,Shimizu,Construction,Japan,15210,93.5,14452,4144
+1436,Ametek,Capital Goods,United States,3594,517,5878,12877
+1437,Fukuoka Financial Group,Banking,Japan,2411,293.2,130828,3566
+1438,Level 3 Communications,Telecommunications services,United States,6313,-109,12874,9586
+1438,Syndicate Bank,Banking,India,3362,405.4,39824,950
+1440,Remgro,Conglomerates,South Africa,2202,663.8,7376,9877
+1441,Aramark,"Hotels, Restaurants & Leisure",United States,13505,104,10249,6605
+1442,US Steel,Diversified Metals & Mining,United States,17424,-1672,13143,4005
+1443,Acciona,Construction,Spain,8772,-2618.1,23127,4916
+1443,Nomos Bank,Banking,Russia,3416,449.1,31924,3084
+1445,Guangdong Electric Power,Utilities,China,6635,582.2,11114,3329
+1446,Shanghai Pharmaceuticals,Retailing,China,12088,353,8983,5775
+1447,ITV,Media,United Kingdom,3734,509.6,4344,12904
+1447,Renesas Electronics,Semiconductors,Japan,8378,44.2,7571,12619
+1449,Crown Resorts,Casinos & Gaming,Australia,2801,576.2,5795,11219
+1450,E-Trade Financial,Diversified Financials,United States,1930,86,46280,6849
+1451,TDC,Telecommunications services,Denmark,4380,555.2,11158,7389
+1452,Olam International,"Food, Drink & Tobacco",Singapore,16015,272.5,12294,4214
+1453,Assured Guaranty,Insurance,Bermuda,1236,807,16086,4683
+1454,KLA-Tencor,Semiconductors,United States,2808,551.6,5441,11664
+1454,Mitsui Chemicals,Chemicals,Japan,15443,-173.1,13747,2456
+1456,Alfa Laval,Capital Goods,Sweden,4595,464.6,5440,11466
+1456,Netease,IT Software & Services,China,1498,723.9,4055,9077
+1458,SDIC Power Holdings,Oil & Gas Operations,China,4230,457.4,25604,5018
+1459,Shenzhen Overseas,"Hotels, Restaurants & Leisure",China,3747,717.1,14532,5483
+1460,Kerry Group,"Food, Drink & Tobacco",Ireland,7749,112.1,7179,13510
+1461,Kingdom Holding,Diversified Financials,Saudi Arabia,659,198,12348,22234
+1462,SOHO China,Real Estate,China,2388,1204.9,12855,4322
+1463,Hua Nan Financial,Diversified Financials,Taiwan,1503,296.5,71148,5173
+1464,Fastenal,Retailing,United States,3326,448.6,2076,14794
+1465,SinoPac Financial,Diversified Financials,Taiwan,1367,352.7,48308,3963
+1466,China Longyuan Power,Utilities,China,3111,332.5,18281,8184
+1467,BM&F Bovespa,Diversified Financials,Brazil,987,500.8,10977,8708
+1468,China Merchants Holdings,Transportation,Hong Kong,1286,515.3,11144,8338
+1469,Chongqing Changan Auto,Consumer Durables,China,5833,481.6,8196,7706
+1470,FCC,Construction,Spain,8930,-1999.8,21499,2856
+1470,Olympus,Technology Hardware & Equipment,Japan,7132,63.9,9777,10822
+1472,Yanzhou Coal Mining,Diversified Metals & Mining,China,9350,259.5,19565,4518
+1473,China Life Insurance (Taiwan),Insurance,Taiwan,6840,159,30791,2500
+1474,NXP Semiconductors,Semiconductors,Netherlands,4815,348,6449,15085
+1474,Sunac China Holdings,Construction,China,5030,518.7,16081,1956
+1476,Interpublic Group,Media,United States,7122,267.9,12905,7336
+1477,Electric Power Development,Utilities,Japan,7046,281.5,22250,4673
+1478,Hengan International Group,Consumer Durables,China,2731,479.7,5183,12866
+1478,Quanta Services,Construction,United States,6523,401.9,5880,8032
+1478,Zenith Bank,Banking,Nigeria,2104,594.5,19651,3995
+1481,Petronas Dagangan,Oil & Gas Operations,Malaysia,10266,257.7,3104,9321
+1482,Bendigo & Adelaide Bank,Banking,Australia,3138,331.4,54049,4300
+1483,Nürnberger,Insurance,Germany,6207,95,36345,1149
+1484,Whitbread,"Hotels, Restaurants & Leisure",United Kingdom,3368,479.3,5015,12780
+1485,Turkish Airlines,Airline,Turkey,9870,358.2,11822,4292
+1486,Hexagon,Capital Goods,Sweden,3226,488.7,7542,12305
+1487,Old Republic International,Insurance,United States,5442,447.7,16534,4293
+1487,Yamada Denki,Retailing,Japan,18728,-7.5,11815,2941
+1489,Grifols,Drugs & Biotechnology,Spain,3640,458.8,8049,13236
+1489,Visteon,Consumer Durables,United States,7439,690,6027,4328
+1491,X5 Retail Group,Food Markets,Russia,16785,344.9,8646,4453
+1492,Angang Steel,Diversified Metals & Mining,China,12226,125.2,15340,3566
+1492,CBRE Group,Real Estate,United States,7185,316.5,6998,9179
+1492,Compal Electronics,Technology Hardware & Equipment,Taiwan,23086,63.2,10690,3075
+1495,Sika,Construction,Switzerland,5547,369.1,5321,10202
+1496,Manila Electric,Utilities,Philippines,7032,405,5363,7242
+1497,Shanxi Taigang Stainless,Diversified Metals & Mining,China,17616,140.4,11974,2184
+1498,Bajaj Auto,Consumer Durables,India,3586,575.6,2361,10003
+1499,Cimarex Energy,Oil & Gas Operations,United States,1998,553.8,7253,10293
+1499,Scripps Networks Interactive,Media,United States,2531,505.1,4438,11361
+1501,Union National Bank,Banking,United Arab Emirates,1185,442,23835,5172
+1502,Terumo,Health Care Equipment & Services,Japan,4628,606.4,8214,8077
+1503,Geberit,Construction,Switzerland,2157,470.1,2503,12493
+1504,Taiwan Mobile,Telecommunications services,Taiwan,3677,525,4642,10769
+1505,American Water Works,Utilities,United States,2902,369.1,15070,8071
+1506,Isetan Mitsukoshi Holdings,Retailing,Japan,13147,280.9,12205,4884
+1507,Wolters Kluwer,Media,Netherlands,4733,459.4,9458,8378
+1508,Tenet Healthcare,Health Care Equipment & Services,United States,11102,-134,16130,4153
+1509,China Hongqiao Group,Diversified Metals & Mining,China,4785,909.6,10766,3900
+1510,E-L Financial,Insurance,Canada,2129,743.7,14951,2606
+1510,Petsmart,Retailing,United States,6917,419.5,2522,6886
+1510,Sigma-Aldrich,Chemicals,United States,2704,491,3805,11236
+1513,Arca Continental,"Food, Drink & Tobacco",Mexico,4728,467.5,5086,9415
+1514,Newell Rubbermaid,Consumer Durables,United States,5692,420.1,6070,8451
+1515,Golden Agri-Resources,"Food, Drink & Tobacco",Singapore,6585,310.2,14148,5914
+1516,Bank of Chongqing,Banking,China,1818,378.4,34158,1734
+1517,Hachijuni Bank,Banking,Japan,1694,291.5,71493,2854
+1517,Jyske Bank,Banking,Denmark,1750,321.7,48393,4131
+1519,FBN Holdings,Banking,Nigeria,2264,477.9,22600,2477
+1520,Nippon Paper Industries,Materials,Japan,12364,128.5,14283,2168
+1521,Salesforce.com,IT Software & Services,United States,4071,-232.2,9153,35874
+1521,Taiwan Cooperative Financial,Diversified Financials,Taiwan,2020,270.1,101874,4596
+1523,Public Power,Utilities,Greece,7927,-299.1,21799,3933
+1524,KT&G,"Food, Drink & Tobacco",South Korea,3491,521.3,6704,10280
+1525,Willis Group Holdings,Insurance,United Kingdom,3660,365,14800,7913
+1526,Actelion,Drugs & Biotechnology,Switzerland,1926,488.1,3407,10851
+1526,Israel Corp,Diversified Financials,Israel,10963,-529.1,15697,4341
+1528,Intu Properties plc,Real Estate,United Kingdom,833,562.4,13597,5961
+1529,Cosan,"Food, Drink & Tobacco",Brazil,14235,121.5,12625,3052
+1530,Foot Locker,Consumer Durables,United States,6505,429,3487,6889
+1531,Westlake Chemical,Chemicals,United States,3759,607.9,4061,8947
+1532,Alpiq Holding,Utilities,Switzerland,10107,-10.8,16329,3761
+1533,Pembina Pipeline,Oil & Gas Operations,Canada,4913,340.6,8604,12102
+1534,Smiths Group,Conglomerates,United Kingdom,4819,484.9,5834,8431
+1534,Suzuken,Drugs & Biotechnology,Japan,19995,230.4,10339,3477
+1536,Rockwood Holdings,Chemicals,United States,2450,1659.9,5532,5606
+1536,Joyo Bank,Banking,Japan,1557,270.4,81947,3902
+1538,Songbird Estates plc,Real Estate,United Kingdom,608,964,12226,3082
+1539,Mechel,Diversified Metals & Mining,Russia,11273,-1664.6,14619,451
+1540,Permanent TSB Group,Diversified Financials,Ireland,1385,-346.5,51850,5794
+1541,Industrias Peñoles,Diversified Metals & Mining,Mexico,5213,372.9,6957,9861
+1542,Darden Restaurants,"Hotels, Restaurants & Leisure",United States,8740,332.8,7225,6792
+1543,Two Harbors Investment,Real Estate,United States,623,579,17174,3770
+1544,Embraer,Aerospace & Defense,Brazil,6315,360.1,10071,6583
+1545,World Fuel Services,Retailing,United States,41537,203.1,4739,3214
+1546,Mizrahi Tefahot Bank,Banking,Israel,2101,298.7,51747,3104
+1547,Gudang Garam,"Food, Drink & Tobacco",Indonesia,5306,414.3,4172,8657
+1548,BCV Group,Banking,Switzerland,1388,302.1,45487,5037
+1549,Banca Popolare dell'Emilia,Banking,Italy,4267,9,85100,4357
+1550,Dongfang Electric,Capital Goods,China,6852,382.2,12904,3905
+1551,Sino Land,Real Estate,Hong Kong,674,565.9,17387,3780
+1552,ISS,Business Services & Supplies,Denmark,13967,-71,8972,6251
+1553,Wistron,Technology Hardware & Equipment,Taiwan,21964,223.4,9702,1965
+1554,Capita,Business Services & Supplies,United Kingdom,6019,277,7622,12123
+1554,Novozymes,Drugs & Biotechnology,Denmark,2091,391.3,3049,13789
+1556,Hokuhoku Financial Group,Banking,Japan,1881,248.7,107056,2535
+1557,Chang Hwa Bank,Banking,Taiwan,1148,286.3,56243,4605
+1558,SINOPEC Engineering (Group),Chemicals,China,7091,594,7824,4961
+1559,Altera,Semiconductors,United States,1733,440.1,6010,11569
+1560,Iyo Bank,Banking,Japan,1232,281.6,58401,3005
+1561,Chipotle Mexican Grill,"Hotels, Restaurants & Leisure",United States,3215,327.4,2114,17962
+1562,LIG Insurance,Insurance,South Korea,8033,143.6,18810,1736
+1563,Linear Technology,Semiconductors,United States,1317,425.5,2272,11898
+1564,China Mengniu Dairy,"Food, Drink & Tobacco",Hong Kong,7053,265.3,4422,9954
+1565,China Merchants Securities,Diversified Financials,China,1405,362.7,13736,7727
+1566,Lundbergs,Real Estate,Sweden,3082,461.5,14994,5909
+1567,IOI Group,"Food, Drink & Tobacco",Malaysia,3910,515.7,7833,9288
+1568,GS Holdings,Oil & Gas Operations,South Korea,8792,327.6,11974,4247
+1569,Smurfit Kappa Group,Materials,Ireland,10564,249.6,11343,5829
+1570,Beam,"Food, Drink & Tobacco",United States,2548,363.9,8585,13772
+1571,Avis Budget Group,Business Services & Supplies,United States,7938,16,16335,5285
+1572,Hikvision,Consumer Durables,China,1485,429.8,1999,11449
+1573,Enagas,Oil & Gas Operations,Spain,1685,535.4,9936,7332
+1574,MMI Holdings,Insurance,South Africa,4346,304,36142,3632
+1574,Vestas Wind Systems,Capital Goods,Denmark,8078,-108.8,7772,9420
+1576,Hammerson plc,Real Estate,United Kingdom,604,527.4,11270,6558
+1577,Metso,Capital Goods,Finland,7890,400.9,5068,5859
+1578,Jarden,Consumer Durables,United States,7356,203.9,10096,7995
+1579,Huatai Securities,Diversified Financials,China,1109,343.6,16455,6938
+1580,Kawasaki Kisen Kaisha,Transportation,Japan,12808,173.9,12209,2019
+1581,STMicroelectronics,Semiconductors,Switzerland,8083,-500,9173,8267
+1582,Fortis (Canada),Utilities,Canada,3928,388.2,16855,6119
+1583,Harbinger Group,Consumer Durables,United States,5670,-141.6,28764,1801
+1584,J Front Retailing,Retailing,Japan,12167,301.5,9998,3585
+1585,Porto Seguro,Insurance,Brazil,6159,650.7,8618,4574
+1586,Crescent Point Energy,Oil & Gas Operations,Canada,2797,140.6,12314,14570
+1587,Thai Oil,Oil & Gas Operations,Thailand,13492,338.2,6358,3341
+1588,Weir Group,Capital Goods,United Kingdom,3798,523.5,5236,8933
+1589,Aberdeen Asset Management,Diversified Financials,United Kingdom,2058,512,7267,9069
+1589,NVIDIA,Semiconductors,United States,4130,440,7251,10337
+1591,TDK,Consumer Durables,Japan,9890,69.3,12481,5425
+1592,K+S,Chemicals,Germany,5134,548,8786,6248
+1593,Harris,Technology Hardware & Equipment,United States,4978,444,4884,7884
+1593,OCI,Chemicals,Netherlands,5492,260,11092,9477
+1595,Forest Laboratories,Drugs & Biotechnology,United States,3368,156.7,9059,25283
+1596,Hyosung,Diversified Metals & Mining,South Korea,11490,-217.2,12880,2520
+1597,DIA,Food Markets,Spain,13069,277.7,4644,5859
+1597,Minmetals Development,Trading Companies,China,28625,59.9,8312,1945
+1597,Nishi-Nippon City Bank,Banking,Japan,1825,242.5,77301,1842
+1600,Expeditors International,Air Courier,United States,6080,348.5,3040,7988
+1601,Hopson Development Holdings,Real Estate,Hong Kong,2019,496.6,17435,2138
+1602,77 Bank,Banking,Japan,1053,107.1,76576,1672
+1603,Eastman Kodak,Consumer Durables,United States,2347,1985,3200,1377
+1603,Saudi Hollandi Bank,Banking,Saudi Arabia,823,400.4,21456,5118
+1605,Chugoku Bank,Banking,Japan,1174,261.1,66049,2603
+1606,North Pacific Bank,Banking,Japan,1913,233.8,74593,1656
+1607,Lanxess,Chemicals,Germany,11019,-211.1,9385,6345
+1608,Aspen Pharmacare Holdings,Drugs & Biotechnology,South Africa,2309,390.4,7691,12091
+1608,OHL Group,Construction,Spain,4891,359,18850,4396
+1610,Alexion Pharmaceuticals,Drugs & Biotechnology,United States,1529,252.9,3318,30732
+1610,Subsea 7,Oil & Gas Operations,United Kingdom,6297,347.3,10357,6107
+1612,Airports of Thailand,Transportation,Thailand,1233,543.1,4744,8542
+1612,Bank of Kyoto,Banking,Japan,1055,180.5,73635,3130
+1614,Burberry Group,Consumer Durables,United Kingdom,3351,439.9,2850,10243
+1614,Ezdan Holding Group,Real Estate,Qatar,307,294.2,11315,11590
+1616,Cattolica Assicurazioni,Insurance,Italy,5963,89,24520,1465
+1617,Tech Data,Consumer Durables,United States,26312,176.3,6705,2354
+1618,Tractor Supply,Retailing,United States,5165,328.2,1903,10009
+1619,Hiroshima Bank,Banking,Japan,1320,228.5,69427,2601
+1620,Semen Indonesia,Construction,Indonesia,2345,514,2530,8652
+1621,Tobu Railway,Transportation,Japan,5952,343,14123,5136
+1622,Banca Popolare di Milano,Banking,Italy,2895,39.3,68006,3242
+1622,Crown Holdings,Materials,United States,8665,324,8030,6254
+1624,Gunma Bank,Banking,Japan,1265,248.7,67805,2532
+1625,Franshion Properties (China),Diversified Financials,Hong Kong,2671,545,15585,3071
+1626,China Communications Services,Telecommunications services,China,11139,364,7970,3098
+1626,Cliffs Natural Resources,Diversified Metals & Mining,United States,5569,413.5,13122,3068
+1628,Alaska Air Group,Airline,United States,5156,508,5838,6463
+1629,Bank Muscat,Banking,Oman,1118,395.3,22044,4013
+1630,JB Hunt Transport,Transportation,United States,5585,342.4,2819,8563
+1631,Nabors Industries,Oil & Gas Operations,Bermuda,6229,141.7,12160,7312
+1632,SNC-Lavalin Group,Construction,Canada,7680,34.7,11080,6672
+1633,Federal Grid of UES,Utilities,Russia,4770,-235.8,38325,2776
+1634,SK Networks,Trading Companies,South Korea,23727,-518.8,8414,2201
+1635,NCR,Technology Hardware & Equipment,United States,6123,443,8108,6110
+1636,Bank Audi,Banking,Lebanon,2268,301.7,36213,2242
+1637,Central Bank of India,Banking,India,4331,196.1,49475,1120
+1638,BS Financial Group,Diversified Financials,South Korea,2195,278.1,44456,2758
+1638,CorpBanca,Banking,Chile,2260,313,33286,4028
+1638,Masco,Construction,United States,8173,263,6933,8005
+1641,China National Materials,Capital Goods,China,8480,65,15612,654
+1642,G4S,Business Services & Supplies,United Kingdom,11611,-565.8,8864,6260
+1642,Maanshan Iron & Steel,Diversified Metals & Mining,China,12012,25.6,11838,1954
+1644,Twitter,Media,United States,665,-645.3,3366,27642
+1645,Liberbank,Banking,Spain,1963,65.3,61383,1756
+1646,First Niagara Financial,Banking,United States,1571,294.1,37815,3380
+1647,Grupo Elektra,Retailing,Mexico,5558,64.8,13368,7333
+1647,Netflix,Retailing,United States,4375,112.4,5413,21811
+1647,Thomas Cook Group,Business Services & Supplies,United Kingdom,14531,-310.5,10178,4429
+1650,Petrovietnam Gas,Oil & Gas Operations,Vietnam,3112,588.9,2394,7455
+1651,Sumitomo Rubber,Consumer Durables,Japan,7996,458.8,8253,3348
+1651,Yandex NV,IT Software & Services,Netherlands,1237,420.2,2170,10192
+1653,Aareal Bank,Banking,Germany,1309,155,59226,2691
+1654,Banco BPI,Banking,Portugal,1423,88.8,58830,3751
+1655,China Gezhouba,Construction,China,9113,256.3,13954,2878
+1655,JC Penney,Retailing,United States,11859,-1388,11801,2693
+1657,Aurizon Holdings,Transportation,Australia,3670,365,9339,10058
+1657,Banca CARIGE,Banking,Italy,1829,-2001.3,58089,1985
+1657,Tesla Motors,Consumer Durables,United States,2014,-74,2417,26729
+1660,Israel Discount Bank,Banking,Israel,2690,242.1,57766,1959
+1661,A2A,Utilities,Italy,7119,82.3,17607,4055
+1661,Blom Bank,Banking,Lebanon,1637,346.3,26150,1937
+1663,Huntsman,Chemicals,United States,11079,128,9188,6040
+1664,JTEKT,Consumer Durables,Japan,12452,212.7,10623,5077
+1665,Waters,Health Care Equipment & Services,United States,1904,450,3583,9274
+1666,E.Sun Financial,Diversified Financials,Taiwan,1248,269.1,45117,3453
+1667,Almarai,"Food, Drink & Tobacco",Saudi Arabia,2992,400.6,6207,10359
+1668,BOE Technology Group,Consumer Durables,China,5376,363.7,14801,4817
+1669,SL Green Realty,Real Estate,United States,1480,134.7,14959,9639
+1670,Banrisul,Banking,Brazil,3591,366.6,22554,2318
+1670,Equity Assurance,Insurance,Nigeria,24,0.9,54343,27
+1672,Juroku Bank,Banking,Japan,1128,143.2,54184,1321
+1673,Ruentex Industries,Consumer Durables,Taiwan,2601,1511,3890,2268
+1674,Atco,Utilities,Canada,4230,405.7,15068,5544
+1674,Salzgitter,Diversified Metals & Mining,Germany,12273,-653.6,11107,2383
+1676,Ashikaga Holdings,Banking,Japan,1127,185.8,53854,1458
+1677,Ziggo,Media,Netherlands,2077,461.3,7284,8897
+1678,Bolsas & Mercados,Diversified Financials,Spain,404,190,53608,3431
+1679,Thanachart Capital,Banking,Thailand,2381,306.1,31982,1352
+1680,Brilliance China Automotive Holdings,Consumer Durables,Hong Kong,994,548.1,3137,7658
+1681,Halyk Bank,Banking,Kazakhstan,1704,474.8,16261,2202
+1682,ARM Holdings,Semiconductors,United Kingdom,1117,163.7,2714,24539
+1683,ProSiebenSat1 Media,Media,Germany,3459,414.4,4900,9882
+1684,Hyundai Hysco,Diversified Metals & Mining,South Korea,3696,1469.6,5249,1188
+1684,Shionogi & Co.,Drugs & Biotechnology,Japan,2966,774.6,5851,6098
+1686,Sega Sammy Holdings,Consumer Durables,Japan,4285,765.4,5476,5766
+1687,Imperial Holdings,Conglomerates,South Africa,10203,357.4,5386,3709
+1687,Senshu Ikeda Holdings,Banking,Japan,999,113.6,50675,1078
+1687,WABCO Holdings,Consumer Durables,United States,2720,653.2,2393,6600
+1690,Hugo Boss,Consumer Durables,Germany,3229,436.7,2069,9187
+1691,Magnitogorsk Iron & Steel,Diversified Metals & Mining,Russia,8370,-400.3,14406,1824
+1692,Nanto Bank,Banking,Japan,809,77.8,49744,1014
+1693,ASM International N.V.,Semiconductors,Netherlands,813,1361,2138,2576
+1694,Emirates Integrated Telecom,Telecommunications services,United Arab Emirates,2940,540.8,4405,7480
+1695,BayWa,Retailing,Germany,19457,182.4,6911,1972
+1696,Affiliated Managers Group,Diversified Financials,United States,2204,360.5,6319,11325
+1697,IDB Holding,Diversified Financials,Israel,8945,-93.5,13412,6
+1698,China Agri-Industries,Chemicals,Hong Kong,12189,196.1,10675,2098
+1699,Qatar Islamic Bank,Banking,Qatar,850,366.8,21242,4861
+1700,Lindt & Sprungli,"Food, Drink & Tobacco",Switzerland,3109,326.8,4364,13199
+1700,LinkedIn,IT Software & Services,United States,1529,26.8,3353,22655
+1702,Hyakugo Bank,Banking,Japan,814,126.4,48137,1036
+1702,PBF Energy,Oil & Gas Operations,United States,19151,39.5,4414,2961
+1704,Pacific Rubiales Energy,Oil & Gas Operations,Canada,4625,431.2,11210,5882
+1705,Far Eastern New Century,Chemicals,Taiwan,8021,231.8,12311,5579
+1705,Reliance Steel,Diversified Metals & Mining,United States,9224,321.6,7341,5524
+1707,Ayala,Conglomerates,Philippines,3224,300.9,13549,7897
+1707,CJ Cheiljedang,"Food, Drink & Tobacco",South Korea,9909,106.6,12322,3561
+1709,Pinnacle West,Utilities,United States,3454,406.1,13509,5981
+1709,Polyus Gold International,Diversified Metals & Mining,United Kingdom,2576,377,5416,10328
+1711,BOK Financial,Banking,United States,1330,314.2,27015,4936
+1712,Hudson City Bancorp,Banking,United States,1402,185.2,38607,5237
+1713,Guaranty Trust Bank,Banking,Nigeria,1512,562.6,13147,4701
+1713,Ogaki Kyoritsu Bank,Banking,Japan,961,113.5,46298,970
+1715,Gansu Jiu Steel Group Hongxing Iron & Steel,Diversified Metals & Mining,China,13134,-380.4,9903,2220
+1716,Realogy Holdings,Real Estate,United States,5289,438,7326,6444
+1717,Daishi Bank,Banking,Japan,883,141.5,46079,1302
+1718,Kansas City Southern,Transportation,United States,2369,351.4,7435,11369
+1719,Alinma Bank,Banking,Saudi Arabia,653,267.9,16798,7459
+1719,Shiga Bank,Banking,Japan,884,96.9,45779,1434
+1719,Suruga Bank,Banking,Japan,1164,273.2,37159,4524
+1722,Royal Boskalis,Construction,Netherlands,4698,485.5,7899,6608
+1722,SQM,Chemicals,Chile,2195,463.9,4768,8273
+1722,Toho Bank,Banking,Japan,606,90.4,45768,852
+1725,Aboitiz Equity Ventures,Conglomerates,Philippines,1892,566.8,4630,7015
+1725,McCormick & Co,"Food, Drink & Tobacco",United States,4182,395.5,4430,9346
+1727,Dick's Sporting Goods,Retailing,United States,6213,337.6,3071,6834
+1727,Jabil Circuit,Consumer Durables,United States,17474,256.4,8128,3735
+1727,Murphy USA,Retailing,United States,18083,182.5,1881,1915
+1730,Varian Medical Systems,Health Care Equipment & Services,United States,2974,440.9,3391,8717
+1731,Hainan Airlines,Airline,China,4833,342.8,17060,3624
+1732,MeadWestvaco,Materials,United States,5391,320,10285,6653
+1733,Banca Popolare di Sondrio,Banking,Italy,2083,70.4,45155,2216
+1734,Honbridge Holdings,Diversified Metals & Mining,Hong Kong,1,1242.2,2001,1306
+1734,Indian Bank,Banking,India,2792,295.7,29982,876
+1736,Abu Dhabi Islamic Bank,Banking,United Arab Emirates,1302,303.6,28086,4800
+1736,Umicore,Diversified Metals & Mining,Belgium,13036,237.6,4840,5611
+1738,Orient,Diversified Financials,Japan,2104,70.7,45062,1585
+1739,VeriSign,IT Software & Services,United States,965,544.5,2661,7204
+1740,Great Wall Technology,Consumer Durables,China,15102,-27,8959,471
+1741,CVR Energy,Oil & Gas Operations,United States,8986,370.7,3666,3796
+1741,Hellenic Petroleum,Oil & Gas Operations,Greece,12844,-357.4,9890,3074
+1743,Balfour Beatty,Construction,United Kingdom,13669,3.1,9460,3439
+1743,Bilfinger,Construction,Germany,11231,229.4,9000,5619
+1745,Monster Beverage,"Food, Drink & Tobacco",United States,2246,338.7,1421,11853
+1745,SpareBank 1 SR-Bank,Banking,Norway,1316,316.3,25876,2588
+1747,Taiwan Business Bank,Banking,Taiwan,897,115.1,44557,1578
+1748,Indian Overseas Bank,Banking,India,4142,104.2,41944,1040
+1748,Nine Entertainment Co. Holdings Pty,Media,Australia,1297,1218.7,3100,2060
+1750,Basler Kantonalbank,Banking,Switzerland,936,104,44069,2628
+1750,Chinese Estates,Real Estate,Hong Kong,871,814.5,9777,4658
+1750,Commercial International Bank,Banking,Egypt,1725,437.2,16371,4783
+1753,East West Bancorp,Banking,United States,1137,293.4,24730,5263
+1754,Gannett,Media,United States,5161,388.7,9241,6376
+1755,Credito Emiliano,Banking,Italy,1953,153.8,43448,3374
+1756,Illumina,Drugs & Biotechnology,United States,1421,125.3,3019,20068
+1757,Nelnet,Diversified Financials,United States,1104,300.6,27771,1910
+1758,SVB Financial Group,Banking,United States,1403,215.9,26486,5926
+1759,Church & Dwight,Consumer Durables,United States,3194,394.4,4260,9406
+1759,LG Uplus,Telecommunications services,South Korea,10459,255.3,11157,4310
+1761,Credit Saison,Diversified Financials,Japan,3240,350.5,21229,3640
+1762,Mercuries & Associates,Retailing,Taiwan,5247,46.9,23055,476
+1763,Guangzhou Automobile Group Co. Ltd.,Consumer Durables,China,2956,434.3,9546,7356
+1763,Hysan Development,Real Estate,Hong Kong,395,793.9,9814,4614
+1765,Maxim Integrated Products,Semiconductors,United States,2419,395.3,4307,9342
+1766,AGL Resources,Oil & Gas Operations,United States,4693,313,14789,5815
+1767,Supervalu,Food Markets,United States,17008,-1256,4711,1771
+1768,Avon Products,Consumer Durables,United States,9983,-56.5,6492,6381
+1768,OW Bunker,Oil & Gas Operations,Denmark,16987,62,1765,1197
+1770,Airgas,Chemicals,United States,5068,348.6,5755,7951
+1771,Herbalife,Food Markets,Cayman Islands,4825,527.5,2474,5892
+1772,Shanghai Material Trading,Trading Companies,China,16854,-83.3,2023,752
+1772,Tokyo Electron,Semiconductors,Japan,5446,-293,7624,10953
+1774,GameStop Corp.,Retailing,United States,9040,354,4091,4931
+1775,Higo Bank,Banking,Japan,879,129.2,41494,1234
+1776,American Equity Investment,Insurance,United States,1575,253.3,41303,1702
+1777,Tullow Oil,Oil & Gas Operations,United Kingdom,2648,174.4,11509,11394
+1777,UGI,Oil & Gas Operations,United States,7484,294.4,10664,5204
+1779,Millicom International,Telecommunications services,Luxembourg,5159,229,9147,10224
+1779,Saudi Investment Bank,Diversified Financials,Saudi Arabia,675,343.1,21463,4532
+1781,DCC,Conglomerates,Ireland,16680,175.8,4979,4656
+1781,Tauron Group,Utilities,Poland,6063,413.9,10067,3066
+1783,Hanwa,Diversified Metals & Mining,Japan,16631,75.1,5826,782
+1784,San-In Godo Bank,Banking,Japan,888,115.1,41280,1074
+1785,Ecobank Transnational Incorporated,Banking,Togo,2566,341.5,21541,1369
+1786,Hunan Valin Steel,Diversified Metals & Mining,China,9675,17.2,11693,879
+1786,Kaisa Group Holdings,Diversified Financials,China,3182,465.6,14504,1787
+1788,Hyakujushi Bank,Banking,Japan,686,113.1,40972,1052
+1789,Corporation Bank,Banking,India,3115,265.2,35625,770
+1790,Intouch Holdings,Technology Hardware & Equipment,Thailand,307,474.1,1546,7555
+1791,Arkema,Chemicals,France,8096,223,7546,7172
+1791,Keiyo Bank,Banking,Japan,723,161.5,39770,1209
+1793,Citrix Systems,IT Software & Services,United States,2918,339.5,5212,10746
+1793,Outokumpu,Diversified Metals & Mining,Finland,8953,-1325,12158,2697
+1793,Polaris Industries,Consumer Durables,United States,3777,377.3,1685,9392
+1796,Aurubis,Diversified Metals & Mining,Germany,15606,-286.7,5592,2431
+1797,China Aviation Oil,Trading Companies,Singapore,15567,70.2,1575,598
+1797,Tasnee,Conglomerates,Saudi Arabia,4853,314,12604,6046
+1799,Musashino Bank,Banking,Japan,683,110.8,38807,1131
+1799,Ruentex Development,Real Estate,Taiwan,491,1047.6,2694,2185
+1801,RMB Holdings,Diversified Financials,South Africa,1,582.1,3002,6418
+1802,Hokkaido Electric Power,Utilities,Japan,6240,-751.1,16802,1550
+1803,Signature Bank,Banking,United States,796,228.7,22400,6115
+1804,NASDAQ OMX Group,Diversified Financials,United States,3242,384,12577,6082
+1805,Bank of Queensland,Banking,Australia,2455,186.1,37897,3801
+1806,Interactive Brokers Group,Diversified Financials,United States,1128,37,37871,1208
+1807,Yunnan Baiyao Group,Drugs & Biotechnology,China,2564,377.6,2128,9189
+1808,Cablevision Systems Corporation,Media,United States,6245,465.7,6893,4435
+1808,Cheniere Energy,Oil & Gas Operations,United States,267,-507.9,9673,13713
+1810,Allahabad Bank,Banking,India,3496,222.7,37695,819
+1811,Cabot Oil & Gas,Oil & Gas Operations,United States,1689,279.8,4981,14305
+1811,Doha Bank,Banking,Qatar,687,360.6,18399,4385
+1811,Inchcape,Retailing,United Kingdom,10199,303.5,5609,5069
+1811,Kagoshima Bank,Banking,Japan,793,101.2,37561,1355
+1811,NetDragon Websoft,Consumer Durables,China,144,1007.1,900,982
+1816,Credito Valtellinese,Banking,Italy,1091,15.6,37478,1080
+1816,Gemalto,Consumer Durables,Netherlands,3171,342,4022,10284
+1816,Grupo Argos,Construction,Colombia,4085,157.9,14257,8388
+1819,"Workday, Inc.",IT Software & Services,United States,469,-172.5,2176,17532
+1820,Erie Indemnity,Insurance,United States,6117,163,17012,3723
+1821,Wing Hang Bank,Banking,Hong Kong,912,282,27648,4883
+1822,Inventec,Technology Hardware & Equipment,Taiwan,14856,199.5,6901,3478
+1822,Verisk Analytics,Business Services & Supplies,United States,1680,348.4,2504,9967
+1824,Saras,Oil & Gas Operations,Italy,14805,-360,5291,1596
+1825,Sealed Air,Materials,United States,7763,100.8,9126,6469
+1826,Japan Exchange Group,Diversified Financials,Japan,1177,287.1,15579,6634
+1827,B/E Aerospace,Aerospace & Defense,United States,3484,365.6,5696,9337
+1827,Dean Foods,"Food, Drink & Tobacco",United States,9603,322,2802,1443
+1829,Penske Automotive,Retailing,United States,14701,244.2,6416,3897
+1829,Sonae SGPS,Food Markets,Portugal,6848,423.5,7547,3915
+1831,Empresa de Energia de Bogota,Utilities,Colombia,1016,455.4,8357,7441
+1832,WEG,Capital Goods,Brazil,3162,390.6,4299,8702
+1833,Hyprop Investments,Real Estate,South Africa,232,962.9,2454,1761
+1834,Antero Resources,Oil & Gas Operations,United States,821,-18.9,6614,17054
+1835,DGB Financial Group,Diversified Financials,South Korea,1729,217.8,35646,1956
+1835,Guangdong Investment,Utilities,Hong Kong,1030,571,5328,6281
+1837,Vertex Pharmaceuticals,Drugs & Biotechnology,United States,1212,-445,2319,16945
+1838,Inner Mongolia Baotou Steel,Diversified Metals & Mining,China,6109,40.8,14907,5209
+1838,Parmalat,"Food, Drink & Tobacco",Italy,7103,293.4,6063,6294
+1840,Pandora,Consumer Durables,Denmark,1604,395.2,1713,8541
+1840,Pou Chen,Consumer Durables,Taiwan,9255,326.5,8260,4076
+1842,Banque Centrale Populaire,Banking,Morocco,2160,232.1,35567,4107
+1843,Meritz Financial Group,Insurance,South Korea,5254,58.3,20050,871
+1844,Peabody Energy,Diversified Metals & Mining,United States,6934,-525.9,14133,4419
+1844,President Chain Store,Food Markets,Taiwan,6859,262.3,2799,7324
+1846,GS Engineering,Construction,South Korea,8738,-756.5,11776,1699
+1846,Lawson,Food Markets,Japan,5051,365.4,6046,6877
+1846,LKQ,Consumer Durables,United States,5063,311.6,4519,8186
+1849,Shimano,Consumer Durables,Japan,2776,359.4,3037,9335
+1850,Japan Securities,Diversified Financials,Japan,191,65,35115,616
+1851,Eutelsat Communications,Media,France,1723,429.8,8816,7343
+1852,IKB Deutsche,Banking,Germany,3277,-184,34863,1074
+1853,Whiting Petroleum,Oil & Gas Operations,United States,2682,366.1,8833,8489
+1854,Catlin Group,Insurance,Bermuda,4081,436,14163,3169
+1854,Denbury Resources,Oil & Gas Operations,United States,2494,409.6,11789,5931
+1854,Vietin Bank,Banking,Vietnam,2316,275.5,27323,2930
+1857,Concho Resources,Oil & Gas Operations,United States,2320,236.5,9591,13073
+1858,King Digital Entertainment,IT Software & Services,Ireland,1884,567.6,914,6220
+1858,Signet Jewelers,Retailing,Bermuda,4209,368,4029,8562
+1860,UCO Bank,Banking,India,3202,113.6,33930,1212
+1861,Gungho Online Entertainment,IT Software & Services,Japan,1670,561,1193,6251
+1862,OGE Energy,Utilities,United States,2868,387.6,9502,7291
+1862,TPK Holding,Consumer Durables,Taiwan,5870,473.6,4906,1946
+1864,People's United Financial,Banking,United States,1320,231.1,33460,4629
+1865,Tsingtao Brewery,"Food, Drink & Tobacco",China,4238,320.1,4520,9840
+1865,WPG Holdings,Consumer Durables,Taiwan,13688,160,4527,2003
+1867,Yuexiu Property Co.,Real Estate,Hong Kong,2313,466.7,12896,1922
+1868,Shiseido,Consumer Durables,Japan,7461,-25.6,7022,6909
+1869,First Pacific,Diversified Financials,Hong Kong,6206,235,15583,4386
+1869,Microchip Technology,Semiconductors,United States,1868,343.5,4003,9529
+1871,CareFusion,Health Care Equipment & Services,United States,3556,368,8631,8410
+1871,Hokkoku Bank,Banking,Japan,643,64.4,32759,1103
+1873,Pang Da Automobile Trade,Retailing,China,9815,-130.7,10214,2196
+1874,CC Media Holdings,Media,United States,6243,-606.9,15097,615
+1875,Oriental Bank of Commerce,Banking,India,3464,244,32205,1098
+1876,Integrys Energy Group,Utilities,United States,5530,354.9,11244,4758
+1876,Bank of Nagoya,Banking,Japan,631,52.2,32110,800
+1878,ICAP,Diversified Financials,United Kingdom,2312,18.7,31993,4175
+1878,Taiheiyo Cement,Construction,Japan,8364,286.1,9874,4483
+1880,Financial Street Holdings,Real Estate,China,3229,470.3,12566,2492
+1880,Luzerner Kantonalbank,Banking,Switzerland,714,193.4,31983,3474
+1882,Air Canada,Airline,Canada,12017,5.8,8913,1433
+1882,Babcock International Group,Business Services & Supplies,United Kingdom,4934,305,4970,8354
+1884,DVB Bank,Banking,Germany,1006,146,31928,1561
+1884,Fraport,Transportation,Germany,3401,293.4,13123,6913
+1886,Volksbank,Banking,Austria,1326,-483,31595,286
+1887,St Galler Kantonalbank,Banking,Switzerland,734,117.2,31317,2311
+1887,Yang Quan Coal Industry,Diversified Metals & Mining,China,13102,225.4,5039,2290
+1889,Yuanta Financial Holding,Diversified Financials,Taiwan,1158,236.2,29068,5032
+1890,Bank of Iwate,Banking,Japan,453,80.8,31159,874
+1890,Metcash,Food Markets,Australia,13082,219.6,4169,2103
+1892,Orkla,Conglomerates,Norway,5619,121.1,8590,8663
+1892,Tim Hortons,"Hotels, Restaurants & Leisure",Canada,3160,411.9,2291,7700
+1894,Alliant Energy,Utilities,United States,3277,376.2,11112,6275
+1895,Dixons Retail,Retailing,United Kingdom,13043,-236.9,4937,3046
+1896,NSK,Capital Goods,Japan,8514,184.8,9460,5528
+1897,Ackermans & van Haaren,Diversified Financials,Belgium,910,390,15002,4206
+1898,Bank Danamon Indonesia,Banking,Indonesia,2533,386.8,15139,3813
+1899,InterContinental Hotels,"Hotels, Restaurants & Leisure",United Kingdom,1903,376.1,2953,8294
+1900,Ingredion,"Food, Drink & Tobacco",United States,6328,396,5360,5031
+1901,NHPC,Utilities,India,1134,480.9,12032,3605
+1901,Symetra Financial,Insurance,United States,2174,220.7,30521,2346
+1901,Tosoh,Chemicals,Japan,7730,348.7,7085,2285
+1904,FIBI Holdings,Banking,Israel,1392,73.4,30440,686
+1905,SBI Holdings,Diversified Financials,Japan,2299,228.1,30372,2579
+1906,Laurentian Bank,Banking,Canada,1416,121.4,30164,1225
+1907,LS Corp,Capital Goods,South Korea,10455,112.4,9482,2320
+1908,BEKB-BCBE,Banking,Switzerland,719,140,29981,2228
+1909,City National,Banking,United States,1203,227.4,29818,4401
+1910,CST Brands,Retailing,United States,12777,139,2303,2427
+1910,Hero Motocorp,Consumer Durables,India,4222,389,1583,7518
+1912,Aryzta,"Food, Drink & Tobacco",Switzerland,6037,142.3,7632,8096
+1913,Edwards Lifesciences,Health Care Equipment & Services,United States,2046,391.7,2725,7803
+1914,New Media Investment Group,Media,United States,517,794.6,690,471
+1915,Pall,Health Care Equipment & Services,United States,2666,313.9,3474,9965
+1916,DSV,Transportation,Denmark,8137,280.7,4267,5620
+1916,Silver Wheaton,Diversified Metals & Mining,Canada,705,374.6,4405,8163
+1918,Amdocs,IT Software & Services,United States,3383,414.9,4858,7421
+1918,EMS-Chemie Holding,Chemicals,Switzerland,2033,350,1832,8837
+1920,Hanjin Shipping,Transportation,South Korea,9437,-645.4,10024,769
+1920,Securitas,Business Services & Supplies,Sweden,10084,284.3,5798,4302
+1922,Newcrest Mining,Diversified Metals & Mining,Australia,3844,-5842.5,15672,6855
+1923,Yamanashi Chuo Bank,Banking,Japan,498,86.2,28796,801
+1924,Andritz,Capital Goods,Austria,7582,88.4,7677,6485
+1924,Frontier Communications,Telecommunications services,United States,4762,110.3,16635,5597
+1924,Kesko,Food Markets,Finland,12367,229.8,6010,4395
+1927,Oita Bank,Banking,Japan,546,113.9,28726,636
+1928,Kimberly-Clark de Mexico,Consumer Durables,Mexico,2325,362,2255,8396
+1928,Kuwait Projects,Diversified Financials,Kuwait,1618,141.1,28640,3872
+1928,Tongling Nonferrous Metals,Diversified Metals & Mining,China,12358,103.1,7443,2059
+1931,Packaging Corp of America,Materials,United States,3665,436.3,5200,6997
+1932,Valiant Holding,Banking,Switzerland,609,98.6,28619,1621
+1933,Daelim Industrial,Construction,South Korea,8995,-20.1,10218,2834
+1935,Motor Oil,Oil & Gas Operations,Greece,12323,-6.2,3263,1490
+1936,Alliance Global Group,Conglomerates,Philippines,2546,460.2,7270,6591
+1937,Hanesbrands,Consumer Durables,United States,4628,330.5,4090,7744
+1937,Wanhua Chemical Group,Chemicals,China,3195,490.9,4640,6274
+1939,NCC Group,Construction,Sweden,8901,305,6040,3962
+1940,Akamai Technologies,IT Software & Services,United States,1578,293.5,2958,10644
+1941,Awa Bank,Banking,Japan,651,116.9,28044,1229
+1942,Icade,Real Estate,France,1926,168,14249,7310
+1942,Sinomach Automobile,Capital Goods,China,12175,110.8,3831,1452
+1944,Sichuan Changhong Electric,Consumer Durables,China,9242,70.4,9966,2544
+1945,Hanwha Chemical,Chemicals,South Korea,7183,7.6,12135,2571
+1945,Towers Watson & Co.,Business Services & Supplies,United States,3514,358.8,5490,8353
+1947,Acer,Technology Hardware & Equipment,Taiwan,12135,-693,6557,1602
+1947,GPT Group,Real Estate,Australia,607,565.2,8429,5704
+1949,Aichi Bank,Banking,Japan,501,47.2,27819,562
+1949,Total Access Communication,Telecommunications services,Thailand,3074,344,3197,8744
+1951,Makita,Consumer Durables,Japan,3754,394.2,4884,7470
+1952,OSRAM Licht,Consumer Durables,Germany,6937,36.2,6064,6732
+1953,Jindal Steel & Power,Diversified Metals & Mining,India,3474,534.7,10419,4579
+1953,Nippon Steel Trading,Diversified Metals & Mining,Japan,12066,221.4,6291,994
+1955,Hyundai Wia,Consumer Durables,South Korea,6478,381.3,4606,4107
+1955,Toho Holdings,Drugs & Biotechnology,Japan,12055,131.2,5881,1579
+1957,China Fortune Land Development,Construction,China,2859,405.7,10217,6032
+1957,Vopak,Transportation,Netherlands,1720,422.9,6646,7049
+1959,Shangri-La Asia,"Hotels, Restaurants & Leisure",Hong Kong,2081,392.3,12898,5145
+1959,Stericycle,Health Care Equipment & Services,United States,2143,311.4,3883,9686
+1961,Range Resources,Oil & Gas Operations,United States,1708,112.4,7299,13756
+1961,Western Refining,Oil & Gas Operations,United States,10086,275.4,5513,3198
+1963,Sydbank,Banking,Denmark,981,33.3,27316,1924
+1964,New Hope Liuhe,"Food, Drink & Tobacco",China,11053,262.7,4740,3312
+1965,Joy Global,Capital Goods,United States,4702,440.4,5524,5825
+1965,Shui On Land,Real Estate,China,1699,345.7,16287,2187
+1965,Toyota Boshoku,Consumer Durables,Japan,11978,141.4,6084,1861
+1968,Caixa Economica Montepio Geral,Banking,Portugal,1701,2.7,27265,258
+1968,Inotera Memories,Semiconductors,Taiwan,1988,714.3,3435,4993
+1968,Shandong Iron and Steel,Diversified Metals & Mining,China,10963,-324.5,8805,1680
+1968,TPV Technology,Technology Hardware & Equipment,Hong Kong,11973,-47.3,6259,399
+1972,Konica Minolta,Consumer Durables,Japan,9406,160,9492,4966
+1973,Jaccs,Diversified Financials,Japan,1054,62.6,27173,711
+1973,Oceaneering International,Oil & Gas Operations,United States,3287,371.5,3128,7829
+1975,American Natl Ins,Insurance,United States,3119,268.4,23300,3085
+1975,Andhra Bank,Banking,India,2672,236,27150,620
+1975,TripAdvisor,Business Services & Supplies,United States,945,205.4,1473,13590
+1978,Grasim Industries,Construction,India,5094,496.9,7441,4378
+1978,Windstream,Telecommunications services,United States,6001,237.9,13445,5123
+1980,Clariant,Chemicals,Switzerland,6554,-22,9191,6332
+1980,Tomony Holdings,Banking,Japan,635,95,27116,624
+1982,Fuji Electric,Capital Goods,Japan,7658,329.4,7486,3166
+1982,Teradata,IT Software & Services,United States,2692,377,3096,7686
+1984,Admiral Group plc,Insurance,United Kingdom,1445,448.6,4393,6572
+1985,URS,Construction,United States,10991,247.2,8718,3465
+1986,FMC,Chemicals,United States,4038,292.3,5235,10289
+1986,Oshkosh,Capital Goods,United States,7446,324.6,4470,5003
+1988,Prysmian,Capital Goods,Italy,9656,197.8,7857,5390
+1989,JSW Steel,Diversified Metals & Mining,India,7003,188.1,12119,4143
+1990,Yunnan Yuntianhua,Chemicals,China,6546,96.4,12816,1603
+1991,Arab Banking,Banking,Bahrain,1380,239,26545,1617
+1991,Meiji Holdings,"Food, Drink & Tobacco",Japan,11635,246,7824,4487
+1991,Odakyu Electric Railway,Transportation,Japan,5323,225.1,11997,6101
+1994,Pakistan State Oil,Oil & Gas Operations,Pakistan,11590,217.4,3258,1111
+1994,Shikoku Bank,Banking,Japan,421,60.6,26478,446
+1996,Cameco,Diversified Metals & Mining,Canada,2367,309.1,7566,9503
+1997,BMCE Bank,Banking,Morocco,1525,146.4,26256,4632
+1998,Synovus Financial,Banking,United States,1169,159.4,26222,3394
+1999,Equifax,Business Services & Supplies,United States,2304,341.5,4540,8510
+1999,UNY Group Holdings,Retailing,Japan,10676,72.8,8758,1357

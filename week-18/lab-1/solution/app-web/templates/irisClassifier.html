@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Iris Classifier</title>
+    </head>
+
+    <body>
+        <h1>Welcome to the Iris Classifier</h1>
+        <p>This web page allows you to interact with the Iris Classifier model trained with Scikit-learn.</p>
+        <form action="/irisClassifier" method="post">
+            <table width="50%" border="1" cellpadding="10" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td><label for="sepal_length"><strong>Sepal Length:</strong></label></td>
+                        <td><input type="text" id="sepal_length" name="sepal_length" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="sepal_width"><strong>Sepal Width:</strong></label></td>
+                        <td><input type="text" id="sepal_width" name="sepal_width" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="petal_length"><strong>Petal Length:</strong></label></td>
+                        <td><input type="text" id="petal_length" name="petal_length" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="petal_width"><strong>Petal Width:</strong></label></td>
+                        <td><input type="text" id="petal_width" name="petal_width" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input type="reset" value="Clear">
+                            <input type="submit" value="Submit">
+                        </td>
+                    </tr>                    
+            </table>        
+        </form>
+    </body>
+</html>

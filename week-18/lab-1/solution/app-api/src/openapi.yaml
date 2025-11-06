@@ -1,0 +1,92 @@
+openapi: "3.0.0"
+
+info:
+  description: API Endpoints for serving Machine Learning Models
+  version: 1.0.0
+  title: API Endpoints for serving Machine Learning Models
+
+servers:
+  - url: http://localhost:8000/api
+
+paths:
+  /models/irisClassifier:
+    put:
+      summary: Use the the Iris flower classifier model to make a prediction
+      operationId: models.irisClassifier
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                sepal_length:
+                  type: number
+                  description: Sepal length
+                sepal_width:
+                  type: number
+                  description: Sepal width
+                petal_length:
+                  type: number
+                  description: Petal length
+                petal_width:
+                  type: number
+                  description: Petal width
+      responses:
+        '200':
+          description: Prediction successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prediction:
+                    type: string                    
+        '500':
+          description: Internal Server Error          
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Invalid input data provided
+
+  /models/shapesClassifier:
+    put:
+      summary: Use the the Shapes classifier model to make a prediction
+      operationId: models.shapesClassifier
+      tags:
+        - models      
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                image:
+                  type: string
+                  format: binary
+                  description: Image file to classify          
+      responses:
+        '200':
+          description: Prediction successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  prediction:
+                    type: string                    
+        '500':
+          description: Internal Server Error          
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  error:
+                    type: string
+                    example: Invalid input data provided

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Shapes Classifier Prediction Result</title>
+    </head>
+
+    <body>
+        <h1>Shapes Classifier Prediction Result</h1>
+        <table width="50%" border="1" cellpadding="10" cellspacing="0">
+            <tbody>
+                <tr>
+                    <td><strong>Uploaded Image</strong></td>
+                    <td><img src="{{ url_for('static', filename='images/' + file_name) }}" alt="Uploaded Image"></td>
+                </tr>               
+                <tr>
+                    <td><strong>Prediction:</strong></td>
+                    <td>{{ prediction }}</td>
+                </tr>
+            </tbody>
+    </body>
+</html>

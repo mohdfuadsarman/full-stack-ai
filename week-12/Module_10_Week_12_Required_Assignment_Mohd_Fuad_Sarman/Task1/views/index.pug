@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  h1= title
+  - var petList = Array.isArray(pets) ? pets : (pets ? [pets] : []);
+  table(border="1")
+    thead
+      tr
+        th Pet ID
+        th Name
+        th Type
+        th Age
+        th Owner
+    tbody
+      if petList.length
+        each pet in petList
+          tr
+            td= pet.id
+            td= pet.name
+            td= pet.type
+            td= pet.age
+            td= pet.owner
+      else
+        tr
+          td(colspan="5") No pets found in the database.

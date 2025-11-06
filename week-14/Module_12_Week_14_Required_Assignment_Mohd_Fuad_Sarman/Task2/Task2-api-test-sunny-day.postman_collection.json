@@ -1,0 +1,792 @@
+{
+	"info": {
+		"_postman_id": "0287c31d-56d3-493d-8b82-0bfc9a4be3f8",
+		"name": "week-14-api-test-sunny-day",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16304654"
+	},
+	"item": [
+		{
+			"name": "TestGetAllStudents_200",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const students = [",
+							"    { name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { name: \"Charlie\", email: \"charlie@example.com\", program: \"Physics\" }",
+							"];",
+							"",
+							"let insertCount = 0;",
+							"",
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {",
+							"    // Start inserting students only after reset is done",
+							"    students.forEach((student) => {",
+							"        pm.sendRequest({",
+							"            url: \"http://localhost:3000/students\",",
+							"            method: 'POST',",
+							"            header: { 'Content-Type': 'application/json' },",
+							"            body: {",
+							"                mode: 'raw',",
+							"                raw: JSON.stringify(student)",
+							"            }",
+							"        }, function (err, res) {",
+							"            if (err) {",
+							"                console.log(\"Error inserting student:\", err);",
+							"            } else {",
+							"                console.log(res.text());",
+							"            }",
+							"",
+							"            insertCount++;",
+							"            if (insertCount === students.length) {",
+							"                console.log(\"All students inserted.\");",
+							"            }",
+							"        });",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"pm.test(\"Response is an array of student objects\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('array').that.is.not.empty;",
+							"    responseData.forEach(function(student) {",
+							"        pm.expect(student).to.be.an('object');",
+							"    });",
+							"});",
+							"",
+							"pm.test(\"Each student object has the required fields\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('array').that.is.not.empty;",
+							"",
+							"    responseData.forEach(function(student) {",
+							"        pm.expect(student).to.have.property('id');",
+							"        pm.expect(student).to.have.property('name');",
+							"        pm.expect(student).to.have.property('email');",
+							"        pm.expect(student).to.have.property('program');",
+							"    });",
+							"});",
+							"",
+							"pm.test(\"Each student object has valid data types for each field\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('array');",
+							"    responseData.forEach(student => {",
+							"        pm.expect(student.id).to.be.a('number').and.to.be.greaterThan(0);",
+							"        pm.expect(student.name).to.be.a('string');",
+							"        pm.expect(student.email).to.be.a('string');",
+							"        pm.expect(student.program).to.be.a('string');",
+							"    });",
+							"});",
+							"",
+							"const expectedStudents = [",
+							"    { id: 1, name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { id: 2, name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { id: 3, name: \"Charlie\", email: \"charlie@example.com\", program: \"Physics\" }",
+							"];",
+							"",
+							"pm.test(\"All expected students are returned with correct values\", function () {",
+							"    const actualStudents = pm.response.json();",
+							"",
+							"    pm.expect(actualStudents).to.be.an(\"array\");",
+							"    pm.expect(actualStudents.length).to.be.at.least(expectedStudents.length);",
+							"",
+							"    expectedStudents.forEach(expected => {",
+							"        const match = actualStudents.find(actual =>",
+							"            actual.name === expected.name &&",
+							"            actual.email === expected.email &&",
+							"            actual.program === expected.program",
+							"        );",
+							"",
+							"        pm.expect(match, `Student ${expected.name} should exist with correct data`).to.not.be.undefined;",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestGetStudentById_200",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const students = [",
+							"    { name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { name: \"Charlie\", email: \"charlie@example.com\", program: \"Physics\" }",
+							"];",
+							"",
+							"let insertCount = 0;",
+							"",
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {",
+							"    // Start inserting students only after reset is done",
+							"    students.forEach((student) => {",
+							"        pm.sendRequest({",
+							"            url: \"http://localhost:3000/students\",",
+							"            method: 'POST',",
+							"            header: { 'Content-Type': 'application/json' },",
+							"            body: {",
+							"                mode: 'raw',",
+							"                raw: JSON.stringify(student)",
+							"            }",
+							"        }, function (err, res) {",
+							"            if (err) {",
+							"                console.log(\"Error inserting student:\", err);",
+							"            } else {",
+							"                console.log(res.text());",
+							"            }",
+							"",
+							"            insertCount++;",
+							"            if (insertCount === students.length) {",
+							"                console.log(\"All students inserted.\");",
+							"            }",
+							"        });",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"pm.test(\"Response is a student object\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('object').that.is.not.empty;",
+							"});",
+							"",
+							"pm.test(\"Student object has the required fields\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('object').that.is.not.empty;",
+							"",
+							"    pm.expect(responseData).to.have.property('id');",
+							"    pm.expect(responseData).to.have.property('name');",
+							"    pm.expect(responseData).to.have.property('email');",
+							"    pm.expect(responseData).to.have.property('program');",
+							"});",
+							"",
+							"pm.test(\"Student object has valid data types for each field\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('object');",
+							"    pm.expect(responseData.id).to.be.a('number').and.to.be.greaterThan(0);",
+							"    pm.expect(responseData.name).to.be.a('string');",
+							"    pm.expect(responseData.email).to.be.a('string');",
+							"    pm.expect(responseData.program).to.be.a('string');",
+							"});",
+							"",
+							"pm.test(\"Student object has the right value\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('object').that.is.not.empty;",
+							"",
+							"    pm.expect(responseData.id).to.eql(2);",
+							"    pm.expect(responseData.name).to.eql('Bob');",
+							"    pm.expect(responseData.email).to.eql('bob@example.com')",
+							"    pm.expect(responseData.program).to.eql('Math');",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestSearchStudent_200",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const students = [",
+							"    { name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { name: \"Charlie\", email: \"charlie@example.com\", program: \"CS\" }",
+							"];",
+							"",
+							"let insertCount = 0;",
+							"",
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {",
+							"    // Start inserting students only after reset is done",
+							"    students.forEach((student) => {",
+							"        pm.sendRequest({",
+							"            url: \"http://localhost:3000/students\",",
+							"            method: 'POST',",
+							"            header: { 'Content-Type': 'application/json' },",
+							"            body: {",
+							"                mode: 'raw',",
+							"                raw: JSON.stringify(student)",
+							"            }",
+							"        }, function (err, res) {",
+							"            if (err) {",
+							"                console.log(\"Error inserting student:\", err);",
+							"            } else {",
+							"                console.log(res.text());",
+							"            }",
+							"",
+							"            insertCount++;",
+							"            if (insertCount === students.length) {",
+							"                console.log(\"All students inserted.\");",
+							"            }",
+							"        });",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"pm.test(\"Response is an array of student objects\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('array').that.is.not.empty;",
+							"    responseData.forEach(function(student) {",
+							"        pm.expect(student).to.be.an('object');",
+							"    });",
+							"});",
+							"",
+							"pm.test(\"Each student object has the required fields\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('array').that.is.not.empty;",
+							"",
+							"    responseData.forEach(function(student) {",
+							"        pm.expect(student).to.have.property('id');",
+							"        pm.expect(student).to.have.property('name');",
+							"        pm.expect(student).to.have.property('email');",
+							"        pm.expect(student).to.have.property('program');",
+							"    });",
+							"});",
+							"",
+							"pm.test(\"Each student object has valid data types for each field\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData).to.be.an('array');",
+							"    responseData.forEach(student => {",
+							"        pm.expect(student.id).to.be.a('number').and.to.be.greaterThan(0);",
+							"        pm.expect(student.name).to.be.a('string');",
+							"        pm.expect(student.email).to.be.a('string');",
+							"        pm.expect(student.program).to.be.a('string');",
+							"    });",
+							"});",
+							"",
+							"const expectedStudents = [",
+							"    { id: 1, name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { id: 3, name: \"Charlie\", email: \"charlie@example.com\", program: \"CS\" }",
+							"];",
+							"",
+							"pm.test(\"All expected students are returned with correct values\", function () {",
+							"    const actualStudents = pm.response.json();",
+							"",
+							"    pm.expect(actualStudents).to.be.an(\"array\");",
+							"    pm.expect(actualStudents.length).to.be.at.least(expectedStudents.length);",
+							"",
+							"    expectedStudents.forEach(expected => {",
+							"        const match = actualStudents.find(actual =>",
+							"            actual.id === expected.id &&",
+							"            actual.name === expected.name &&",
+							"            actual.email === expected.email &&",
+							"            actual.program === expected.program",
+							"        );",
+							"",
+							"        pm.expect(match, `Student ${expected.name} should exist with correct data`).to.not.be.undefined;",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students/search?program=CS",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						"search"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Jamil",
+							"disabled": true
+						},
+						{
+							"key": "email",
+							"value": "jamil.abdullah@example.com",
+							"disabled": true
+						},
+						{
+							"key": "program",
+							"value": "CS"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestAddNewStudent_201",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 201\", function () {",
+							"    pm.expect(pm.response.code).to.equal(201);",
+							"});",
+							"",
+							"pm.test(\"Response is a text\", function () {",
+							"    const responseData = pm.response.text();",
+							"    ",
+							"    pm.expect(responseData).to.eql(`Student created with ID: 1`);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Hassan Basri\",\n  \"email\": \"hassan.basri@example.com\",\n  \"program\": \"CS\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestUpdateStudent_200",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const students = [",
+							"    { name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { name: \"Charlie\", email: \"charlie@example.com\", program: \"Physics\" }",
+							"];",
+							"",
+							"let insertCount = 0;",
+							"",
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {",
+							"    // Start inserting students only after reset is done",
+							"    students.forEach((student) => {",
+							"        pm.sendRequest({",
+							"            url: \"http://localhost:3000/students\",",
+							"            method: 'POST',",
+							"            header: { 'Content-Type': 'application/json' },",
+							"            body: {",
+							"                mode: 'raw',",
+							"                raw: JSON.stringify(student)",
+							"            }",
+							"        }, function (err, res) {",
+							"            if (err) {",
+							"                console.log(\"Error inserting student:\", err);",
+							"            } else {",
+							"                console.log(res.text());",
+							"            }",
+							"",
+							"            insertCount++;",
+							"            if (insertCount === students.length) {",
+							"                console.log(\"All students inserted.\");",
+							"            }",
+							"        });",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"const expectedResponse = { id:3, name: \"Hassan Basri\", email: \"hassan.basri@example.com\", program: \"Physics\" };",
+							"",
+							"pm.test(\"Response is a student object\", function () {",
+							"    const responseData = pm.response.json();",
+							"    ",
+							"    pm.expect(responseData.id).to.eql(expectedResponse.id);",
+							"    pm.expect(responseData.name).to.eql(expectedResponse.name);",
+							"    pm.expect(responseData.email).to.eql(expectedResponse.email);",
+							"    pm.expect(responseData.program).to.eql(expectedResponse.program);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"name\": \"Hassan Basri\",\n  \"email\": \"hassan.basri@example.com\",\n  \"program\": \"Physics\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/students/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestDeleteStudent_200",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const students = [",
+							"    { name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { name: \"Charlie\", email: \"charlie@example.com\", program: \"Physics\" }",
+							"];",
+							"",
+							"let insertCount = 0;",
+							"",
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {",
+							"    // Start inserting students only after reset is done",
+							"    students.forEach((student) => {",
+							"        pm.sendRequest({",
+							"            url: \"http://localhost:3000/students\",",
+							"            method: 'POST',",
+							"            header: { 'Content-Type': 'application/json' },",
+							"            body: {",
+							"                mode: 'raw',",
+							"                raw: JSON.stringify(student)",
+							"            }",
+							"        }, function (err, res) {",
+							"            if (err) {",
+							"                console.log(\"Error inserting student:\", err);",
+							"            } else {",
+							"                console.log(res.text());",
+							"            }",
+							"",
+							"            insertCount++;",
+							"            if (insertCount === students.length) {",
+							"                console.log(\"All students inserted.\");",
+							"            }",
+							"        });",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"pm.test(\"Response is a text\", function () {",
+							"    const responseData = pm.response.text();",
+							"    ",
+							"    pm.expect(responseData).to.eql(`Student with ID 2 deleted successfully`);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students/:id",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						":id"
+					],
+					"variable": [
+						{
+							"key": "id",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "TestDeleteAllStudents_200",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"const students = [",
+							"    { name: \"Alice\", email: \"alice@example.com\", program: \"CS\" },",
+							"    { name: \"Bob\", email: \"bob@example.com\", program: \"Math\" },",
+							"    { name: \"Charlie\", email: \"charlie@example.com\", program: \"Physics\" }",
+							"];",
+							"",
+							"let insertCount = 0;",
+							"",
+							"pm.sendRequest({",
+							"    url: \"http://localhost:3000/students/reset\",",
+							"    method: 'DELETE',",
+							"    header: { 'Content-Type': 'application/json' }",
+							"}, function (err, res) {",
+							"    // Start inserting students only after reset is done",
+							"    students.forEach((student) => {",
+							"        pm.sendRequest({",
+							"            url: \"http://localhost:3000/students\",",
+							"            method: 'POST',",
+							"            header: { 'Content-Type': 'application/json' },",
+							"            body: {",
+							"                mode: 'raw',",
+							"                raw: JSON.stringify(student)",
+							"            }",
+							"        }, function (err, res) {",
+							"            if (err) {",
+							"                console.log(\"Error inserting student:\", err);",
+							"            } else {",
+							"                console.log(res.text());",
+							"            }",
+							"",
+							"            insertCount++;",
+							"            if (insertCount === students.length) {",
+							"                console.log(\"All students inserted.\");",
+							"            }",
+							"        });",
+							"    });",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Response status code is 200\", function () {",
+							"    pm.expect(pm.response.code).to.equal(200);",
+							"});",
+							"",
+							"pm.test(\"Response is a text\", function () {",
+							"    const responseData = pm.response.text();",
+							"    ",
+							"    pm.expect(responseData).to.eql(`All students cleared successfully`);",
+							"});",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/students/clear",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"students",
+						"clear"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

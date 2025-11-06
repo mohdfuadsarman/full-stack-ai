@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <!-- (a) Create an HTML file and include CDN links for React and ReactDOM -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+    <!-- (b) Add a <div> with an id of "root" in the HTML body -->
+    <div id="root"></div>
+
+    <!-- (c) React component and rendering logic -->
+    <script type="text/babel">
+        // Define a simple React component
+        function GreetToday() {
+            const today = new Date();
+            const day = today.toLocaleDateString(undefined, { weekday: 'long' });
+
+            const [likes, setLikes] = React.useState(0);
+            const [dislikes, setDislikes] = React.useState(0);
+
+            const handleLike = () => setLikes(likes + 1);
+            const handleDislike = () => setDislikes(dislikes + 1);
+
+            return (
+                <div style={{
+                    textAlign: 'center',
+                    padding: '20px',
+                    border: '1px solid #ccc',
+                    backgroundColor: '#f9f9f9',
+                    borderRadius: '8px',
+                    maxWidth: '400px',
+                    margin: '20px auto'
+                }}>
+                    <h1>You made it to {day}!</h1>
+                    <h1>Keep going!</h1>
+                    <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center', gap: '10px' }}>
+                        <button onClick={handleLike}>👍 Like ({likes})</button>
+                        <button onClick={handleDislike}>👎 Dislike ({dislikes})</button>
+                    </div>
+                </div>
+            );
+        }
+
+        // Render the component to the root div
+        const rootElement = document.getElementById("root");
+        ReactDOM.render(<GreetToday />, rootElement);
+    </script>
+</body>
+</html>

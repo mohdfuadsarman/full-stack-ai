@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f7fa;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            height: auto;
+            min-height: 100%;
+            flex-direction: column;
+        }
+
+        #root {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 100%;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e2a38;
+            margin-bottom: 1.8rem;
+            font-size: 1.8rem;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 0.6rem;
+            margin-bottom: 1.4rem;
+        }
+
+        .input-group input[type="text"] {
+            flex: 1;
+            padding: 0.7rem 1rem;
+            border: 1px solid #d0d7de;
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: #fefefe;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+
+        .input-group input:focus {
+            border-color: #3498db;
+        }
+
+        .btn-add {
+            background-color: #5dade2;
+            color: white;
+            border: none;
+            padding: 0.7rem 1.2rem;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-add:hover {
+            background-color: #3498db;
+            box-shadow: 0 4px 10px rgba(53, 152, 219, 0.3);
+        }
+
+        ul.task-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.task-list li {
+            background-color: #f0f4f8;
+            padding: 0.8rem 1rem;
+            margin-bottom: 0.6rem;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1rem;
+            color: #34495e;
+        }
+
+        .task-left {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            gap: 0.75rem;
+        }
+
+        .task-done {
+            text-decoration: line-through;
+            color: #95a5a6;
+        }
+
+        .btn-delete {
+            background-color: #ff4d4d;
+            border: none;
+            color: white;
+            font-size: 0.85rem;
+            padding: 0.4rem 0.7rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .btn-delete:hover {
+            background-color: #e63946;
+            box-shadow: 0 4px 10px rgba(255, 77, 77, 0.3);
+        }
+
+        .empty-message {
+            text-align: center;
+            color: #95a5a6;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState } = React;
+
+        const initialList = [
+            { text: "Buy PS5 Slim", completed: false },
+            { text: "Learn how to bake Croissant, and how to pronounce it correctly", completed: false },
+            { text: "Walk the cat? I don't have a cat", completed: true },
+            { text: "Get a cat", completed: false }
+        ];
+
+        function ToDoListApp() {
+            // Initialize the tasks state with initialList
+            // (b) The component should display at least three items
+            const [tasks, setTasks] = useState(initialList);
+
+            const addTask = (text) => {
+                const trimmed = text.trim();
+                // Prevent adding empty tasks
+                if (trimmed === '') {
+                    return
+                }
+                // Append the new task to the list
+                setTasks([...tasks, { text: trimmed, completed: false }]);
+            };
+
+            const deleteTask = (index) => {
+                // Keep the tasks array without the deleted task
+                setTasks(tasks.filter((_, i) => i !== index));
+            };
+
+            const toggleCompletion = (index) => {
+                const updated = [...tasks];
+                updated[index].completed = !updated[index].completed;
+                setTasks(updated);
+            };
+
+            // (a) Create a component that renders a header
+            return (
+                <div>
+                    <h1>My To-Do List</h1>
+                    <TaskInput onAdd={addTask} />
+                    <TaskList tasks={tasks} onDelete={deleteTask} onToggle={toggleCompletion} />
+                </div>
+            );
+        }
+
+        function TaskInput({ onAdd }) {
+            const [input, setInput] = useState("");
+
+            const handleSubmit = () => {
+                onAdd(input);
+                setInput(""); // Clear the input field after adding a task
+            };
+
+            return (
+                <div className="input-group">
+                    <input
+                        type="text"
+                        placeholder="Enter a new task..."
+                        value={input}
+                        onChange={(e) => setInput(e.target.value)}
+                        onKeyDown={(e) => e.key === "Enter" && handleSubmit()}
+                    />
+                    <button className="btn-add" onClick={handleSubmit}>Add</button>
+                </div>
+            );
+        }
+
+        // (a) Create a component that renders a list of items (using an unordered list)
+        function TaskList({ tasks, onDelete, onToggle }) {
+            if (tasks.length === 0) {
+                return <p className="empty-message">No tasks added yet.</p>;
+            }
+
+            return (
+                <ul className="task-list">
+                    {tasks.map((task, index) => (
+                        <TaskItem
+                            key={index}
+                            index={index}
+                            task={task}
+                            onDelete={onDelete}
+                            onToggle={onToggle}
+                        />
+                    ))}
+                </ul>
+            );
+        }
+
+        function TaskItem({ task, index, onDelete, onToggle }) {
+            return (
+                <li>
+                    <div className="task-left">
+                        <input
+                            type="checkbox"
+                            checked={task.completed}
+                            onChange={() => onToggle(index)}
+                        />
+                        <span className={task.completed ? "task-done" : ""}>{task.text}</span>
+                    </div>
+                    <button className="btn-delete" onClick={() => onDelete(index)}>Delete</button>
+                </li>
+            );
+        }
+
+        ReactDOM.render(<ToDoListApp />, document.getElementById("root"));
+    </script>
+</body>
+</html>
